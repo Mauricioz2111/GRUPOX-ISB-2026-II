@@ -3,7 +3,7 @@
 Bienvenidos al repositorio oficial del **Grupo [XXXXX]** para el curso de **Introducción a Señales Biomédica (ISB-2026-II)**. En este espacio documentamos el progreso del equipo, presentaremos los avances y los entregables respectivos de cada sesión de laboratorio. 
 
 
-## 👥 Integrantes
+## Integrantes
 
 | Nombre | Rol / Enfoque | Perfil de GitHub |
 | :--- | :--- | :---: |
