@@ -2,23 +2,22 @@
 
 Bienvenidos al repositorio oficial del **Grupo [XXXXX]** para el curso de **Introducción a Señales Biomédica (ISB-2026-II)**. En este espacio documentamos el progreso del equipo, presentaremos los avances y los entregables respectivos de cada sesión de laboratorio. 
 
-## 👥 Integrantes:
 
 ## 👥 Integrantes
 
 | Nombre | Rol / Enfoque | Perfil de GitHub |
 | :--- | :--- | :---: |
-| Miguel Angel Tello Ocaña | (Por definir) | — |
+| Miguel Angel Tello Ocaña | (Por definir) | [@MiguelTeO].(https://github.com/MiguelTeO) |
 | Mateo Torres Ricalde | (Por definir) | — |
 | Wilber Mauricio Zenteno Castilla | (Por definir) | [@Mauricioz2111](https://github.com/Mauricioz2111) |
 | Jairo Villalobos Vargas | (Por definir) | — |
 
-## 🎯 Objetivos del Repositorio
+## Objetivos del Repositorio
 * **Centralizar la documentación:** Almacenar certificados, código fuente, datos de prueba e informes del curso.
 * **Procesamiento de Bioseñales:** Documentar la adquisición, filtrado y análisis de señales fisiológicas mediante sensores y herramientas computacionales.
 * **Trabajo colaborativo:** Mantener un control de versiones estructurado y transparente para el desarrollo eficiente en equipo.
 
-## 📂 Estructura del Repositorio
+##  Estructura del Repositorio
 El contenido etá organizado siguiendo los especificaciones del curso:
 
 ```text
@@ -34,6 +33,6 @@ GRUPO[X]-ISB-2026-II/
 └── 📄 README.md                      # Presentación del equipo y guía principal
 ```
 
-## 👨‍🏫 Docentes:
+##  Docentes:
 - Moises Stevend Meza Rodriguez
 - Jose Alonso Caceres del Aguila
