@@ -21,7 +21,7 @@ Bienvenidos al repositorio oficial del **Grupo [XXXXX]** para el curso de **Intr
 ## 📂 Estructura del Repositorio
 El contenido etá organizado siguiendo los especificaciones del curso:
 
-'''text
+```text
 GRUPO[X]-ISB-2026-II/
 ├── 📁 CITI program - certificados/   # Certificaciones de ética en investigación del equipo
 ├── 📁 Laboratorios/                  # Entregables y prácticas por semana
@@ -31,7 +31,8 @@ GRUPO[X]-ISB-2026-II/
 ├── 📁 Proyecto/                      # Desarrollo integral del proyecto final
 │   ├── 📁 Hardware/                  # Esquemáticos, acondicionamiento de señal y circuitos
 │   └── 📁 Software/                  # Scripts de procesamiento, filtrado y análisis de datos
-└── 📄 README.md                      # Presentación del equipo y guía principal '''
+└── 📄 README.md                      # Presentación del equipo y guía principal
+```
 
 ## 👨‍🏫 Docentes:
 - Moises Stevend Meza Rodriguez
