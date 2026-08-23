@@ -10,7 +10,7 @@ Bienvenidos al repositorio oficial del **Grupo [XXXXX]** para el curso de **Intr
 | Miguel Angel Tello Ocaña | (Por definir) | [@MiguelTeO]|
 | Mateo Torres Ricalde | (Por definir) | — |
 | Wilber Mauricio Zenteno Castilla | (Por definir) | [@Mauricioz2111](https://github.com/Mauricioz2111) |
-| Jairo Villalobos Vargas | (Por definir) | — |jairovillalobos |
+| Jairo Villalobos Vargas | (Por definir) | — |jairovillalobos|
 
 ## Objetivos del Repositorio
 * **Centralizar la documentación:** Almacenar certificados, código fuente, datos de prueba e informes del curso.
