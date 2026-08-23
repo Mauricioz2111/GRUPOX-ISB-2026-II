@@ -7,7 +7,7 @@ Bienvenidos al repositorio oficial del **Grupo [XXXXX]** para el curso de **Intr
 
 | Nombre | Rol / Enfoque | Perfil de GitHub |
 | :--- | :--- | :---: |
-| Miguel Angel Tello Ocaña | (Por definir) | [@MiguelTeO].(https://github.com/MiguelTeO) |
+| Miguel Angel Tello Ocaña | (Por definir) | [@MiguelTeO]|
 | Mateo Torres Ricalde | (Por definir) | — |
 | Wilber Mauricio Zenteno Castilla | (Por definir) | [@Mauricioz2111](https://github.com/Mauricioz2111) |
 | Jairo Villalobos Vargas | (Por definir) | — |
