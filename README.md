@@ -4,7 +4,7 @@ Bienvenidos al repositorio oficial del **Grupo 10** para el curso de **Introducc
 
 
 ## Integrantes
-**|foto|Nombre | Rol | Perfil de GitHub |**
+|foto|Nombre | Rol | Perfil de GitHub |
 | :--- | :--- | :---: |
 | Miguel Angel Tello Ocaña | (Por definir) | [@MiguelTeO]|
 | Mateo Torres Ricalde | (Por definir) | — |
