@@ -1,11 +1,10 @@
-# GROUP XXXXX - Introducción a Señales Biomédicas (2026-II)
+# GROUP 10 - Introducción a Señales Biomédicas (2026-II)
 
-Bienvenidos al repositorio oficial del **Grupo [XXXXX]** para el curso de **Introducción a Señales Biomédica (ISB-2026-II)**. En este espacio documentamos el progreso del equipo, presentaremos los avances y los entregables respectivos de cada sesión de laboratorio. 
+Bienvenidos al repositorio oficial del **Grupo 10** para el curso de **Introducción a Señales Biomédica (ISB-2026-II)**. En este espacio documentamos el progreso del equipo, presentaremos los avances y los entregables respectivos de cada sesión de laboratorio. 
 
 
 ## Integrantes
-
-| Nombre | Rol / Enfoque | Perfil de GitHub |
+**|foto|Nombre | Rol | Perfil de GitHub |**
 | :--- | :--- | :---: |
 | Miguel Angel Tello Ocaña | (Por definir) | [@MiguelTeO]|
 | Mateo Torres Ricalde | (Por definir) | — |
@@ -21,7 +20,7 @@ Bienvenidos al repositorio oficial del **Grupo [XXXXX]** para el curso de **Intr
 El contenido etá organizado siguiendo los especificaciones del curso:
 
 ```text
-GRUPO[X]-ISB-2026-II/
+GRUPO10-ISB-2026-II/
 ├── 📁 CITI program - certificados/   # Certificaciones de ética en investigación del equipo
 ├── 📁 Laboratorios/                  # Entregables y prácticas por semana
 │   └── 📁 Lab_01/
