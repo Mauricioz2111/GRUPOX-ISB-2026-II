@@ -1,4 +1,4 @@
-# GROUP 10 - Introducción a Señales Biomédicas (2026-II)
+<img width="896" height="1600" alt="image" src="https://github.com/user-attachments/assets/05771692-ada3-4697-bf6f-887211a2c7ca" /># GROUP 10 - Introducción a Señales Biomédicas (2026-II)
 
 Bienvenidos al repositorio oficial del **Grupo 10** para el curso de **Introducción a Señales Biomédica (ISB-2026-II)**. En este espacio documentamos el progreso del equipo, presentaremos los avances y los entregables respectivos de cada sesión de laboratorio. 
 
@@ -8,8 +8,10 @@ Bienvenidos al repositorio oficial del **Grupo 10** para el curso de **Introducc
 |:---| :--- | :- | ---: |
 |<img width="100" height="140" alt="WhatsApp Image 2025-09-20 at 11 33 35 AM" src="https://github.com/user-attachments/assets/72d4f03f-69f9-4ce5-8b3b-5ea47011cba1" />| Miguel Angel Tello Ocaña | Estudiante de 7mo ciclo de la carrera de ingeniería biomédica. Interesado en Ingeniería Clínica y Biomecánica. | [@MiguelTeO]|
 || Mateo Torres Ricalde | (Por definir) | — |
-|| Wilber Mauricio Zenteno Castilla | (Por definir) | [@Mauricioz2111](https://github.com/Mauricioz2111) |
-|| Jairo Villalobos Vargas | (Por definir) | — |jairovillalobos|
+|<img width="140" height="172" alt="image" src="https://github.com/user-attachments/assets/2dd38ddd-e24c-4789-9931-4a353e79f7f9" />
+| Wilber Mauricio Zenteno Castilla | Estudiante de 7mo ciclo, interesado en Ingeniería Clínica y con especial curiosidad por la ingeniería de Tejidos | [@Mauricioz2111](https://github.com/Mauricioz2111) |
+|<img width="896" height="1600" alt="image" src="https://github.com/user-attachments/assets/aa93aea3-1e10-43a7-a5de-4db5fb691a3f" />
+| Jairo Villalobos Vargas | (Por definir) | — |[@jairovillalobos](https://github.com/jairovillalobos)|
 
 ## Objetivos del Repositorio
 * **Centralizar la documentación:** Almacenar certificados, código fuente, datos de prueba e informes del curso.
