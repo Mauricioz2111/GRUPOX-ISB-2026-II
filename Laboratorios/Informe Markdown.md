@@ -63,7 +63,7 @@ El flujo fundamental de trabajo en Git está diseñado para gestionar, registrar
 * **`git push`**: Envía los *commits* confirmados desde el entorno local hacia el servidor de GitHub, transfiriendo las actualizaciones a la nube.
 * **`git pull`**: Descarga e integra en tu computadora las modificaciones más recientes alojadas en GitHub, sincronizando tu trabajo local con lo subido por el equipo.
 
-## SECUENCIA LÓGICO DE DESARROLLO:**
+## SECUENCIA LÓGICO DE DESARROLLO: 
 `Modificar archivos` → `git status` → `git add .` → `git commit` → `git push` → `GitHub`
 
 ```text
@@ -81,7 +81,7 @@ Modificar archivos
 ```
 ---
 
-## Detalles útiles y herramientas de inspección
+## DETALLES ÚTILES Y HERRAMIENTAS DE INSPECCIÓN
 
 ### Diagnóstico del estado (`git status`)
 
@@ -93,7 +93,7 @@ git status -s # Muestra el estado en formato corto y compacto
 ```
 Un flujo habitual de guardado local se ejecuta de la siguiente manera:
 
-## Agregar cambios
+### Agregar cambios ('add')
 
 ```bash
 git status
@@ -112,14 +112,9 @@ git log --oneline --graph --decorate --all  # Renderiza una representación grá
 ```
 
 # 4. Ramas
+Permiten trabajar en nuevas funcionalidades, documentación o corrección de errores en un entorno completamente aislado, garantizando que el código estable de la rama principal (main) no sufra alteraciones. En resumen, Las ramas permiten trabajar sin modificar directamente `main`.
 
-Las ramas permiten trabajar sin modificar directamente `main`.
-
-## Crear y cambiar de rama
-
-```bash
-git switch -c feature/nombre
-```
+Para manetener una organización clara en el trabajo, se recomienda dar nombres descriptivos a las ramas usando el prefijo 'feature/'.
 
 Ejemplos:
 
@@ -129,139 +124,150 @@ feature/documentacion
 feature/prototipo
 ```
 
-## Cambiar de rama
+## Comandos fundamentales para el manejor de ramas
+
+### Crear y posicionarse en una nueva rama:
+
+```bash
+git switch -c feature/nombre
+```
+
+### Cambiar de rama
 
 ```bash
 git switch main
 ```
 
-## Ver ramas
+## Listar ramas existentes:
 
 ```bash
-git branch
+git branch    # Muestra únicamente las ramas locales
+git branch -a # Muestra las ramas locales y las sincronizadas con GitHub
+```
+
+### Eliminar una rama (Limpeza local):
+
+
+```bash
+git branch -d feature/nombre
 ```
 
 ---
 
-# 5. Pull Request
+# 5. Markdown
 
-Un Pull Request permite revisar los cambios antes de incorporarlos a `main`.
+Markdown nos permite estructurar y dar formato a documentos utilizando texto plano y símbolos sencillos. 
 
-## Flujo
+## Jerarquía de Títulos
+Se utilizan numerales (`#`) para definir la estructura del documento. La cantidad de símbolos indica el nivel jerárquico del encabezado:
 
-```text
-Crear rama
-    ↓
-Trabajar
-    ↓
-Commit
-    ↓
-Push
-    ↓
-Pull Request
-    ↓
-Revisión
-    ↓
-Merge
-    ↓
-main
+```markdown
+# Encabezado Nivel 1 (Título Principal)
+## Encabezado Nivel 2 (Sección)
+### Encabezado Nivel 3 (Subsección)
+```
 
 ---
 
-# 7. Markdown
-
-Markdown permite dar formato a archivos `.md`.
-
-## Títulos
+## Formato de Texto
+Permite dar énfasis visual a palabras o frases clave dentro del contenido:
 
 ```markdown
-# Título principal
-## Subtítulo
-### Subtítulo secundario
+**Texto en negrita**   <!-- Énfasis fuerte -->
+*Texto en cursiva*    <!-- Énfasis suave -->
+~~Texto tachado~~     <!-- Cambios obsoletos o descartados -->
 ```
 
-## Texto
+---
+
+## Estructuración de Listas
+
+### Listas no ordenadas (Viñetas)
+Útiles para agrupar elementos sin una jerarquía secuencial:
 
 ```markdown
-**Negrita**
-*Cursiva*
+- Elemento o punto clave 1
+- Elemento o punto clave 2
+  - Sub-elemento secundario
 ```
 
-## Listas
+### Listas numeradas (Secuenciales)
+Para describir pasos estructurados o secuencias lógicas:
 
 ```markdown
-- Elemento 1
-- Elemento 2
-- Elemento 3
+1. Primer paso de la secuencia
+2. Segundo paso de la secuencia
+3. Tercer paso de la secuencia
 ```
 
-## Lista numerada
+### Listas de tareas (Checklists)
+Ideales para el seguimiento del estado de actividades dentro del proyecto:
 
 ```markdown
-1. Primer elemento
-2. Segundo elemento
-3. Tercer elemento
+- [x] Configuración inicial del repositorio
+- [ ] Desarrollo de la documentación técnica
+- [ ] Pruebas y validación final
 ```
 
-## Lista de tareas
+---
+
+## Inserción de Enlaces y Recursos Multimedia
+
+### Enlaces externos
+Sintaxis para vincular referencias o páginas web (`[Texto a mostrar](URL)`):
 
 ```markdown
-- [ ] Pendiente
-- [x] Completado
+[Repositorio de GitHub](https://github.com)
 ```
 
-## Enlaces
+### Inserción de imágenes locales
+Sintaxis para cargar imágenes almacenadas dentro de la estructura del repositorio:
 
 ```markdown
-[GitHub](https://github.com)
+![Texto alternativo para la imagen](images/diagrama.png)
 ```
 
-## Código
+### Inserción directa de imágenes en GitHub (Servidor Remoto)
+Si se prefiere no almacenar archivos de imagen dentro de las carpetas locales del proyecto:
+1. Abre el archivo `README.md` directamente desde la interfaz web de **GitHub.com**.
+2. Presiona el icono de edición (**Edit** / lápiz).
+3. Arrastra y suelta el archivo de imagen directamente dentro del editor web.
+4. GitHub procesará la imagen, generará un enlace automático del servidor y renderizará el recurso.
+5. Confirma los cambios haciendo clic en **Commit changes...**.
 
-Código corto:
+---
+
+## Formato de Código
+
+### Código en línea
+Se utiliza para resaltar comandos, variables o nombres de archivos dentro de un párrafo empleando comillas simples invertidas (``` ` ```):
 
 ```markdown
-`git status`
+Ejecuta el comando `git status` para verificar el estado de los archivos.
 ```
 
-Bloque:
+### Bloque de código multilínea
+Para incluir bloques completos de código o comandos, utilizando tres comillas invertidas (``` ``` ```) especificando el lenguaje para activar el resaltado de sintaxis:
 
 ````markdown
 ```bash
 git status
 git add .
-git commit -m "Update"
+git commit -m "docs: actualizar sintaxis de markdown"
 git push
 ```
-````
 
-## Tabla
+### Tablas de datos
+Para organizar información comparativa, por ejemplo.
 
-```markdown
-| Integrante | Rol | Estado |
-|------------|-----|--------|
-| Persona 1 | Diseño |  |
-| Persona 2 | Código |  |
+```bash
+| Integrante | Rol en el Proyecto | Estado de Asignación |
+| :--- | :--- | :---: |
+| Estudiante 1 | Control de Versiones | Completado |
+| Estudiante 2 | Documentación Técnica | En proceso |
 ```
 
-Usar:
-
-```markdown
-![Imagen del proyecto](images/proyecto.png)
-```
-
-## Imagen directamente desde GitHub
-
-En `README.md`:
-
-1. Presionar **Edit **.
-2. Arrastrar la imagen al editor.
-3. GitHub generará el enlace.
-4. Hacer **Commit changes**.
-
----
-
-# 9. Estructura del proyecto
+# 6. Estructura del proyecto
 
 Una estructura simple y ordenada:
 
@@ -289,7 +295,7 @@ Debe contener, de forma resumida:
 
 ---
 
-# 8. Flujo recomendado del equipo
+# 7. Flujo recomendado del equipo
 
 ## Antes de trabajar
 
@@ -321,7 +327,7 @@ Crear un **Pull Request** → revisar → aprobar → **Merge**.
 
 ---
 
-# 9. Comandos rápidos
+# 8. Comandos rápidos
 
 | Acción | Comando |
 |---|---|
@@ -335,3 +341,37 @@ Crear un **Pull Request** → revisar → aprobar → **Merge**.
 | Crear rama | `git switch -c nombre` |
 | Cambiar rama | `git switch nombre` |
 | Ver historial | `git log --oneline` |
+
+# 9. Integración de Visual Studio Code con Git y GitHub
+Visual Studio Code (VS Code) funciona como el centro de control unificado para el desarrollo del proyecto. Su principal fortaleza reside en integrar el editor de texto, el control de versiones local (**Git**) y la plataforma remota (**GitHub**) dentro de una misma interfaz, eliminando la necesidad de alternar entre múltiples programas o pestañas.
+
+---
+
+## Vinculación de VS Code con Git (Control Local)
+
+VS Code incluye un panel nativo de **Control de código fuente** (*Source Control*) que interactúa directamente con el motor local de Git:
+
+* **Visualización del estado de archivos:** Identifica automáticamente los cambios con un código de colores en el explorador de archivos (verde para elementos nuevos, amarillo para modificados y rojo para borrados).
+* **Gestión del Staging Area:** Permite preparar archivos para un *commit* de forma gráfica haciendo clic en el icono `+` (*Stage Changes*) junto a cada documento, equivalente a ejecutar `git add`.
+* **Confirmación de cambios (*Commits*):** Dispone de un cajón de texto dedicado para redactar el mensaje descriptivo y un botón principal para congelar el historial localmente (`git commit`).
+* **Barra de estado de ramas:** En la esquina inferior izquierda muestra la rama activa y permite alternar entre ramas o crear nuevas (`git switch` / `git branch`) mediante un menú desplegable.
+
+---
+
+## Conexión de VS Code con GitHub (Sincronización Remota)
+
+El editor se conecta de forma nativa a tu cuenta de GitHub para gestionar la transferencia de información hacia el servidor en la nube:
+
+* **Autenticación directa:** Permite vincular tu cuenta de GitHub mediante protocolo seguro (OAuth), autorizando permisos de lectura y escritura sin necesidad de ingresar contraseñas de forma repetitiva.
+* **Sincronización en un clic:** Sustituye los comandos `git push` y `git pull` por el botón interactivo **Sincronizar cambios** (o *Publish Branch* si es la primera subida), enviando los registros locales a la red de forma automática.
+* **Editor de combinación de conflictos:** Si dos colaboradores modifican las mismas líneas, VS Code despliega una interfaz gráfica que compara ambas versiones y permite decidir cuál conservar mediante un clic.
+
+---
+
+## Edición e Inspección desde el Mismo Entorno
+
+VS Code permite realizar la redacción técnica y el seguimiento del proyecto sin abandonar el espacio de trabajo:
+
+* **Edición de Markdown con Vista Previa:** Permite redactar archivos `.md` y visualizar simultáneamente el resultado maquetado al lado derecho de la pantalla (`Ctrl + Shift + V` o mediante extensiones avanzadas).
+* **Terminal integrada:** Incluye una consola integrada (`Ctrl + ~`) para ejecutar comandos personalizados de Git, scripts de análisis o comandos de sistema sin abrir ventanas externas.
+* **Rastreo de cambios en línea (*Gutter indicators*):** Muestra barras verticales de colores al margen del código para indicar exactamente qué líneas han sido agregadas o modificadas en la sesión actual antes de guardarlas.
