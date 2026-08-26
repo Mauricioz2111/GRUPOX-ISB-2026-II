@@ -1,6 +1,4 @@
-#README PRINCIPAL
-
-#Guía rápida: Git, GitHub, VS Code y Markdown
+# LABORATORIO 1: REPOSITORIO EN GITHUB
 
 ## Índice
 - [1. Git y GitHub](#1-git-y-github)
@@ -16,12 +14,27 @@
 ---
 
 # 1. Git y GitHub
+Para gestionar proyectos de desarrollo y documentación técnica, es fundamental diferenciar Git y Github, dos herramientas complementarias pero con funciones distintas 
 
-## Git
-Sistema de control de versiones que permite registrar y recuperar cambios.
+## 🛠️ Git
+Sistema de control de versiones que permite registrar y recuperar cambios. Se ejecuta de manera local en el equipo del desarrollador y se encarga de administrar el historial de modificaciones de los archivos del proyecto.
 
-## GitHub
-Plataforma para almacenar y compartir repositorios Git de forma remota.
+**Funciones principales:**
+* **Registro de cambios:** Guarda instantáneas (*commits*) del proyecto a lo largo del tiempo, permitiendo auditar qué se modificó, cuándo y por quién.
+* **Gestión de ramas (*Branching*):** Permite aislar ideas, probar funcionalidades o corregir errores en líneas de desarrollo paralelas sin alterar la versión principal.
+* **Fusión (*Merging*):** Integra de forma estructurada los cambios generados en distintas ramas de trabajo.
+* **Reversión de estado:** Permite regresar el proyecto a cualquier punto previo del historial en caso de fallos.
+* **Trabajo sin conexión (*Offline*):** Funciona al 100% en el almacenamiento local sin depender de acceso a Internet.
+
+## ☁️ GitHub
+Plataforma para almacenar y compartir repositorios Git de forma remota. Ofrece una interfaz gráfica y servicios adicionales diseñados para alojar proyectos en la red y facilitar la colaboración entre equipos de trabajo
+
+**Funciones principales:**
+* **Repositorios remotos:** Mantiene una copia centralizada del proyecto disponible en la red para que cualquier colaborador pueda sincronizar sus cambios.
+* **Revisión de código (*Pull Requests*):** Permite proponer cambios, comentarlos, revisarlos en equipo y aprobarlos antes de fusionarlos a la rama principal.
+* **Gestión de proyectos:** Proporciona herramientas de organización como seguimiento de errores (*Issues*), tableros visuales tipo Kanban y cronogramas.
+* **Flujos de automatización:** Integra pruebas automáticas e integración continua a través de herramientas como *GitHub Actions*.
+* **Control de accesos:** Administra permisos de lectura, escritura y roles de seguridad para los integrantes del equipo.
 
 **En resumen:**
 ```text
