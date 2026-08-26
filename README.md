@@ -5,7 +5,7 @@ Bienvenidos al repositorio oficial del **Grupo 10** para el curso de **Introducc
 
 ## Integrantes
 |Foto|Nombre | Descripción | Perfil de GitHub |
-|:---| :--- | :--- | ---: |
+|:---| :--- | :- | ---: |
 |<img width="100" height="140" alt="WhatsApp Image 2025-09-20 at 11 33 35 AM" src="https://github.com/user-attachments/assets/72d4f03f-69f9-4ce5-8b3b-5ea47011cba1" />| Miguel Angel Tello Ocaña | Estudiante de 7mo ciclo de la carrera de ingeniería biomédica. Interesado en Ingeniería Clínica y Biomecánica. | [@MiguelTeO]|
 || Mateo Torres Ricalde | (Por definir) | — |
 || Wilber Mauricio Zenteno Castilla | (Por definir) | [@Mauricioz2111](https://github.com/Mauricioz2111) |
