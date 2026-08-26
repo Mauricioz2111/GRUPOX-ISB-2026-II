@@ -44,7 +44,14 @@ GitHub → repositorio remoto
 
 ---
 
-# 2. Crear o clonar un repositorio
+# 2. Arquitecturas de ESTADOS en Git
+El motor de Git organiza el ciclo de vida de los archivos atrvesando cuatro entornos diferenciados
+![alt text](image.png)
+
+1. **Directorio de Trabajo (Woring Directoy):** Espacio local donde se crean, editan o eliminan archivos físicamente.
+2. **Área de Preparación (Staging Area/Index):** Zona intermedia donde se agrupan únicamente las modificaciones que formarán parte del próximo registro.
+3. **Repositorio Local (Local Repository):** Base de datos almacenada en la carpeta oculta .git de tu computadora, conteniendo el historial completo de commits.
+4. **Repositorio Remoto (Remote Repository):** Copia del proyecto alojada en la nube (GitHub) accesible para el equipo.
 
 ## Crear repositorio local
 
