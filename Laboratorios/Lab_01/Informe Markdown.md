@@ -268,7 +268,11 @@ Para organizar información comparativa, por ejemplo.
 | Estudiante 1 | Control de Versiones | Completado |
 | Estudiante 2 | Documentación Técnica | En proceso |
 ```
-
+### Markdown Open Preview
+La extension de Open Preview nos permite ver en tiempo real un previsualizacion del repositorio en VSCode lo cual nos ahorra mucho tiempo y nos ayuda a mejorar la estetica del repositorio.
+<p align="center">
+       <img width="1457" height="887" alt="Captura de pantalla 2026-08-25 235256" src="https://github.com/user-attachments/assets/4069d634-b907-447a-a74b-9d002bf3d403" />
+</p>
 # 6. Estructura del proyecto
 
 Una estructura simple y ordenada:
@@ -296,7 +300,6 @@ Debe contener, de forma resumida:
 - Referencias.
 
 ---
-
 # 7. Flujo recomendado del equipo
 
 ## Antes de trabajar
