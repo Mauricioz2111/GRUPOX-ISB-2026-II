@@ -256,6 +256,7 @@ git add .
 git commit -m "docs: actualizar sintaxis de markdown"
 git push
 ```
+````
 
 ### Tablas de datos
 Para organizar información comparativa, por ejemplo.
