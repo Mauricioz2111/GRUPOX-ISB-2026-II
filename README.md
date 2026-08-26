@@ -4,12 +4,12 @@ Bienvenidos al repositorio oficial del **Grupo 10** para el curso de **Introducc
 
 
 ## Integrantes
-|Nombre | Rol | Perfil de GitHub |
-| :--- | :--- | :---: |
-| Miguel Angel Tello Ocaña | (Por definir) | [@MiguelTeO]|
-| Mateo Torres Ricalde | (Por definir) | — |
-| Wilber Mauricio Zenteno Castilla | (Por definir) | [@Mauricioz2111](https://github.com/Mauricioz2111) |
-| Jairo Villalobos Vargas | (Por definir) | — |jairovillalobos|
+|Foto|Nombre | Rol | Perfil de GitHub |
+|:---| :--- | :--- | ---: |
+|| Miguel Angel Tello Ocaña | (Por definir) | [@MiguelTeO]|
+|| Mateo Torres Ricalde | (Por definir) | — |
+|| Wilber Mauricio Zenteno Castilla | (Por definir) | [@Mauricioz2111](https://github.com/Mauricioz2111) |
+|| Jairo Villalobos Vargas | (Por definir) | — |jairovillalobos|
 
 ## Objetivos del Repositorio
 * **Centralizar la documentación:** Almacenar certificados, código fuente, datos de prueba e informes del curso.
