@@ -45,7 +45,8 @@ GitHub → repositorio remoto
 ---
 
 # 2. Arquitecturas de ESTADOS en Git
-El motor de Git organiza el ciclo de vida de los archivos atrvesando cuatro entornos diferenciados
+El motor de Git organiza el ciclo de vida de los archivos atravesando cuatro entornos diferenciados:
+
 ![alt text](image.png)
 
 1. **Directorio de Trabajo (Woring Directoy):** Espacio local donde se crean, editan o eliminan archivos físicamente.
@@ -53,24 +54,17 @@ El motor de Git organiza el ciclo de vida de los archivos atrvesando cuatro ento
 3. **Repositorio Local (Local Repository):** Base de datos almacenada en la carpeta oculta .git de tu computadora, conteniendo el historial completo de commits.
 4. **Repositorio Remoto (Remote Repository):** Copia del proyecto alojada en la nube (GitHub) accesible para el equipo.
 
-## Crear repositorio local
+# 3. Flujo básico y Comandos
+El flujo fundamental de trabajo en Git está diseñado para gestionar, registrar y sincronizar de manera ordenada los cambios realizados en el proyecto:
 
-```bash
-mkdir mi-proyecto
-cd mi-proyecto
-git init
-```
+* **`git status`**: Muestra el estado actual de los archivos dentro del repositorio. Identifica qué elementos se han editado, cuáles están listos en el área de preparación (*staging area*) y cuáles aún no son rastreados (*untracked*).
+* **`git add .`**: Traslada **todos** los archivos modificados o creados en el directorio de trabajo hacia el área de preparación, dejándolos seleccionados para el próximo registro.
+* **`git commit -m "mensaje"`**: Representa la confirmación de guardado dentro del repositorio local. Congela una captura instantánea (*snapshot*) de los cambios con un mensaje explicativo sobre lo realizado.
+* **`git push`**: Envía los *commits* confirmados desde el entorno local hacia el servidor de GitHub, transfiriendo las actualizaciones a la nube.
+* **`git pull`**: Descarga e integra en tu computadora las modificaciones más recientes alojadas en GitHub, sincronizando tu trabajo local con lo subido por el equipo.
 
-## Clonar desde GitHub
-
-```bash
-git clone URL_DEL_REPOSITORIO
-cd nombre-del-repositorio
-```
-
----
-
-# 3. Flujo básico
+## SECUENCIA LÓGICO DE DESARROLLO:**
+`Modificar archivos` → `git status` → `git add .` → `git commit` → `git push` → `GitHub`
 
 ```text
 Modificar archivos
@@ -85,38 +79,37 @@ Modificar archivos
        ↓
      GitHub
 ```
+---
 
-## Ver cambios
+## Detalles útiles y herramientas de inspección
+
+### Diagnóstico del estado (`git status`)
+
+Permite confirmar el estado exacto del proyecto antes y después de seleccionar los archivos a guardar. Se recomienda su uso constante dentro del flujo de trabajo:
 
 ```bash
-git status
+git status    # Muestra el eporte completo de los archivos modificados
+git status -s # Muestra el estado en formato corto y compacto 
 ```
+Un flujo habitual de guardado local se ejecuta de la siguiente manera:
 
 ## Agregar cambios
 
 ```bash
+git status
 git add .
+git commit -m "docs: Descripción del cambio"
 ```
 
-## Crear commit
+### Inspección del historial ('git log')
+
+El comando `git log` permite revisar la cronología de cambios confirmados
 
 ```bash
-git commit -m "Descripción del cambio"
+git log                                     # Historial detallado de confirmaciones
+git log --oneline                           # Lista compacta mostrando una línea por commit
+git log --oneline --graph --decorate --all  # Renderiza una representación gráfica del árbol de cambios
 ```
-
-## Subir a GitHub
-
-```bash
-git push
-```
-
-## Descargar cambios
-
-```bash
-git pull
-```
-
----
 
 # 4. Ramas
 
