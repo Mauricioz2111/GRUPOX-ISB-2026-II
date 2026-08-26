@@ -365,14 +365,3 @@ El editor se conecta de forma nativa a tu cuenta de GitHub para gestionar la tra
 
 * **Autenticación directa:** Permite vincular tu cuenta de GitHub mediante protocolo seguro (OAuth), autorizando permisos de lectura y escritura sin necesidad de ingresar contraseñas de forma repetitiva.
 * **Sincronización en un clic:** Sustituye los comandos `git push` y `git pull` por el botón interactivo **Sincronizar cambios** (o *Publish Branch* si es la primera subida), enviando los registros locales a la red de forma automática.
-* **Editor de combinación de conflictos:** Si dos colaboradores modifican las mismas líneas, VS Code despliega una interfaz gráfica que compara ambas versiones y permite decidir cuál conservar mediante un clic.
-
----
-
-## Edición e Inspección desde el Mismo Entorno
-
-VS Code permite realizar la redacción técnica y el seguimiento del proyecto sin abandonar el espacio de trabajo:
-
-* **Edición de Markdown con Vista Previa:** Permite redactar archivos `.md` y visualizar simultáneamente el resultado maquetado al lado derecho de la pantalla (`Ctrl + Shift + V` o mediante extensiones avanzadas).
-* **Terminal integrada:** Incluye una consola integrada (`Ctrl + ~`) para ejecutar comandos personalizados de Git, scripts de análisis o comandos de sistema sin abrir ventanas externas.
-* **Rastreo de cambios en línea (*Gutter indicators*):** Muestra barras verticales de colores al margen del código para indicar exactamente qué líneas han sido agregadas o modificadas en la sesión actual antes de guardarlas.
