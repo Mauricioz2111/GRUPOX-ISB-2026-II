@@ -27,6 +27,10 @@ Si queremos trabajar con un repositorio ya existente para poder avanzar en conju
 ```bash
 git clone url_del_repositorio
 ```
+
+<p align="center">
+       <img width="302" height="227" alt="Captura de pantalla 2026-08-25 235659" src="https://github.com/user-attachments/assets/3c477285-827b-47f2-a13c-530679d67e5b" />
+</p>
 ### Flujo basico de trabajo:
 ```text
 Modificar archivos
