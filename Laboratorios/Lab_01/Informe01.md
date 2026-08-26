@@ -70,6 +70,7 @@ Para subir nuestros cambios a GitHub se usa el siguiente comando.
 git push
 ```
 Cabe resaltar que existen atajos para estas acciones si es que no vemos necesario el uso de terminal.
+<img width="322" height="230" alt="Captura de pantalla 2026-08-25 235446" src="https://github.com/user-attachments/assets/df16998d-cfc0-4586-9bc3-c1cb3a5c6d0f" />
 
 ### Uso de las ramas
 
@@ -196,6 +197,8 @@ Tabla
 ```
 ### Markdown Open Overview
 Esta extension nos permite tener un vista previa de como se vera nuestro repositorio en github desde VS Code en tiempo real, lo cual es realmente provechoso, ya que nos ayuda a tener noción de como esta quedando visualmente el repositorio, evitandonos tener que modificarlo, ya subido al GitHub.
+<img width="1457" height="887" alt="Captura de pantalla 2026-08-25 235256" src="https://github.com/user-attachments/assets/62a2f904-9e36-4ce5-9703-cbf0159ce746" />
+
 
 ### Comandos rápidos
 
