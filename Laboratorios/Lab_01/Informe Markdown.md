@@ -61,7 +61,9 @@ El flujo fundamental de trabajo en Git está diseñado para gestionar, registrar
 * **`git commit -m "mensaje"`**: Representa la confirmación de guardado dentro del repositorio local. Congela una captura instantánea (*snapshot*) de los cambios con un mensaje explicativo sobre lo realizado.
 * **`git push`**: Envía los *commits* confirmados desde el entorno local hacia el servidor de GitHub, transfiriendo las actualizaciones a la nube.
 * **`git pull`**: Descarga e integra en tu computadora las modificaciones más recientes alojadas en GitHub, sincronizando tu trabajo local con lo subido por el equipo.
-
+<p align="center">
+       <img width="322" height="230" alt="Captura de pantalla 2026-08-25 235446" src="https://github.com/user-attachments/assets/fbca02f7-fab3-49df-bae8-b3eb36d9448f" />
+</p>
 ## SECUENCIA LÓGICO DE DESARROLLO: 
 `Modificar archivos` → `git status` → `git add .` → `git commit` → `git push` → `GitHub`
 
