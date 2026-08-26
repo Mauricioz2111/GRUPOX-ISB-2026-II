@@ -2,15 +2,14 @@
 
 ## Índice
 - [1. Git y GitHub](#1-git-y-github)
-- [2. Crear o clonar un repositorio](#2-crear-o-clonar-un-repositorio)
-- [3. Flujo básico](#3-flujo-básico)
+- [2. Arquitecturas de estados en Git](#2-arquitecturas-de-estados-en-git)
+- [3. Flujo básico y comandos](#3-flujo-básico-y-comandos)
 - [4. Ramas](#4-ramas)
-- [5. Pull Request](#5-pull-request)
-- [6. Markdown](#7-markdown)
-- [7. Estructura del proyecto](#9-estructura-del-proyecto)
-- [8. Flujo recomendado del equipo](#10-flujo-recomendado-del-equipo)
-- [9. Comandos rápidos](#11-comandos-rápidos)
-
+- [5. Markdown](#5-markdown)
+- [6. Estructura del proyecto](#6-estructura-del-proyecto)
+- [7. Flujo recomendado del equipo](#7-flujo-recomendado-del-equipo)
+- [8. Comandos rápidos](#8-comandos-rápidos)
+- [9. Integración de Visual Studio Code con Git y GitHub](#9-integración-de-visual-studio-code-con-git-y-github)
 ---
 
 # 1. Git y GitHub
