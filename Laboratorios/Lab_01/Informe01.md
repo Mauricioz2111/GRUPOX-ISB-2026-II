@@ -70,7 +70,7 @@ Para subir nuestros cambios a GitHub se usa el siguiente comando.
 git push
 ```
 Cabe resaltar que existen atajos para estas acciones si es que no vemos necesario el uso de terminal.
-<img width="1457" height="887" alt="Captura de pantalla 2026-08-25 235256" src="https://github.com/user-attachments/assets/688b6b82-0672-434d-962a-1367d695c143" />
+<img width="322" height="230" alt="Captura de pantalla 2026-08-25 235446" src="https://github.com/user-attachments/assets/df16998d-cfc0-4586-9bc3-c1cb3a5c6d0f" />
 
 ### Uso de las ramas
 
