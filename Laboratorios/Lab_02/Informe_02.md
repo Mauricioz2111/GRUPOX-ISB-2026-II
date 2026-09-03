@@ -4,7 +4,7 @@
 Este laboratorio aborda la descarga, exploración gráfica, análisis estadístico y exportación a formato `.wav` de un registro electrocardiográfico (ECG) desde la plataforma **PhysioNet**.
 
 **IDENTIFICACIÓN DEL REGISTRO**
-* **Identificador único:** Acceder a una base de datos fisiológica de PhysioNet usando la combinación de `DATABASE + RECORD` (`mitdb` + `100`). Cabe resaltar que en función a la base de datos, el número de registro puede significar algo distinto
+* **Identificador único:** Acceder a una base de datos fisiológica de PhysioNet usando la combinación de `DATABASE + RECORD` (`mitdb` + `100`). Cabe resaltar que en función a la base de datos, el número de registro puede significar algo distinto.
 
 **PARÁMETROS CONFIGURABLES**
 | Parámetro | Descripción | Ejemplo |
@@ -25,10 +25,10 @@ A lo largo del laboratorio utilizaremos distintas librerías como:
 
 En un principio, se carga el registro con `wfdb.rdrecord()` e identificamos la frecuencia de muestreo, número de muestras, número de canales, nombre de los canales y las unidades de las señales. 
 
-Posteriormente, se extrae las muestras de la señal y se guarda en una variable: `signal = record.p_signal[:, CHANNEL]`. Después, se procede a construir un eje temporal $t[n] = \frac{n}{f_s}$, esta relación es fundamental para interpretar correctamente una señal biomédica
+Posteriormente, se extrae las muestras de la señal y se guarda en una variable: `signal = record.p_signal[:, CHANNEL]`. Después, se procede a construir un eje temporal $t[n] = \frac{n}{f_s}$, esta relación es fundamental para interpretar correctamente una señal biomédica.
 
 **GRAFICAR LAS SEÑALES**
-En este primer laboratorio se llega a graficar tres señales: ECG completo, segmento de 10s ampliado, histograma de amplitudes y la representación discreta de las primeras 100 muestras. Las gráficas obtenidas en base al codigo dado son las siguientes:
+En este primer laboratorio se llega a graficar tres señales: ECG completo, segmento de 10s ampliado, histograma de amplitudes y la representación discreta de las primeras 100 muestras. 
 
 **ESTADÍSTICA BÁSICA DE LA SEÑAL**
 * **MEDIA**: `np.mean(signal_segment)`
@@ -50,7 +50,7 @@ Convertir a `int16`
  ↓
 Guardar WAV
 ```
-**¿POR QUÉ NORMALIZAR?**: Los valores de ECG están expresados en unidades fisiológicas, mientras que el WAV suele utilizar representaciones enteras, como `int16`
+**¿POR QUÉ NORMALIZAR?**: Los valores de ECG están expresados en unidades fisiológicas, mientras que el WAV suele utilizar representaciones enteras, como `int16`.
 
 ## LAB 02: Análisis Multidominio (Temporal, FFT y STFT)
 
@@ -153,7 +153,7 @@ Se identifica la frecuencia dominante de cada registro (ignorando 0Hz para no vo
 
 * **TRANSFORMADA DE FOURIER DE TIEMPO CORTO (STFT)**: Proporciona información sobre el contenido frecuencial global de una señal; sin embargo, si queremos saber cuándo aparecen determinadas componentes de frecuencia necesitamos una representación tiempo-frecuencia.
 La STFT divide la señal en "ventanas" y calcula una FFT para cada una. Una ventana pequeña significa una mejor resolución temporal; por el contrario, una ventana grande, una menor resolución.
-Además se grafica un espectrograma usando una ventana grande (`nperseg=256`) para los registros `16265/16420` y una pequeña (`nperseg=32`) para `16272` (para conservar mejor eventos localizados en el tiempo)
+Además se grafica un espectrograma usando una ventana grande (`nperseg=256`) para los registros `16265/16420` y una pequeña (`nperseg=32`) para `16272` (para conservar mejor eventos localizados en el tiempo).
 
 
 ## LAB 03: Diseño y Aplicación de Filtros Digitales (FIR e IIR) en Señales Biomédicas
