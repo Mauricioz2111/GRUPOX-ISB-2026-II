@@ -143,17 +143,29 @@ for record_name, record in records_data.items():
 
 ```
 Las muestras se encuentran en `record.p_signal`, la estructura tiene la forma (muestras, canales). Por ello, para seleccionar el canal indicado guardamos `record.p_signal[:, CHANNEL]` en una variable y contruimos el eje temporal.
+Para el caso de de los tres registro, se observa que tienen una frecuencia de muestre de 128Hz.
+En el caso del canal, se utiliza el canal ECG1. A continuación, se muestra la gráfica temporal de la señal del registro 16265, debido a que este presenta una mayor amplitud en comparación con las otras gráficas:
+<img width="846" height="263" alt="image" src="https://github.com/user-attachments/assets/49d7cd68-6ca6-4382-9e15-5d2f724f4e53" />
 
 
 **CALCULO DE A FFT Y LA STFT**
 * **TRANSFORMADA RÁPIDA DE FOURIER (FFT)**: Permite transformar una señal del dominio temporal a dominio frecuencial. En el presente laboratorio se calcula la FFT de cada registro en dos versiones:
-    * **Con la componente DC**
-    * **Después de eliminar la MEDIA**
+    * **Con la componente DC**: Anteriormente se trabajó con el registro 16265, por lo que se presenta gráfica obtenida de dicho registro:
+ <img width="845" height="270" alt="image" src="https://github.com/user-attachments/assets/d8476f55-4197-4cee-a8e6-805b8246191d" />
+
+    * **Después de eliminar la MEDIA**: Siguiendo con el registro 16265, se obtiene:
+  <img width="844" height="265" alt="image" src="https://github.com/user-attachments/assets/ead08357-610f-4052-9596-fe24a1cee657" />
+
 Se identifica la frecuencia dominante de cada registro (ignorando 0Hz para no voler a capturar la componente DC). La frecuencia dominante encontrada mediante FFT no debe interpretarse automáticamente como una frecuencia fisiológica específica. Es necesario considerar el tipo de señal, el procesamiento aplicado y el contexto del registro.
 
 * **TRANSFORMADA DE FOURIER DE TIEMPO CORTO (STFT)**: Proporciona información sobre el contenido frecuencial global de una señal; sin embargo, si queremos saber cuándo aparecen determinadas componentes de frecuencia necesitamos una representación tiempo-frecuencia.
 La STFT divide la señal en "ventanas" y calcula una FFT para cada una. Una ventana pequeña significa una mejor resolución temporal; por el contrario, una ventana grande, una menor resolución.
 Además se grafica un espectrograma usando una ventana grande (`nperseg=256`) para los registros `16265/16420` y una pequeña (`nperseg=32`) para `16272` (para conservar mejor eventos localizados en el tiempo).
+Para el caso del registro 16265, se obtuvo el siguiente espectrograma:
+<img width="841" height="314" alt="image" src="https://github.com/user-attachments/assets/dd1016ca-0a30-49b0-981c-54c6814b0980" />
+
+**COMPARACIÓN DE LOS TRES REGISTROS TRABAJADOS**
+<img width="813" height="532" alt="image" src="https://github.com/user-attachments/assets/8b82b847-bc61-4967-8357-a7925e1a3f06" />
 
 
 ## LAB 03: Diseño y Aplicación de Filtros Digitales (FIR e IIR) en Señales Biomédicas
