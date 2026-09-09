@@ -32,10 +32,19 @@ Se utilizó la conexión ...
   <img src="./Imágenes/prueba1_biceps_conexión.jpg" alt="Conexión de electrodos en el bíceps" width="500">
 </p>
 
-| Bíceps en reposo | Movimiento de bíceps sin oposición | Movimiento de bíceps con oposición |
-|:---:|:---:|:---:|
-| <img src="./Imágenes/prueba1_biceps_en_reposo.jpg" alt="Bíceps en reposo" width="350"> | https://github.com/user-attachments/assets/4eda0194-80f1-49db-bfdd-0faf6e99cd4c | https://github.com/user-attachments/assets/a84982fc-8676-46ad-9ece-67371b3894ec |
+#### Bíceps en reposo
 
+<p align="center">
+  <img src="./Imágenes/prueba1_biceps_en_reposo.jpg" alt="Bíceps en reposo" width="500">
+</p>
+
+#### Movimiento de bíceps sin oposición
+
+https://github.com/user-attachments/assets/4eda0194-80f1-49db-bfdd-0faf6e99cd4c
+
+#### Movimiento de bíceps con oposición
+
+https://github.com/user-attachments/assets/a84982fc-8676-46ad-9ece-67371b3894ec
 
 
 
