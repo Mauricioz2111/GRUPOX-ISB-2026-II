@@ -25,7 +25,7 @@ Materiales
 ## Resultados
 Resultados
 
-<<<<<<< HEAD
+
 ### Conexión usada
 =======
 ## PRUEBA 1: 
