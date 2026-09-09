@@ -63,7 +63,22 @@ Ploteo de la señal en Python
 ## PRUEBA 2: 
 
 ### Conexión usada 
-Conexion usada
+Conexion usada ....
+<p align="center">
+  <img src="./Imágenes/prueba_2_Abductor_corto_del_pulgar_conexion.jpg" alt="Conexión de electrodos en el adbuctor corto del dedo pulgar" width="500">
+</p>
+
+
+#### Abductor corto del pulgar en reposo
+
+
+#### Movimiento de bíceps sin oposición
+
+
+#### Movimiento de bíceps con oposición
+
+
+
 
 ### Video de la señal 
 Video de la señal
