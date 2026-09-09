@@ -29,12 +29,12 @@ Materiales
 Se utilizó la conexión ... 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/490077d6-eb8b-49be-b486-6de0aa7701f6" alt="Conexión de electrodos para EMG" width="500">
+  <img src="./Imágenes/prueba1_biceps_conexión.jpg" alt="Conexión de electrodos en el bíceps" width="500">
 </p>
 
 | Bíceps en reposo | Movimiento de bíceps sin oposición | Movimiento de bíceps con oposición |
 |:---:|:---:|:---:|
-| <img src="PRUEBA1_REPOSO.jpg" alt="Bíceps en reposo" width="350"> | <video src="Senal.EMG.del.dedo.sin.oposicion.mp4" controls width="350"></video> | <video src="Senal.EMG.del.dedo.con.oposicion.mp4" controls width="350"></video> |
+| <img src="./Imágenes/prueba1_biceps_en_reposo.jpg" alt="Bíceps en reposo" width="350"> | <video src="./Videos/prueba1_sin_oposicion.mp4" controls width="350"></video> | <video src="./Videos/prueba1_con_oposicion.mp4" controls width="350"></video> |
 
 
 
