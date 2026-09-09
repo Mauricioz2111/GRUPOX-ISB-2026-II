@@ -21,16 +21,17 @@ Materiales
 
 ---
 
-## Resultados
-Resultados
+## RESULTADOS
 
-### Conexión usada
+## PRUEBA 1: 
+
+### Conexión usada 
 Conexion usada
 
-### Video de la señal
+### Video de la señal 
 Video de la señal
 
-### Ploteo de la señal en OpenSignal
+### Ploteo de la señal en OpenSignal 
 Ploteo de la señal
 
 ### Archivos
