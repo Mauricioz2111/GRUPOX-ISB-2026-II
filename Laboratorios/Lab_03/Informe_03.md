@@ -29,7 +29,7 @@ Materiales
 Se utilizó la conexión ... 
 
 <p align="center">
-  <img src="prueba1_conectando" alt="Conexión de electrodos para EMG" width="500">
+  <img src="https://github.com/user-attachments/assets/490077d6-eb8b-49be-b486-6de0aa7701f6" alt="Conexión de electrodos para EMG" width="500">
 </p>
 
 | Bíceps en reposo | Movimiento de bíceps sin oposición | Movimiento de bíceps con oposición |
