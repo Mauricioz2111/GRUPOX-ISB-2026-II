@@ -39,3 +39,38 @@ Archivos
 
 ### Ploteo de la señal en Python
 Ploteo de la señal en Python
+
+## PRUEBA 2: 
+
+### Conexión usada 
+Conexion usada
+
+### Video de la señal 
+Video de la señal
+
+### Ploteo de la señal en OpenSignal 
+Ploteo de la señal
+
+### Archivos
+Archivos
+
+### Ploteo de la señal en Python
+Ploteo de la señal en Python
+
+
+## PRUEBA 3: 
+
+### Conexión usada 
+Conexion usada
+
+### Video de la señal 
+Video de la señal
+
+### Ploteo de la señal en OpenSignal 
+Ploteo de la señal
+
+### Archivos
+Archivos
+
+### Ploteo de la señal en Python
+Ploteo de la señal en Python
