@@ -34,7 +34,7 @@ Se utilizó la conexión ...
 
 | Bíceps en reposo | Movimiento de bíceps sin oposición | Movimiento de bíceps con oposición |
 |:---:|:---:|:---:|
-| <img src="./Imágenes/prueba1_biceps_en_reposo.jpg" alt="Bíceps en reposo" width="350"> | <video src="./Videos/biceps_movimiento_leve.mp4" controls width="350"></video> | <video src="./Videos/biceps_fuerza_opuesta.mov" controls width="350"></video> |
+| <img src="./Imágenes/prueba1_biceps_en_reposo.jpg" alt="Bíceps en reposo" width="350"> | https://github.com/user-attachments/assets/4eda0194-80f1-49db-bfdd-0faf6e99cd4c | https://github.com/user-attachments/assets/a84982fc-8676-46ad-9ece-67371b3894ec |
 
 
 
