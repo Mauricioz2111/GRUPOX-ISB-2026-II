@@ -126,7 +126,7 @@ https://github.com/user-attachments/assets/2f7ed252-6458-4b68-b16c-1025247c2b6a
 
 #### C. Fase de fuerza máxima
 
-https://github.com/user-attachments/assets/10f427cb-baca-4004-b53f-706ab1a2600f
+https://github.com/user-attachments/assets/6cf111d2-a12d-4699-a195-e8f97db299f8
 
 
 
