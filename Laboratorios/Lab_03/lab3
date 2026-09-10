@@ -23,9 +23,8 @@ Para la adquisición se utilizó:
 - Sensor EMG
 - Electrodos Ag/AgCl
 - OpenSignals (r)evolution
-- Computadora
 
-Los electrodos de medición se colocan sobre el músculo siguiendo la orientación de sus fibras, mientras que el electrodo de referencia se coloca en una zona neutra. :contentReference[oaicite:1]{index=1}
+Los electrodos de medición se colocan sobre el músculo siguiendo la orientación de sus fibras, mientras que el electrodo de referencia se coloca en una zona neutra. 
 
 ---
 
@@ -37,14 +36,10 @@ Para cada grupo muscular se siguió el protocolo indicado en el Home Guide:
 2. Comprobar la configuración.
 3. Visualizar la señal EMG en OpenSignals.
 4. Registrar una línea basal en reposo durante **30 segundos**.
-5. Realizar **5 ciclos de contracción–liberación–reposo**.
-6. Mantener la contracción durante **2 segundos** y el reposo durante **2 segundos**.
+5. Realizar *3 ciclos de contracción del músculo y por cada contracción reposo de 30s**.
 7. Aumentar progresivamente la intensidad de la contracción.
 8. Llegar finalmente a la **contracción voluntaria máxima**.
-9. Registrar nuevamente una línea basal durante **30 segundos**.
-10. Realizar activaciones cortas de aproximadamente **1 segundo**.
-11. Realizar una contracción prolongada de aproximadamente **10 segundos**.
-12. Detener y guardar la adquisición. :contentReference[oaicite:2]{index=2}
+9. Guardar los datos de las gráficas y guardar los archivos
 
 ---
 
@@ -57,7 +52,7 @@ El bíceps braquial fue utilizado para observar la actividad muscular durante di
 
 ### Fuerza mínima
 
-![EMG del bíceps con fuerza mínima](images/biceps_fuerza_minima.png)
+![EMG del bíceps con fuerza mínima](imágenes/Captura de pantalla 2026-09-04 145707.png)
 
 ### Fuerza máxima
 
