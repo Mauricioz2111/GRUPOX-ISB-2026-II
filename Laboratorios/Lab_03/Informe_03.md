@@ -195,14 +195,17 @@ Ploteo de la señal en Python
 
 
 ## Preguntas de la sesión
-   - ¿Cuáles son las frecuencias significativas para las adquisiciones de EMG?¿Son las mismas en todas las zonas del cuerpo, como por ejemplo en la zona facial?
+   - **¿Cuáles son las frecuencias significativas para las adquisiciones de EMG?¿Son las mismas en todas las zonas del cuerpo, como por ejemplo en la zona facial?**
+
    La energía de la señal EMG de superficie se distribuye entre 10Hz y 500Hz, concentrando su mayor potencia en la banda de 20Hz y 150Hz. Estas frecuencias no son exactamente las mismas para todas las zonas del cuerpo. En el caso de los músculos faciales, por ejemplo, estos poseen unidades motoras más pequeñas y tasas de disparo más elevadas para lograr movimientos finos, desplazado su espectro hacia frecuencias más altas en comparación con los grandes músculos de las extremidades
 
-   - ¿Qué tipo de filtro es esencial al trabajar con señales de EMG?¿Por qué es necesario aplicar dicho filtro?
+   - **¿Qué tipo de filtro es esencial al trabajar con señales de EMG?¿Por qué es necesario aplicar dicho filtro?**
+
    El filtro esencial es el Filtro Pasa-Banda (10Hz - 500Hz), debido a que las frecuencias inferiores a 10-20Hz corresponden a artefactos de movimiento y fluctuaciones de la línea base, mientras que las frecuencias superiores a 500Hz corresponden a ruido electrónico o térmico. Por otro lado, tambien se uso mucho el Filtro Notch o Muesca (50Hz o 60Hz), el cual elimina el zumbido acoplado por la red eléctrica del entorno.
 
-   - ¿Cómo varía la amplitud en cada contracción muscular?¿Existe alguna diferencia según la ubicación en el cuerpo?
+   - **¿Cómo varía la amplitud en cada contracción muscular?¿Existe alguna diferencia según la ubicación en el cuerpo?**
+
    La amplitud aumenta directamente con la intensidad de la fuerza aplicada. En reposo se observan valores entre 5uV y 50uV, mientras que en una contracción máxima voluntaria la amplitud aumenta debido al mayor reclutamiento de unidades motoras. En cuanto a si existe alguna diferencia según la ubicación el cuerpo, sí existe una diferencia. Músculos con mayor volument generan potenciales de acción más elevados. Asimismo, factores como el grosor del tejido adiposo sudcutáneo y la impedancia cutánea atenúan la señal de forma distinta en cada parte del cuerpo.
 
-   - Muestre una captura de pantalla de una parte relevante de los datos de electromiografía (EMG) obtenidos durante el experimento propuesto en la Sección D, correspondientes al músculo facial de interés. ¿Coincide esta señal con lo que esperaba?¿Por qué?¿Qué emoción y acción realizó para activar el músculo?¿Qué músculo activó?
-   - Según su criterio, ¿equivale la amplitud de la EMG a la cantidad de fuerza generada por el músculo?
+   - **Muestre una captura de pantalla de una parte relevante de los datos de electromiografía (EMG) obtenidos durante el experimento propuesto en la Sección D, correspondientes al músculo facial de interés. ¿Coincide esta señal con lo que esperaba?¿Por qué?¿Qué emoción y acción realizó para activar el músculo?¿Qué músculo activó?**
+   - **Según su criterio, ¿equivale la amplitud de la EMG a la cantidad de fuerza generada por el músculo?**
