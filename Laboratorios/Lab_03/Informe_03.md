@@ -81,7 +81,7 @@ https://github.com/user-attachments/assets/9aee90f9-23f4-4b2f-ba49-3ba6cab8b725
 
 
 #### B. Fase de movimiento leve
-
+https://github.com/user-attachments/assets/4f0fa4fb-02ce-4fe8-8007-3374a7fb9a7a
 
 
 #### C. Fase de fuerza máxima
@@ -103,25 +103,31 @@ Archivos
 Ploteo de la señal en Python
 
 
-## PRUEBA 3: Trapecio ?
+## PRUEBA 3: Trapecio superior
 
 ### Conexión usada 
 ---------
 
 <p align="center">
-  <img src="./Imágenes/prueba_2_Abductor_corto_del_pulgar_conexion.jpg" alt="Conexión de electrodos en el adbuctor corto del dedo pulgar" width="500">
+  <img src="./Imágenes/prueba3_trapecio_superior_conexion.jpg" alt="Conexión de electrodos en el trapecio superior" width="500">
 </p>
 
 
 #### A. Fase de reposo
 
+https://github.com/user-attachments/assets/d96e72d4-f9db-42f0-9a7b-9f81c27fc2c9
 
 
 #### B. Fase de movimiento leve
 
+https://github.com/user-attachments/assets/2f7ed252-6458-4b68-b16c-1025247c2b6a
+
 
 
 #### C. Fase de fuerza máxima
+
+https://github.com/user-attachments/assets/10f427cb-baca-4004-b53f-706ab1a2600f
+
 
 
 ### Video de la señal 
@@ -137,24 +143,29 @@ Archivos
 Ploteo de la señal en Python
 
 
-## PRUEBA 4: Cara
+## PRUEBA 4: Cigomático mayor
 
 ### Conexión usada 
 ---------
 
 ##<p align="center">
-  <img src="./Imágenes/prueba_2_Abductor_corto_del_pulgar_conexion.jpg" alt="Conexión de electrodos en el adbuctor corto del dedo pulgar" width="500">
+  <img src="./Imágenes/prueba4_cigomátco_mayor_conexion.jpg" alt="Conexión de electrodos en el cigomático mayor" width="500">
 </p>)
 
 #### A. Fase de reposo
 
 
+https://github.com/user-attachments/assets/6df24a53-f25b-4465-992d-5438b2ffa2e6
+
 
 #### B. Fase de movimiento leve
 
+https://github.com/user-attachments/assets/9a03e7c9-5a06-4239-92db-dd41f9cfad0d
 
 
 #### C. Fase de fuerza máxima
+
+https://github.com/user-attachments/assets/751460bc-c6e1-45d2-9bf1-a1ee5c1a3b18
 
 
 ### Video de la señal 
