@@ -13,9 +13,16 @@
 4. [Preguntas de la sesion](#preguntas-de-la-sesion)
 
 ## Objetivos
-Objetivos
 
----
+
+Adquirir y analizar señales de electromiografía (EMG) de diferentes grupos musculares utilizando **BITalino y OpenSignals**.
+
+Se realizaron adquisiciones en:
+
+- **Bíceps braquial**
+- **Abductor pollicis brevis (pulgar)**
+- **Trapecio superior**
+- **Cigomático mayor**
 
 ## Materiales y equipos
 Materiales
