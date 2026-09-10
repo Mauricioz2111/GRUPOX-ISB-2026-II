@@ -23,11 +23,9 @@ Materiales
 ---
 
 ## Resultados
-Resultados
-
 
 ### Conexión usada
-=======
+------------
 ## PRUEBA 1: 
 
 ### Conexión usada 
@@ -77,11 +75,17 @@ El abductor corto del pulgar se encuentra en la eminencia tenar, ubicada en la b
 
 #### A. Fase de reposo
 
+https://github.com/user-attachments/assets/9aee90f9-23f4-4b2f-ba49-3ba6cab8b725
+
 
 #### B. Fase de movimiento leve
 
 
+
 #### C. Fase de fuerza máxima
+
+
+https://github.com/user-attachments/assets/d413864e-2a4d-443d-bb20-e2cf96fe21a0
 
 
 
