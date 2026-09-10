@@ -25,9 +25,10 @@ Se realizaron adquisiciones en:
 - **Cigomático mayor**
 
 ## Materiales y equipos
-Materiales
-
----
+- BITalino (r)evolution Core BT
+- Sensor EMG
+- Electrodos Ag/AgCl
+- OpenSignals (r)evolution
 
 ## Resultados
 
