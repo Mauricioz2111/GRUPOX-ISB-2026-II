@@ -49,14 +49,9 @@ El bíceps braquial fue utilizado para observar la actividad muscular durante di
 
 ### Reposo
 
+![EMG del bíceps con fuerza mínima](Imágenes/Captura de pantalla 2026-09-04 145707.png)
 
-### Fuerza mínima
 
-![EMG del bíceps con fuerza mínima](imágenes/Captura de pantalla 2026-09-04 145707.png)
-
-### Fuerza máxima
-
-![EMG del bíceps con fuerza máxima](images/biceps_fuerza_maxima.png)
 
 ---
 
@@ -66,7 +61,7 @@ El **abductor pollicis brevis** se encuentra en la región del pulgar y particip
 
 ### Reposo
 
-![EMG del pulgar en reposo](images/pulgar_reposo.png)
+![EMG del pulgar en reposo](Imágenes/Captura de pantalla 2026-09-04 151006.png)
 
 ### Fuerza mínima
 
@@ -123,25 +118,11 @@ En general, se espera observar una menor actividad eléctrica durante el reposo 
 
 La amplitud de la señal EMG refleja la actividad eléctrica asociada a la activación muscular, pero **no debe interpretarse directamente como una medida exacta de fuerza**.
 
----
 
-# 9. Procesamiento de la señal
-
-Las señales EMG presentan amplitudes pequeñas y pueden verse afectadas por ruido y artefactos de movimiento.
-
-Para EMG superficial, el Home Guide indica como banda típica de interés aproximadamente **20–450 Hz**. :contentReference[oaicite:6]{index=6}
-
-El procesamiento puede incluir:
-
-- Filtrado de ruido.
-- Rectificación de la señal.
-- Obtención de la envolvente.
-- Comparación de amplitudes.
-- Análisis de la actividad muscular.
 
 ---
 
-# 10. Conclusiones
+# 9. Conclusiones
 
 - Se adquirieron señales EMG de cuatro grupos musculares: **bíceps, pulgar, trapecio superior y cigomático mayor**.
 - Las señales fueron registradas utilizando **BITalino y OpenSignals**.
@@ -152,6 +133,3 @@ El procesamiento puede incluir:
 
 ---
 
-# 📚 Referencia
-
-BITalino. *BITalino (r)evolution Home Guide – Electromyography (EMG): Exploring Muscular Signals*. PLUX, 2021. :contentReference[oaicite:7]{index=7}
