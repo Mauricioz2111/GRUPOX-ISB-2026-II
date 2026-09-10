@@ -53,20 +53,27 @@ https://github.com/user-attachments/assets/a84982fc-8676-46ad-9ece-67371b3894ec
 
 
 ### Video de la señal 
- faltaaaaa !!
+#### B. Fase de movimiento leve
 
+https://github.com/user-attachments/assets/5580c149-173e-4936-9a60-f7b19327cc4d
 
+#### C. Fase de fuerza máxima
 
+https://github.com/user-attachments/assets/94e5a518-5367-48cb-bfad-ab5abcd494ef
 
 
 ### Ploteo de la señal en OpenSignal 
-Ploteo de la señal
+
+<p align="center">
+  <img src="./Imágenes/open_signal_biceps_braquial" alt="biceps braquial en Open Signal" width="500">
+</p>
 
 ### Archivos
 Archivos
 
 ### Ploteo de la señal en Python
 Ploteo de la señal en Python
+
 
 
 ## PRUEBA 2: Abductor corto del pulgar
@@ -83,13 +90,10 @@ El participante mantuvo la mano y el pulgar relajados durante aproximadamente 30
 
 https://github.com/user-attachments/assets/9aee90f9-23f4-4b2f-ba49-3ba6cab8b725
 
-
-
 #### B. Fase de movimiento leve
 Se realizaron tres abducciones lentas del pulgar, separándolo de la palma de forma controlada. Entre cada repetición se dejó un periodo de descanso. Durante el movimiento se esperaba distinguir un incremento de la señal debido a la activación del músculo.
 
 https://github.com/user-attachments/assets/4f0fa4fb-02ce-4fe8-8007-3374a7fb9a7a
-
 
 #### C. Fase de fuerza máxima
 El participante intentó separar el pulgar mientras otro integrante aplicaba una resistencia en sentido contrario. De esta manera, el músculo debía realizar un esfuerzo mayor para mantener el movimiento. Se hicieron tres intentos con un minuto de descanso entre cada uno.
@@ -97,11 +101,24 @@ El participante intentó separar el pulgar mientras otro integrante aplicaba una
 https://github.com/user-attachments/assets/d413864e-2a4d-443d-bb20-e2cf96fe21a0
 
 
-### Video de la señal 
-faltaaa
-
 ### Ploteo de la señal en OpenSignal 
-Ploteo de la señal
+#### A. Fase de reposo
+
+<p align="center">
+  <img src="./Imágenes/open_signal_abductor_corto_reposo.jpg" alt="Open signal del abductor corto en reposo" width="500">
+</p>
+
+#### B. Fase de movimiento leve
+
+<p align="center">
+  <img src="./Imágenes/open_signal_abductor_corto_leve.jpg" alt="Open signal de los  movimientos leves generados" width="500">
+</p>
+
+#### C. Fase de fuerza máxima
+
+<p align="center">
+  <img src="./Imágenes/open_signal_abductor_corto_máximo.jpg" alt="Open signal de la fuerza máxima ejercida" width="500">
+</p>
 
 ### Archivos
 Archivos
@@ -119,32 +136,39 @@ En la tercera prueba se registró la actividad del trapecio superior, localizado
   <img src="./Imágenes/prueba3_trapecio_superior_conexion.jpg" alt="Conexión de electrodos en el trapecio superior" width="500">
 </p>
 
-
 #### A. Fase de reposo
 El participante permaneció sentado con los hombros relajados durante aproximadamente 30 segundos. Se trató de mantener una postura estable y evitar movimientos del cuello, debido a que estos podían afectar el registro.
 
 https://github.com/user-attachments/assets/d96e72d4-f9db-42f0-9a7b-9f81c27fc2c9
-
 
 #### B. Fase de movimiento leve
 El participante elevó lentamente el hombro y luego regresó a la posición inicial. Este movimiento se realizó tres veces, dejando un periodo de reposo entre cada repetición. Se esperaba observar un aumento de la actividad del trapecio durante la elevación.
 
 https://github.com/user-attachments/assets/2f7ed252-6458-4b68-b16c-1025247c2b6a
 
-
-
 #### C. Fase de fuerza máxima
 El participante intentó elevar el hombro mientras otro integrante aplicaba una fuerza hacia abajo para oponerse al movimiento. Se realizaron tres intentos, separados por un minuto de descanso. Esta condición buscó producir una contracción mayor que la obtenida durante el movimiento leve.
 
 https://github.com/user-attachments/assets/6cf111d2-a12d-4699-a195-e8f97db299f8
 
-
-
-### Video de la señal 
-faltaaa
-
 ### Ploteo de la señal en OpenSignal 
-Ploteo de la señal
+#### A. Fase de reposo
+
+<p align="center">
+  <img src="./Imágenes/open_signal_trapecio_reposoo.jpg" alt="Open signal del trapecio mayor en reposo" width="500">
+</p>
+
+#### B. Fase de movimiento leve
+
+<p align="center">
+  <img src="./Imágenes/open_signal_trapecio_leve.jpg" alt="Open signal de los  movimientos leves generados" width="500">
+</p>
+
+#### C. Fase de fuerza máxima
+
+<p align="center">
+  <img src="./Imágenes/open_signal_trapecio_máximo.jpg" alt="Open signal de la fuerza máxima ejercida" width="500">
+</p>
 
 ### Archivos
 Archivos
@@ -167,24 +191,34 @@ El participante mantuvo el rostro relajado durante aproximadamente 30 segundos, 
 
 https://github.com/user-attachments/assets/6df24a53-f25b-4465-992d-5438b2ffa2e6
 
-
 #### B. Fase de movimiento leve
 El participante realizó una sonrisa leve y controlada en tres ocasiones, regresando a una expresión neutral después de cada repetición. Se esperaba observar un aumento de la señal durante la elevación de las comisuras de los labios.
 
 https://github.com/user-attachments/assets/9a03e7c9-5a06-4239-92db-dd41f9cfad0d
-
 
 #### C. Fase de fuerza máxima
 En esta fase, el participante realizó una sonrisa de mayor intensidad para generar una contracción más fuerte del cigomático mayor. Se realizaron tres intentos con periodos de descanso entre ellos. En este caso no se aplicó resistencia externa, debido a que se trataba de un músculo facial.
 
 https://github.com/user-attachments/assets/751460bc-c6e1-45d2-9bf1-a1ee5c1a3b18
 
-
-### Video de la señal 
-faltaa
-
 ### Ploteo de la señal en OpenSignal 
-Ploteo de la señal
+#### A. Fase de reposo
+
+<p align="center">
+  <img src="./Imágenes/open_signal_cigomático_reposoo.jpg" alt="Open signal del cigomático mayor en reposo" width="500">
+</p>
+
+#### B. Fase de movimiento leve
+
+<p align="center">
+  <img src="./Imágenes/open_signal_cigomático_leve.jpg" alt="Open signal de los  movimientos leves generados" width="500">
+</p>
+
+#### C. Fase de fuerza máxima
+
+<p align="center">
+  <img src="./Imágenes/open_signal_cigomático_máximo.jpg" alt="Open signal de la fuerza máxima ejercida" width="500">
+</p>
 
 ### Archivos
 Archivos
