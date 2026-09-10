@@ -63,7 +63,7 @@ https://github.com/user-attachments/assets/94e5a518-5367-48cb-bfad-ab5abcd494ef
 
 
 ### Ploteo de la señal en OpenSignal 
-
+En la gráfica obtenida en OpenSignals se observa la señal EMG registrada en el bíceps braquial a través del canal A1. Durante los periodos de relajación, la señal presenta una menor variación. En cambio, cuando el participante flexiona el codo, aparecen cambios de mayor amplitud debido a la activación del músculo.
 <p align="center">
   <img src="./Imágenes/open_signal_biceps_braquial.jpeg" alt="biceps braquial en Open Signal" width="500">
 </p>
@@ -103,19 +103,19 @@ https://github.com/user-attachments/assets/d413864e-2a4d-443d-bb20-e2cf96fe21a0
 
 ### Ploteo de la señal en OpenSignal 
 #### A. Fase de reposo
-
+Durante la fase de reposo, la señal presentó variaciones pequeñas alrededor de su nivel basal. Aunque el participante no realizó una contracción voluntaria, la señal no permaneció completamente constante, debido al ruido presente durante la adquisición y a pequeños movimientos involuntarios de la mano.
 <p align="center">
   <img src="./Imágenes/open_signal_abductor_corto_reposo.jpeg" alt="Open signal del abductor corto en reposo" width="500">
 </p>
 
 #### B. Fase de movimiento leve
-
+En esta fase se observaron aumentos de amplitud asociados con las abducciones leves del pulgar. Cada vez que el participante separó el pulgar de la palma, el abductor corto del pulgar se activó y se produjo una mayor variación de la señal en comparación con el reposo.
 <p align="center">
   <img src="./Imágenes/open_signal_abductor_corto_leve.jpeg" alt="Open signal de los  movimientos leves generados" width="500">
 </p>
 
 #### C. Fase de fuerza máxima
-
+Al aplicar una resistencia en sentido contrario al movimiento del pulgar, la señal mostró una mayor actividad respecto a la fase de movimiento leve. Esto se relaciona con el mayor esfuerzo realizado por el participante para mantener la abducción frente a la fuerza externa.
 <p align="center">
   <img src="./Imágenes/open_signal_abductor_corto_máximo.jpeg" alt="Open signal de la fuerza máxima ejercida" width="500">
 </p>
@@ -153,19 +153,19 @@ https://github.com/user-attachments/assets/6cf111d2-a12d-4699-a195-e8f97db299f8
 
 ### Ploteo de la señal en OpenSignal 
 #### A. Fase de reposo
-
+En reposo, la señal del trapecio superior presentó una amplitud relativamente baja. Sin embargo, se observaron pequeñas variaciones que pudieron deberse al mantenimiento de la postura, a movimientos involuntarios del cuello o al ruido propio de la adquisición.
 <p align="center">
   <img src="./Imágenes/open_signal_trapecio_reposoo.jpeg" alt="Open signal del trapecio mayor en reposo" width="500">
 </p>
 
 #### B. Fase de movimiento leve
-
+Durante la elevación leve del hombro se observaron aumentos de amplitud relacionados con la activación del trapecio superior. La señal disminuyó nuevamente cuando el participante regresó a la posición de reposo.
 <p align="center">
   <img src="./Imágenes/open_signal_trapecio_leve.jpeg" alt="Open signal de los  movimientos leves generados" width="500">
 </p>
 
 #### C. Fase de fuerza máxima
-
+Cuando se aplicó una fuerza hacia abajo sobre el hombro, el participante tuvo que realizar un esfuerzo mayor para mantenerlo elevado. En esta condición se observó una actividad EMG más intensa que durante el movimiento leve, debido al mayor reclutamiento de unidades motoras.
 <p align="center">
   <img src="./Imágenes/open_signal_trapecio_máximo.jpeg" alt="Open signal de la fuerza máxima ejercida" width="500">
 </p>
@@ -203,19 +203,19 @@ https://github.com/user-attachments/assets/751460bc-c6e1-45d2-9bf1-a1ee5c1a3b18
 
 ### Ploteo de la señal en OpenSignal 
 #### A. Fase de reposo
-
+Durante el reposo facial, la señal presentó una amplitud baja, aunque no fue completamente constante. Esto pudo relacionarse con pequeños movimientos involuntarios del rostro, de la mandíbula o con el ruido registrado por los electrodos.
 <p align="center">
   <img src="./Imágenes/open_signal_cigomático_reposoo.jpeg" alt="Open signal del cigomático mayor en reposo" width="500">
 </p>
 
 #### B. Fase de movimiento leve
-
+Durante las sonrisas leves se observaron incrementos de amplitud respecto al reposo. Estos cambios se relacionan con la contracción del cigomático mayor al elevar las comisuras de los labios (esquinas de la boca). Entre cada sonrisa, la señal volvió a presentar valores cercanos al nivel basal.
 <p align="center">
   <img src="./Imágenes/open_signal_cigomático_leve.jpeg" alt="Open signal de los  movimientos leves generados" width="500">
 </p>
 
 #### C. Fase de fuerza máxima
-
+Durante la sonrisa máxima se observó una mayor actividad de la señal EMG en comparación con el reposo y la sonrisa leve. Esto se debió a una contracción más intensa del cigomático mayor al elevar y retraer las comisuras de los labios.
 <p align="center">
   <img src="./Imágenes/open_signal_cigomático_máximo.jpeg" alt="Open signal de la fuerza máxima ejercida" width="500">
 </p>
@@ -242,4 +242,17 @@ Ploteo de la señal en Python
    La amplitud aumenta directamente con la intensidad de la fuerza aplicada. En reposo se observan valores entre 5uV y 50uV, mientras que en una contracción máxima voluntaria la amplitud aumenta debido al mayor reclutamiento de unidades motoras. En cuanto a si existe alguna diferencia según la ubicación el cuerpo, sí existe una diferencia. Músculos con mayor volument generan potenciales de acción más elevados. Asimismo, factores como el grosor del tejido adiposo sudcutáneo y la impedancia cutánea atenúan la señal de forma distinta en cada parte del cuerpo.
 
    - **Muestre una captura de pantalla de una parte relevante de los datos de electromiografía (EMG) obtenidos durante el experimento propuesto en la Sección D, correspondientes al músculo facial de interés. ¿Coincide esta señal con lo que esperaba?¿Por qué?¿Qué emoción y acción realizó para activar el músculo?¿Qué músculo activó?**
+
+    <p align="center">
+      <img src="./Imágenes/open_signal_cigomático_máximo.jpeg" alt="Open signal de la fuerza máxima ejercida" width="500">
+    </p>
+
+    La señal obtenida coincidió con lo esperado, ya que durante la sonrisa se observó un aumento de la actividad EMG en comparación con el reposo facial. La emoción representada fue felicidad y la acción realizada consistió en sonreír, elevando y retrayendo las comisuras de los labios (esquinas de la boca). Este movimiento produjo principalmente la activación del músculo cigomático mayor.
+
+    La señal no fue completamente uniforme durante las repeticiones, lo cual era esperable porque la intensidad y la duración de cada sonrisa no fueron exactamente iguales. Además, los movimientos de otros músculos faciales o de la mandíbula pudieron influir en el registro.
+
    - **Según su criterio, ¿equivale la amplitud de la EMG a la cantidad de fuerza generada por el músculo?**
+
+   La amplitud de la señal EMG no equivale directamente a la fuerza producida por el músculo, aunque ambas variables se encuentran relacionadas. Al aumentar el esfuerzo muscular, generalmente se recluta una mayor cantidad de unidades motoras y la amplitud de la señal tiende a incrementarse. Esto se pudo notar al comparar las fases de reposo, movimiento leve y contracción máxima.
+
+    Sin embargo, la amplitud también depende de otros factores, como la ubicación de los electrodos, el tejido entre el músculo y la piel, el movimiento durante la medición, la fatiga y la participación de otros músculos. Por ello, una señal con mayor amplitud puede indicar una mayor activación eléctrica, pero no permite conocer directamente la fuerza generada sin realizar un procesamiento adicional y compararla con una medición de fuerza.
