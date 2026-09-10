@@ -65,7 +65,7 @@ https://github.com/user-attachments/assets/94e5a518-5367-48cb-bfad-ab5abcd494ef
 ### Ploteo de la señal en OpenSignal 
 
 <p align="center">
-  <img src="./Imágenes/open_signal_biceps_braquial" alt="biceps braquial en Open Signal" width="500">
+  <img src="./Imágenes/open_signal_biceps_braquial.jpeg" alt="biceps braquial en Open Signal" width="500">
 </p>
 
 ### Archivos
@@ -105,19 +105,19 @@ https://github.com/user-attachments/assets/d413864e-2a4d-443d-bb20-e2cf96fe21a0
 #### A. Fase de reposo
 
 <p align="center">
-  <img src="./Imágenes/open_signal_abductor_corto_reposo.jpg" alt="Open signal del abductor corto en reposo" width="500">
+  <img src="./Imágenes/open_signal_abductor_corto_reposo.jpeg" alt="Open signal del abductor corto en reposo" width="500">
 </p>
 
 #### B. Fase de movimiento leve
 
 <p align="center">
-  <img src="./Imágenes/open_signal_abductor_corto_leve.jpg" alt="Open signal de los  movimientos leves generados" width="500">
+  <img src="./Imágenes/open_signal_abductor_corto_leve.jpeg" alt="Open signal de los  movimientos leves generados" width="500">
 </p>
 
 #### C. Fase de fuerza máxima
 
 <p align="center">
-  <img src="./Imágenes/open_signal_abductor_corto_máximo.jpg" alt="Open signal de la fuerza máxima ejercida" width="500">
+  <img src="./Imágenes/open_signal_abductor_corto_máximo.jpeg" alt="Open signal de la fuerza máxima ejercida" width="500">
 </p>
 
 ### Archivos
@@ -155,19 +155,19 @@ https://github.com/user-attachments/assets/6cf111d2-a12d-4699-a195-e8f97db299f8
 #### A. Fase de reposo
 
 <p align="center">
-  <img src="./Imágenes/open_signal_trapecio_reposoo.jpg" alt="Open signal del trapecio mayor en reposo" width="500">
+  <img src="./Imágenes/open_signal_trapecio_reposoo.jpeg" alt="Open signal del trapecio mayor en reposo" width="500">
 </p>
 
 #### B. Fase de movimiento leve
 
 <p align="center">
-  <img src="./Imágenes/open_signal_trapecio_leve.jpg" alt="Open signal de los  movimientos leves generados" width="500">
+  <img src="./Imágenes/open_signal_trapecio_leve.jpeg" alt="Open signal de los  movimientos leves generados" width="500">
 </p>
 
 #### C. Fase de fuerza máxima
 
 <p align="center">
-  <img src="./Imágenes/open_signal_trapecio_máximo.jpg" alt="Open signal de la fuerza máxima ejercida" width="500">
+  <img src="./Imágenes/open_signal_trapecio_máximo.jpeg" alt="Open signal de la fuerza máxima ejercida" width="500">
 </p>
 
 ### Archivos
@@ -184,7 +184,7 @@ Finalmente, se evaluó el cigomático mayor, músculo facial que participa princ
 
 <p align="center">
   <img src="./Imágenes/prueba4_cigomátco_mayor_conexion.jpg" alt="Conexión de electrodos en el cigomático mayor" width="500">
-</p>)
+</p>
 
 #### A. Fase de reposo
 El participante mantuvo el rostro relajado durante aproximadamente 30 segundos, evitando hablar, sonreír o mover la mandíbula. Esto permitió obtener un registro basal de la actividad muscular facial.
@@ -205,19 +205,19 @@ https://github.com/user-attachments/assets/751460bc-c6e1-45d2-9bf1-a1ee5c1a3b18
 #### A. Fase de reposo
 
 <p align="center">
-  <img src="./Imágenes/open_signal_cigomático_reposoo.jpg" alt="Open signal del cigomático mayor en reposo" width="500">
+  <img src="./Imágenes/open_signal_cigomático_reposoo.jpeg" alt="Open signal del cigomático mayor en reposo" width="500">
 </p>
 
 #### B. Fase de movimiento leve
 
 <p align="center">
-  <img src="./Imágenes/open_signal_cigomático_leve.jpg" alt="Open signal de los  movimientos leves generados" width="500">
+  <img src="./Imágenes/open_signal_cigomático_leve.jpeg" alt="Open signal de los  movimientos leves generados" width="500">
 </p>
 
 #### C. Fase de fuerza máxima
 
 <p align="center">
-  <img src="./Imágenes/open_signal_cigomático_máximo.jpg" alt="Open signal de la fuerza máxima ejercida" width="500">
+  <img src="./Imágenes/open_signal_cigomático_máximo.jpeg" alt="Open signal de la fuerza máxima ejercida" width="500">
 </p>
 
 ### Archivos
