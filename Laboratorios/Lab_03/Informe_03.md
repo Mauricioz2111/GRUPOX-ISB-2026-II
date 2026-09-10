@@ -243,14 +243,12 @@ Ploteo de la señal en Python
 
    - **Muestre una captura de pantalla de una parte relevante de los datos de electromiografía (EMG) obtenidos durante el experimento propuesto en la Sección D, correspondientes al músculo facial de interés. ¿Coincide esta señal con lo que esperaba?¿Por qué?¿Qué emoción y acción realizó para activar el músculo?¿Qué músculo activó?**
   
-    ![Señal EMG del cigomático mayor durante la sonrisa máxima](./Imágenes/open_signal_cigomático_máximo.jpeg)
-
-    La señal obtenida coincidió con lo esperado, ya que durante la sonrisa se observó un aumento de la actividad EMG en comparación con el reposo facial. La emoción representada fue la felicidad y la acción realizada consistió en sonreír, elevando y retrayendo las comisuras de los labios (esquinas de la boca). Este movimiento produjo principalmente la activación del músculo cigomático mayor.
-
-    La señal no fue completamente uniforme durante las repeticiones, lo cual era esperable porque la intensidad y la duración de cada sonrisa no fueron exactamente iguales. Además, los movimientos de otros músculos faciales o de la mandíbula pudieron influir en el registro.
+   La señal obtenida coincidió con lo esperado, ya que durante la sonrisa se observó un aumento de la actividad EMG en comparación con el reposo facial. La emoción representada fue la felicidad y la acción realizada consistió en sonreír, elevando y retrayendo las comisuras de los labios (esquinas de la boca). Este movimiento produjo principalmente la activación del músculo cigomático mayor.
+  
+   La señal no fue completamente uniforme durante las repeticiones, lo cual era esperable porque la intensidad y la duración de cada sonrisa no fueron exactamente iguales. Además, los movimientos de otros músculos faciales o de la mandíbula pudieron influir en el registro.
 
    - **Según su criterio, ¿equivale la amplitud de la EMG a la cantidad de fuerza generada por el músculo?**
 
-    La amplitud de la señal EMG no equivale directamente a la fuerza producida por el músculo, aunque ambas variables se encuentran relacionadas. Al aumentar el esfuerzo muscular, generalmente se recluta una mayor cantidad de unidades motoras y la amplitud de la señal tiende a incrementarse. Esto se pudo notar al comparar las fases de reposo, movimiento leve y contracción máxima.
+   La amplitud de la señal EMG no equivale directamente a la fuerza producida por el músculo, aunque ambas variables se encuentran relacionadas. Al aumentar el esfuerzo muscular, generalmente se recluta una mayor cantidad de unidades motoras y la amplitud de la señal tiende a incrementarse. Esto se pudo notar al comparar las fases de reposo, movimiento leve y contracción máxima.
 
-    Sin embargo, la amplitud también depende de otros factores, como la ubicación de los electrodos, el tejido entre el músculo y la piel, el movimiento durante la medición, la fatiga y la participación de otros músculos. Por ello, una señal con mayor amplitud puede indicar una mayor activación eléctrica, pero no permite conocer directamente la fuerza generada sin realizar un procesamiento adicional y compararla con una medición de fuerza.
+   Sin embargo, la amplitud también depende de otros factores, como la ubicación de los electrodos, el tejido entre el músculo y la piel, el movimiento durante la medición, la fatiga y la participación de otros músculos. Por ello, una señal con mayor amplitud puede indicar una mayor activación eléctrica, pero no permite conocer directamente la fuerza generada sin realizar un procesamiento adicional y compararla con una medición de fuerza.
