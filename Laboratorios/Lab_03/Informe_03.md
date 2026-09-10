@@ -63,6 +63,7 @@ Archivos
 ### Ploteo de la señal en Python
 Ploteo de la señal en Python
 
+
 ## PRUEBA 2: Abductor corto del pulgar
 
 ### Conexión usada 
@@ -102,16 +103,31 @@ Archivos
 Ploteo de la señal en Python
 
 
-## PRUEBA 3: 
+## PRUEBA 3: Trapecio ?
 
 ### Conexión usada 
+---------
 
-Conexion usada
+<p align="center">
+  <img src="./Imágenes/prueba_2_Abductor_corto_del_pulgar_conexion.jpg" alt="Conexión de electrodos en el adbuctor corto del dedo pulgar" width="500">
+</p>
 
-### Video de la señal
+
+#### A. Fase de reposo
+
+
+
+#### B. Fase de movimiento leve
+
+
+
+#### C. Fase de fuerza máxima
+
+
+### Video de la señal 
 Video de la señal
 
-### Ploteo de la señal en OpenSignal
+### Ploteo de la señal en OpenSignal 
 Ploteo de la señal
 
 ### Archivos
@@ -119,6 +135,41 @@ Archivos
 
 ### Ploteo de la señal en Python
 Ploteo de la señal en Python
+
+
+## PRUEBA 4: Cara
+
+### Conexión usada 
+---------
+
+##<p align="center">
+  <img src="./Imágenes/prueba_2_Abductor_corto_del_pulgar_conexion.jpg" alt="Conexión de electrodos en el adbuctor corto del dedo pulgar" width="500">
+</p>)
+
+#### A. Fase de reposo
+
+
+
+#### B. Fase de movimiento leve
+
+
+
+#### C. Fase de fuerza máxima
+
+
+### Video de la señal 
+Video de la señal
+
+### Ploteo de la señal en OpenSignal 
+Ploteo de la señal
+
+### Archivos
+Archivos
+
+### Ploteo de la señal en Python
+Ploteo de la señal en Python
+
+
 
 ## Preguntas de la sesión
    - ¿Cuáles son las frecuencias significativas para las adquisiciones de EMG?¿Son las mismas en todas las zonas del cuerpo, como por ejemplo en la zona facial?
