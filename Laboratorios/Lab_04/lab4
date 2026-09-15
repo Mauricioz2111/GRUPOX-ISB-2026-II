@@ -1,0 +1,122 @@
+# Análisis de señales EMG
+
+## 1. Objetivo
+
+Adquirir y analizar señales de electromiografía (EMG) de diferentes grupos musculares utilizando **BITalino y OpenSignals**.
+
+Se realizaron adquisiciones en:
+
+- **Bíceps braquial**
+- **Abductor pollicis brevis (pulgar)**
+- **Trapecio superior**
+- **Cigomático mayor**
+
+Para cada músculo se analizaron diferentes niveles de actividad muscular, incluyendo reposo, fuerza mínima y fuerza máxima.
+
+---
+
+# 2. Materiales
+
+Para la adquisición se utilizó:
+
+- BITalino (r)evolution Core BT
+- Sensor EMG
+- Electrodos Ag/AgCl
+- OpenSignals (r)evolution
+
+Los electrodos de medición se colocan sobre el músculo siguiendo la orientación de sus fibras, mientras que el electrodo de referencia se coloca en una zona neutra. 
+
+---
+
+# 3. Procedimiento de adquisición
+
+Para cada grupo muscular se siguió el protocolo indicado en el Home Guide:
+
+1. Conectar el BITalino.
+2. Comprobar la configuración.
+3. Visualizar la señal EMG en OpenSignals.
+4. Registrar una línea basal en reposo durante **30 segundos**.
+5. Realizar *3 ciclos de contracción del músculo y por cada contracción reposo de 30s**.
+7. Aumentar progresivamente la intensidad de la contracción.
+8. Llegar finalmente a la **contracción voluntaria máxima**.
+9. Guardar los datos de las gráficas y guardar los archivos
+
+---
+
+# 4. Bíceps braquial
+
+El bíceps braquial fue utilizado para observar la actividad muscular durante diferentes niveles de contracción.
+
+
+---
+
+# 5. Abductor pollicis brevis – Pulgar
+
+El **abductor pollicis brevis** se encuentra en la región del pulgar y participa en la abducción del mismo. Los electrodos se colocan siguiendo la orientación de las fibras musculares. :contentReference[oaicite:3]{index=3}
+
+### Reposo
+
+
+### Fuerza mínima
+
+
+### Fuerza máxima
+
+
+---
+
+# 6. Trapecio superior
+
+El **trapecio superior** es un músculo superficial ubicado en la región superior de la espalda y cuello. Para su adquisición, los electrodos se colocan siguiendo la orientación de las fibras musculares. :contentReference[oaicite:4]{index=4}
+
+### Reposo
+
+
+### Fuerza mínima
+
+
+### Fuerza máxima
+
+
+---
+
+# 7. Cigomático mayor
+
+El **cigomático mayor** es un músculo facial relacionado con la elevación y retracción de los labios, como ocurre durante una sonrisa. El Home Guide propone utilizar EMG para observar su actividad durante la activación facial. :contentReference[oaicite:5]{index=5}
+
+### Reposo
+
+
+### Activación
+
+
+---
+
+# 8. Comparación de las señales
+
+En general, se espera observar una menor actividad eléctrica durante el reposo y un aumento de la actividad EMG al incrementar la contracción muscular.
+
+| Músculo | Reposo | Fuerza/activación |
+|---------|--------|-------------------|
+| Bíceps braquial | Baja actividad | Mayor actividad |
+| Abductor pollicis brevis | Baja actividad | Mayor actividad |
+| Trapecio superior | Baja actividad | Mayor actividad |
+| Cigomático mayor | Baja actividad | Mayor actividad |
+
+La amplitud de la señal EMG refleja la actividad eléctrica asociada a la activación muscular, pero **no debe interpretarse directamente como una medida exacta de fuerza**.
+
+
+
+---
+
+# 9. Conclusiones
+
+- Se adquirieron señales EMG de cuatro grupos musculares: **bíceps, pulgar, trapecio superior y cigomático mayor**.
+- Las señales fueron registradas utilizando **BITalino y OpenSignals**.
+- Se compararon diferentes niveles de actividad muscular.
+- En reposo se observó una señal de menor amplitud.
+- Al aumentar la activación muscular, la señal presentó mayor actividad y variabilidad.
+- La correcta colocación de los electrodos es importante para obtener señales de buena calidad.
+
+---
+
