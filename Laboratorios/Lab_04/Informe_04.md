@@ -72,15 +72,17 @@ Durante esta prueba, el participante disminuyó voluntariamente su frecuencia re
 
 
 
+
+
 #### C. Hiperventilación
 Durante esta prueba, el participante aumentó voluntariamente la frecuencia y profundidad de su respiración. La señal ECG se registró durante esta condición para observar las variaciones producidas por una respiración más rápida y profunda.
 
-https://github.com/user-attachments/assets/5fe2c770-742a-4797-83d4-41a29cac6695
+https://github.com/user-attachments/assets/c32edcd3-f383-4ba3-9b65-f405412b2bfe
 
 #### D. Actividad física
 El participante realizó la actividad física establecida por el grupo. La señal ECG se registró para observar los cambios producidos en la frecuencia cardiaca y la presencia de artefactos ocasionados por el movimiento.
 
-https://github.com/user-attachments/assets/c32edcd3-f383-4ba3-9b65-f405412b2bfe
+https://github.com/user-attachments/assets/5fe2c770-742a-4797-83d4-41a29cac6695
 
 
 
@@ -138,14 +140,12 @@ El participante disminuyó voluntariamente su frecuencia respiratoria mientras s
 #### C. Hiperventilación
 El participante aumentó voluntariamente la frecuencia y profundidad de la respiración mientras se registraba la señal ECG mediante la derivación II.
 
-https://github.com/user-attachments/assets/c2fcb044-5dac-4cd2-b5eb-d6344efd8973
+https://github.com/user-attachments/assets/4a5d418c-aa11-4dcd-8c74-164994804043
 
 #### D. Actividad física
 El participante realizó la actividad física establecida por el grupo y se registró la señal correspondiente a la derivación II. Esta adquisición permitió observar los cambios posteriores al esfuerzo físico.
 
-https://github.com/user-attachments/assets/4a5d418c-aa11-4dcd-8c74-164994804043
-
-
+https://github.com/user-attachments/assets/c2fcb044-5dac-4cd2-b5eb-d6344efd8973
 
 
 
@@ -201,12 +201,12 @@ El participante disminuyó voluntariamente su frecuencia respiratoria mientras s
 #### C. Hiperventilación
 El participante aumentó voluntariamente la frecuencia y profundidad de la respiración mientras se registraba la señal ECG mediante la derivación III.
 
- https://github.com/user-attachments/assets/aec6b3a4-caf0-4b57-a255-c6e012211248
+https://github.com/user-attachments/assets/869587b5-dbec-4f50-a69a-dcaad1c3abbf
 
 #### D. Actividad física
 El participante realizó la actividad física establecida por el grupo y se registró la señal ECG correspondiente a la derivación III. Durante el análisis se deberá considerar que el movimiento puede introducir artefactos en el registro.
 
-https://github.com/user-attachments/assets/869587b5-dbec-4f50-a69a-dcaad1c3abbf
+https://github.com/user-attachments/assets/aec6b3a4-caf0-4b57-a255-c6e012211248
 
 
 
