@@ -251,6 +251,8 @@ Ploteo de la señal en Python
 
 
    - **Los sistemas cardiaco y respiratorio se encuentran relacionados. ¿Considera que las distintas formas de respiración, como una respiración más rápida o profunda, pueden influir en la señal ECG? Muestre capturas de las señales obtenidas bajo diferentes condiciones respiratorias y describa las variaciones observadas, si las hubiera.** (jairo)
+
+   
    
    - **En la Home-Guide n.º 1 se observó que diferentes niveles de fuerza muscular producían señales con amplitudes distintas. ¿Cómo influye el movimiento en la señal ECG?** (jairo)
   
@@ -259,6 +261,7 @@ Ploteo de la señal en Python
    Esto se notó principalmente durante la actividad física, ya que al realizar los burpees se activaron varios músculos y hubo bastante movimiento corporal. Por esa razón, durante el ejercicio fue más difícil reconocer con claridad los componentes del ECG. Para evaluar la frecuencia cardiaca fue más conveniente observar el registro obtenido después del ejercicio, cuando el participante ya estaba quieto, pero su frecuencia cardiaca todavía se encontraba elevada.
 
    - **Según sus conocimientos, ¿cómo se pueden detectar la bradicardia y la taquicardia en una señal ECG?** (jairo)
+  
    Para identificarlas se pueden ubicar los picos R y medir el tiempo entre dos picos consecutivos, conocido como intervalo R-R. Con este intervalo se calcula la frecuencia cardiaca:
 
    Frecuencia cardiaca (lpm) = 60 / intervalo R-R (s)
