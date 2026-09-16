@@ -334,31 +334,27 @@ Ploteo de la señal en Python
 
 
 
-
 ## Preguntas de la sesión
-   - **¿Cuáles son las frecuencias significativas para las adquisiciones de EMG?¿Son las mismas en todas las zonas del cuerpo, como por ejemplo en la zona facial?**
+
+   - **¿Cuáles son las fuentes de ruido más comunes que afectan a una señal de ECG?**
 
    La energía de la señal EMG de superficie se distribuye entre 10Hz y 500Hz, concentrando su mayor potencia en la banda de 20Hz y 150Hz. Estas frecuencias no son exactamente las mismas para todas las zonas del cuerpo. En el caso de los músculos faciales, por ejemplo, estos poseen unidades motoras más pequeñas y tasas de disparo más elevadas para lograr movimientos finos, desplazado su espectro hacia frecuencias más altas en comparación con los grandes músculos de las extremidades
 
-   - **¿Qué tipo de filtro es esencial al trabajar con señales de EMG?¿Por qué es necesario aplicar dicho filtro?**
+   - **¿Por qué el cambio en la posición de los electrodos, entre las derivaciones I, II y III, modifica los componentes de la señal ECG? ¿Cómo cambian estos componentes?**
+   
 
-   El filtro esencial es el Filtro Pasa-Banda (10Hz - 500Hz), debido a que las frecuencias inferiores a 10-20Hz corresponden a artefactos de movimiento y fluctuaciones de la línea base, mientras que las frecuencias superiores a 500Hz corresponden a ruido electrónico o térmico. Por otro lado, tambien se uso mucho el Filtro Notch o Muesca (50Hz o 60Hz), el cual elimina el zumbido acoplado por la red eléctrica del entorno.
+   - **¿Existen diferencias importantes al adquirir la señal ECG en distintas partes del cuerpo, como las muñecas, las clavículas o el pecho? ¿Cuál podría ser la causa? ¿Esperaba observar estos cambios? Muestre un segmento de la señal obtenida en cada ubicación para visualizar las diferencias.**
 
-   - **¿Cómo varía la amplitud en cada contracción muscular?¿Existe alguna diferencia según la ubicación en el cuerpo?**
 
-   La amplitud aumenta directamente con la intensidad de la fuerza aplicada. En reposo se observan valores entre 5uV y 50uV, mientras que en una contracción máxima voluntaria la amplitud aumenta debido al mayor reclutamiento de unidades motoras. En cuanto a si existe alguna diferencia según la ubicación el cuerpo, sí existe una diferencia. Músculos con mayor volument generan potenciales de acción más elevados. Asimismo, factores como el grosor del tejido adiposo sudcutáneo y la impedancia cutánea atenúan la señal de forma distinta en cada parte del cuerpo.
+   - **Los sistemas cardiaco y respiratorio se encuentran relacionados. ¿Considera que las distintas formas de respiración, como una respiración más rápida o profunda, pueden influir en la señal ECG? Muestre capturas de las señales obtenidas bajo diferentes condiciones respiratorias y describa las variaciones observadas, si las hubiera.**
 
-   - **Muestre una captura de pantalla de una parte relevante de los datos de electromiografía (EMG) obtenidos durante el experimento propuesto en la Sección D, correspondientes al músculo facial de interés. ¿Coincide esta señal con lo que esperaba?¿Por qué?¿Qué emoción y acción realizó para activar el músculo?¿Qué músculo activó?**
-  
-   <p align="center">
-     <img src="./Imágenes/open_signal_cigomático_máximo.jpeg" alt="Open signal de la fuerza máxima ejercida" width="500">
-   </p>
-   La señal obtenida coincidió con lo esperado, ya que durante la sonrisa se observó un aumento de la actividad EMG en comparación con el reposo facial. La emoción representada fue la felicidad y la acción realizada consistió en sonreír, elevando y retrayendo las comisuras de los labios (esquinas de la boca). Este movimiento produjo principalmente la activación del músculo cigomático mayor.
-  
-   La señal no fue completamente uniforme durante las repeticiones, lo cual era esperable porque la intensidad y la duración de cada sonrisa no fueron exactamente iguales. Además, los movimientos de otros músculos faciales o de la mandíbula pudieron influir en el registro.
 
-   - **Según su criterio, ¿equivale la amplitud de la EMG a la cantidad de fuerza generada por el músculo?**
+   - **En la Home-Guide n.º 1 se observó que diferentes niveles de fuerza muscular producían señales con amplitudes distintas. ¿Cómo influye el movimiento en la señal ECG?**
 
-   La amplitud de la señal EMG no equivale directamente a la fuerza producida por el músculo, aunque ambas variables se encuentran relacionadas. Al aumentar el esfuerzo muscular, generalmente se recluta una mayor cantidad de unidades motoras y la amplitud de la señal tiende a incrementarse. Esto se pudo notar al comparar las fases de reposo, movimiento leve y contracción máxima.
 
-   Sin embargo, la amplitud también depende de otros factores, como la ubicación de los electrodos, el tejido entre el músculo y la piel, el movimiento durante la medición, la fatiga y la participación de otros músculos. Por ello, una señal con mayor amplitud puede indicar una mayor activación eléctrica, pero no permite conocer directamente la fuerza generada sin realizar un procesamiento adicional y compararla con una medición de fuerza.
+
+   - **Según sus conocimientos, ¿cómo se pueden detectar la bradicardia y la taquicardia en una señal ECG?**
+
+   
+
+
