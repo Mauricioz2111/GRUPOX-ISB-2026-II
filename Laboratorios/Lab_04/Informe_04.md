@@ -70,12 +70,12 @@ Se realizaron tres ciclos de inhalación, apnea, exhalación y apnea. Cada una d
 #### C. Actividad física
 Después de registrar una segunda línea basal de 30 segundos, el participante realizó 10 burpees. Se mantuvo la adquisición antes, durante y después del ejercicio para observar los cambios de la frecuencia cardiaca.
 
-
+https://github.com/user-attachments/assets/5fe2c770-742a-4797-83d4-41a29cac6695
 
 #### D. Inhalación prolongada y apnea
 Luego de una tercera línea basal de 30 segundos, el participante realizó una inhalación prolongada de aproximadamente 10 segundos y mantuvo la respiración durante aproximadamente 10 segundos.
 
-
+https://github.com/user-attachments/assets/c32edcd3-f383-4ba3-9b65-f405412b2bfe
 
 
 
@@ -112,6 +112,10 @@ En esta prueba se utilizó la derivación II de Einthoven, la cual registra la s
 
 Para obtener esta configuración a partir de la derivación I, se intercambiaron las posiciones del electrodo positivo rojo (IN+) y del electrodo de referencia blanco (REF), de acuerdo con el esquema presentado en la guía. Se utilizó la ubicación corporal en la que se había obtenido la señal más clara.
 
+<p align="center">
+  <img src="./Imágenes/prueba2_conexión.jpg" alt="Conexión de prueba 2" width="500">
+</p>
+
 
 #### A. Línea basal inicial
 El participante permaneció en reposo durante 30 segundos, respirando normalmente y evitando movimientos. Este registro se utilizó como línea basal de la derivación II.
@@ -127,10 +131,15 @@ Se realizaron tres ciclos de inhalación, apnea, exhalación y apnea. Cada etapa
 #### C. Actividad física
 Después de una segunda línea basal de 30 segundos, el participante realizó 10 burpees. La señal se registró antes, durante y después del ejercicio.
 
-
+https://github.com/user-attachments/assets/c2fcb044-5dac-4cd2-b5eb-d6344efd8973
 
 #### D. Inhalación prolongada y apnea
 Después de una tercera línea basal, el participante realizó una inhalación prolongada durante aproximadamente 10 segundos y mantuvo la respiración durante otros 10 segundos.
+
+https://github.com/user-attachments/assets/4a5d418c-aa11-4dcd-8c74-164994804043
+
+
+
 
 
 
@@ -153,6 +162,10 @@ Después de una tercera línea basal, el participante realizó una inhalación p
 #### D. Inhalación prolongada y apnea
 
 
+
+
+
+
 ### Ploteo de la señal en OpenSignal 
 
 
@@ -172,6 +185,9 @@ En esta prueba se utilizó la derivación III de Einthoven, la cual registra la 
 
 Para cambiar de la derivación II a la derivación III, se intercambiaron las posiciones del electrodo negativo negro (IN−) y del electrodo de referencia blanco (REF), siguiendo el esquema indicado en la guía. Se mantuvo la misma ubicación corporal utilizada para la derivación II.
 
+<p align="center">
+  <img src="./Imágenes/prueba3_conexión.jpg" alt="Conexión de prueba 3" width="500">
+</p>
 
 
 #### A. Línea basal inicial
@@ -187,11 +203,12 @@ Se realizaron tres ciclos de inhalación, apnea, exhalación y apnea. Cada etapa
 #### C. Actividad física
 Luego de registrar una segunda línea basal, el participante realizó 10 burpees. La adquisición se mantuvo antes, durante y después del ejercicio para observar los cambios en la frecuencia cardiaca.
 
-
+ https://github.com/user-attachments/assets/aec6b3a4-caf0-4b57-a255-c6e012211248
 
 #### D. Inhalación prolongada y apnea
 Después de una tercera línea basal, el participante realizó una inhalación prolongada durante aproximadamente 10 segundos y mantuvo la respiración durante otros 10 segundos.
 
+https://github.com/user-attachments/assets/869587b5-dbec-4f50-a69a-dcaad1c3abbf
 
 
 
