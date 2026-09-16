@@ -70,9 +70,9 @@ https://github.com/user-attachments/assets/7d7d8282-91c8-47d0-ba61-9d6debcc7626
 #### B. Hipoventilación
 Durante esta prueba, el participante disminuyó voluntariamente su frecuencia respiratoria. La señal ECG se registró durante esta condición para observar si el cambio en el patrón respiratorio producía variaciones en la señal.
 
-
-
-
+<p align="center">
+  <img src="./Imágenes/prueba1_hipo.jpg" alt="Hipoventilación para caso 1" width="500">
+</p>
 
 #### C. Hiperventilación
 Durante esta prueba, el participante aumentó voluntariamente la frecuencia y profundidad de su respiración. La señal ECG se registró durante esta condición para observar las variaciones producidas por una respiración más rápida y profunda.
@@ -128,14 +128,15 @@ Para obtener esta derivación, el electrodo negativo negro (IN−) se colocó en
 #### A. Reposo
 El participante permaneció quieto y respiró normalmente durante la adquisición. Este registro se utilizó como señal basal de la derivación II.
 
-
 https://github.com/user-attachments/assets/d8814ab4-fb6f-4e16-b76a-a65e575d9085
 
 
 #### B. Hipoventilación
 El participante disminuyó voluntariamente su frecuencia respiratoria mientras se registraba la señal ECG mediante la derivación II. Se evitó realizar movimientos adicionales para reducir la aparición de artefactos.
 
-
+<p align="center">
+  <img src="./Imágenes/prueba2_hipo.jpg" alt="Hipoventilación para caso 2" width="500">
+</p>
 
 #### C. Hiperventilación
 El participante aumentó voluntariamente la frecuencia y profundidad de la respiración mientras se registraba la señal ECG mediante la derivación II.
@@ -196,7 +197,9 @@ https://github.com/user-attachments/assets/161a731d-d6a2-48fe-adad-bcf8fa3ecc25
 #### B. Hipoventilación
 El participante disminuyó voluntariamente su frecuencia respiratoria mientras se registraba la señal ECG mediante la derivación III.
 
-
+<p align="center">
+  <img src="./Imágenes/prueba3_hipo.jpg" alt="Hipoventilación para caso 3" width="500">
+</p>
 
 #### C. Hiperventilación
 El participante aumentó voluntariamente la frecuencia y profundidad de la respiración mientras se registraba la señal ECG mediante la derivación III.
