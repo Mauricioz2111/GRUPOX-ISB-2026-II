@@ -21,10 +21,8 @@
 
 Se realizaron adquisiciones en:
 
-- **Bíceps braquial**
-- **Abductor pollicis brevis (pulgar)**
-- **Trapecio superior**
-- **Cigomático mayor**
+- 
+- 
 
 ## Materiales y equipos
 - BITalino (r)evolution Core BT.
@@ -49,8 +47,8 @@ En cada adquisición se siguió esta secuencia:
 
 ## PRUEBA 1: Derivación I
 
-### Conexión utilizada
-En esta prueba se utilizó la derivación I de Einthoven. El electrodo positivo, conectado al cable rojo (IN+), se colocó sobre la clavícula izquierda. El electrodo negativo, conectado al cable negro (IN-), se ubicó sobre la clavícula derecha. El electrodo de referencia, conectado al cable blanco (REF), se colocó en la cresta ilíaca.
+### Conexión utilizada (NO ESTOY SEGURO)
+En esta prueba se utilizó la derivación I de Einthoven. El electrodo positivo, conectado al cable rojo (IN+), se colocó sobre la clavícula izquierda. El electrodo negativo, conectado al cable negro (IN-), se ubicó sobre la clavícula derecha. El electrodo de referencia, conectado al cable blanco (REF), se colocó en la cresta ilíaca. 
 
 <p align="center">
   <img src="./Imágenes/prueba1_conexión.jpg" alt="Conexión de prueba" width="500">
@@ -107,13 +105,13 @@ Ploteo de la señal en Python
 
 ## PRUEBA 2: Derivación II
 
-### Conexión utilizada
+### Conexión utilizada (NO ESTOY SEGURO)
 En esta prueba se utilizó la derivación II de Einthoven, la cual registra la señal desde el brazo derecho, correspondiente al polo negativo, hacia la pierna izquierda, correspondiente al polo positivo.
 
 Para obtener esta configuración a partir de la derivación I, se intercambiaron las posiciones del electrodo positivo rojo (IN+) y del electrodo de referencia blanco (REF), de acuerdo con el esquema presentado en la guía. Se utilizó la ubicación corporal en la que se había obtenido la señal más clara.
 
 <p align="center">
-  <img src="./Imágenes/prueba2_conexión.jpg" alt="Conexión de prueba 2" width="500">
+  <img src="./Imágenes/prueba2_conexión.png" alt="Conexión de prueba 2" width="500">
 </p>
 
 
@@ -180,7 +178,7 @@ Ploteo de la señal en Python
 
 ## PRUEBA 3: Derivación III
 
-### Conexión utilizada
+### Conexión utilizada (NO ESTOY SEGURO)
 En esta prueba se utilizó la derivación III de Einthoven, la cual registra la señal desde el brazo izquierdo, correspondiente al polo negativo, hacia la pierna izquierda, correspondiente al polo positivo.
 
 Para cambiar de la derivación II a la derivación III, se intercambiaron las posiciones del electrodo negativo negro (IN−) y del electrodo de referencia blanco (REF), siguiendo el esquema indicado en la guía. Se mantuvo la misma ubicación corporal utilizada para la derivación II.
@@ -243,24 +241,23 @@ Ploteo de la señal en Python
 
 ## Preguntas de la sesión
 
-   - **¿Cuáles son las fuentes de ruido más comunes que afectan a una señal de ECG?**
+   - **¿Cuáles son las fuentes de ruido más comunes que afectan a una señal de ECG?** (will)
 
-   La energía de la señal EMG de superficie se distribuye entre 10Hz y 500Hz, concentrando su mayor potencia en la banda de 20Hz y 150Hz. Estas frecuencias no son exactamente las mismas para todas las zonas del cuerpo. En el caso de los músculos faciales, por ejemplo, estos poseen unidades motoras más pequeñas y tasas de disparo más elevadas para lograr movimientos finos, desplazado su espectro hacia frecuencias más altas en comparación con los grandes músculos de las extremidades
 
-   - **¿Por qué el cambio en la posición de los electrodos, entre las derivaciones I, II y III, modifica los componentes de la señal ECG? ¿Cómo cambian estos componentes?**
+   - **¿Por qué el cambio en la posición de los electrodos, entre las derivaciones I, II y III, modifica los componentes de la señal ECG? ¿Cómo cambian estos componentes?** (will)
    
 
-   - **¿Existen diferencias importantes al adquirir la señal ECG en distintas partes del cuerpo, como las muñecas, las clavículas o el pecho? ¿Cuál podría ser la causa? ¿Esperaba observar estos cambios? Muestre un segmento de la señal obtenida en cada ubicación para visualizar las diferencias.**
+   - **¿Existen diferencias importantes al adquirir la señal ECG en distintas partes del cuerpo, como las muñecas, las clavículas o el pecho? ¿Cuál podría ser la causa? ¿Esperaba observar estos cambios? Muestre un segmento de la señal obtenida en cada ubicación para visualizar las diferencias.**  (will)
 
 
-   - **Los sistemas cardiaco y respiratorio se encuentran relacionados. ¿Considera que las distintas formas de respiración, como una respiración más rápida o profunda, pueden influir en la señal ECG? Muestre capturas de las señales obtenidas bajo diferentes condiciones respiratorias y describa las variaciones observadas, si las hubiera.**
+   - **Los sistemas cardiaco y respiratorio se encuentran relacionados. ¿Considera que las distintas formas de respiración, como una respiración más rápida o profunda, pueden influir en la señal ECG? Muestre capturas de las señales obtenidas bajo diferentes condiciones respiratorias y describa las variaciones observadas, si las hubiera.** (jairo)
 
 
-   - **En la Home-Guide n.º 1 se observó que diferentes niveles de fuerza muscular producían señales con amplitudes distintas. ¿Cómo influye el movimiento en la señal ECG?**
+   - **En la Home-Guide n.º 1 se observó que diferentes niveles de fuerza muscular producían señales con amplitudes distintas. ¿Cómo influye el movimiento en la señal ECG?** (jairo)
 
 
 
-   - **Según sus conocimientos, ¿cómo se pueden detectar la bradicardia y la taquicardia en una señal ECG?**
+   - **Según sus conocimientos, ¿cómo se pueden detectar la bradicardia y la taquicardia en una señal ECG?** (jairo)
 
    
 
