@@ -71,6 +71,7 @@ https://github.com/user-attachments/assets/7d7d8282-91c8-47d0-ba61-9d6debcc7626
 Durante esta prueba, el participante disminuyó voluntariamente su frecuencia respiratoria. La señal ECG se registró durante esta condición para observar si el cambio en el patrón respiratorio producía variaciones en la señal.
 
 
+
 #### C. Hiperventilación
 Durante esta prueba, el participante aumentó voluntariamente la frecuencia y profundidad de su respiración. La señal ECG se registró durante esta condición para observar las variaciones producidas por una respiración más rápida y profunda.
 
@@ -197,13 +198,13 @@ El participante disminuyó voluntariamente su frecuencia respiratoria mientras s
 
 
 
-#### C. Actividad física
-Luego de registrar una segunda línea basal, el participante realizó 10 burpees. La adquisición se mantuvo antes, durante y después del ejercicio para observar los cambios en la frecuencia cardiaca.
+#### C. Hiperventilación
+El participante aumentó voluntariamente la frecuencia y profundidad de la respiración mientras se registraba la señal ECG mediante la derivación III.
 
  https://github.com/user-attachments/assets/aec6b3a4-caf0-4b57-a255-c6e012211248
 
-#### D. Inhalación prolongada y apnea
-Después de una tercera línea basal, el participante realizó una inhalación prolongada durante aproximadamente 10 segundos y mantuvo la respiración durante otros 10 segundos.
+#### D. Actividad física
+El participante realizó la actividad física establecida por el grupo y se registró la señal ECG correspondiente a la derivación III. Durante el análisis se deberá considerar que el movimiento puede introducir artefactos en el registro.
 
 https://github.com/user-attachments/assets/869587b5-dbec-4f50-a69a-dcaad1c3abbf
 
