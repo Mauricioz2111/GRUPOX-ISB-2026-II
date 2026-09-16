@@ -15,14 +15,21 @@
 ## Objetivos
 
 - Adquirir señales electrocardiográficas (ECG) en tiempo real utilizando BITalino y OpenSignals.
-- Probar diferentes posiciones de los electrodos para las derivaciones I, II y III de Einthoven.
-- Comparar cómo cambia la señal ECG según la derivación y la ubicación de los electrodos.
-- Relacionar las partes principales de la señal ECG con la actividad eléctrica del corazón.
+- Registrar la señal ECG mediante las derivaciones I, II y III de Einthoven.
+- Comparar los cambios de la señal ECG entre las tres derivaciones.
+- Evaluar la señal ECG durante el reposo, la hipoventilación, la hiperventilación y la actividad física.
+- Relacionar los componentes principales de la señal ECG con la actividad eléctrica del corazón.
 
 Se realizaron adquisiciones en:
+- Derivación I de Einthoven.
+- Derivación II de Einthoven.
+- Derivación III de Einthoven.
 
-- 
-- 
+Las condiciones evaluadas fueron:
+- Reposo.
+- Hipoventilación.
+- Hiperventilación.
+- Actividad física.
 
 ## Materiales y equipos
 - BITalino (r)evolution Core BT.
@@ -32,16 +39,16 @@ Se realizaron adquisiciones en:
 - Adaptador Bluetooth.
 
 ## Procedimiento general
-El sensor ECG se conectó a uno de los canales analógicos disponibles del BITalino. Después, los tres cables del sensor se conectaron a sus respectivos electrodos: entrada positiva (IN+), entrada negativa (IN-) y referencia (REF). Una vez revisada la conexión, se inició el registro en OpenSignals.
+El sensor ECG se conectó a uno de los canales analógicos disponibles del BITalino. Después, los tres cables del sensor se conectaron a sus respectivos electrodos: entrada positiva (IN+), entrada negativa (IN−) y referencia (REF). Una vez verificada la conexión, se inició el registro en OpenSignals.
 
-En cada adquisición se siguió esta secuencia:
-- Se registró una línea basal durante 30 segundos, manteniendo una respiración normal y evitando movimientos.
-- Se repitió tres veces el ciclo de inhalación, apnea, exhalación y apnea. Cada etapa duró cinco segundos.
-- Se registró una nueva línea basal durante 30 segundos.
-- Se realizaron 10 burpees para observar la frecuencia cardiaca antes, durante y después del ejercicio.
-- Se registró otra línea basal durante 30 segundos.
-- Se realizó una inhalación prolongada de aproximadamente 10 segundos y luego se mantuvo la respiración durante aproximadamente 10 segundos.
-- Finalmente, se detuvo la adquisición y se guardaron los datos.
+Se realizaron adquisiciones utilizando las derivaciones I, II y III de Einthoven. Para cada derivación se evaluaron cuatro condiciones:
+- Reposo.
+- Hipoventilación.
+- Hiperventilación.
+- Actividad física.
+
+Durante el registro en reposo, el participante permaneció quieto y respiró con normalidad. En las pruebas respiratorias se modificó voluntariamente el patrón de respiración para generar las condiciones de hipoventilación e hiperventilación. Para la actividad física, el participante realizó el ejercicio establecido por el grupo y se registró la señal ECG correspondiente.
+Finalmente, se detuvo cada adquisición y los registros obtenidos se guardaron en formato H5 y TXT para su posterior análisis.
 
 ## Resultados
 
@@ -54,24 +61,23 @@ En esta prueba se utilizó la derivación I de Einthoven. El electrodo positivo,
   <img src="./Imágenes/prueba1_conexión.jpg" alt="Conexión de prueba" width="500">
 </p>
 
-#### A. Línea basal inicial
-El participante permaneció en reposo durante 30 segundos, respirando normalmente y evitando movimientos. Esta parte permitió registrar una señal basal con el menor ruido posible.
+#### A. Reposo
+El participante permaneció quieto y mantuvo una respiración normal durante la adquisición. Se evitó mover los brazos y el resto del cuerpo para reducir los artefactos de movimiento y obtener una señal basal.
 
 https://github.com/user-attachments/assets/7d7d8282-91c8-47d0-ba61-9d6debcc7626
 
 
-#### B. Ciclo respiratorio
-Se realizaron tres ciclos de inhalación, apnea, exhalación y apnea. Cada una de estas etapas se mantuvo durante cinco segundos. El objetivo fue observar si la respiración producía variaciones en la señal ECG.
+#### B. Hipoventilación
+Durante esta prueba, el participante disminuyó voluntariamente su frecuencia respiratoria. La señal ECG se registró durante esta condición para observar si el cambio en el patrón respiratorio producía variaciones en la señal.
 
 
-
-#### C. Actividad física
-Después de registrar una segunda línea basal de 30 segundos, el participante realizó 10 burpees. Se mantuvo la adquisición antes, durante y después del ejercicio para observar los cambios de la frecuencia cardiaca.
+#### C. Hiperventilación
+Durante esta prueba, el participante aumentó voluntariamente la frecuencia y profundidad de su respiración. La señal ECG se registró durante esta condición para observar las variaciones producidas por una respiración más rápida y profunda.
 
 https://github.com/user-attachments/assets/5fe2c770-742a-4797-83d4-41a29cac6695
 
-#### D. Inhalación prolongada y apnea
-Luego de una tercera línea basal de 30 segundos, el participante realizó una inhalación prolongada de aproximadamente 10 segundos y mantuvo la respiración durante aproximadamente 10 segundos.
+#### D. Actividad física
+El participante realizó la actividad física establecida por el grupo. La señal ECG se registró para observar los cambios producidos en la frecuencia cardiaca y la presencia de artefactos ocasionados por el movimiento.
 
 https://github.com/user-attachments/assets/c32edcd3-f383-4ba3-9b65-f405412b2bfe
 
@@ -80,16 +86,16 @@ https://github.com/user-attachments/assets/c32edcd3-f383-4ba3-9b65-f405412b2bfe
 ### Video de la señal 
 
 
-#### A. Línea basal inicial
+#### A. Reposo
 
 
-#### B. Ciclo respiratorio
+#### B. Hipoventilación
 
 
-#### C. Actividad física
+#### C. Hiperventilación
 
 
-#### D. Inhalación prolongada y apnea
+#### D. Actividad física
 
 
 ### Ploteo de la señal en OpenSignal 
@@ -106,37 +112,37 @@ Ploteo de la señal en Python
 ## PRUEBA 2: Derivación II
 
 ### Conexión utilizada (NO ESTOY SEGURO)
-En esta prueba se utilizó la derivación II de Einthoven, la cual registra la señal desde el brazo derecho, correspondiente al polo negativo, hacia la pierna izquierda, correspondiente al polo positivo.
 
-Para obtener esta configuración a partir de la derivación I, se intercambiaron las posiciones del electrodo positivo rojo (IN+) y del electrodo de referencia blanco (REF), de acuerdo con el esquema presentado en la guía. Se utilizó la ubicación corporal en la que se había obtenido la señal más clara.
+En esta prueba se utilizó la derivación II de Einthoven, la cual registra la diferencia de potencial desde el brazo derecho, correspondiente al polo negativo, hacia la pierna izquierda, correspondiente al polo positivo.
+
+Para obtener esta derivación, el electrodo negativo negro (IN−) se colocó en el lado correspondiente al brazo derecho y el electrodo positivo rojo (IN+) en la posición correspondiente a la pierna izquierda. El electrodo blanco se utilizó como referencia.
 
 <p align="center">
   <img src="./Imágenes/prueba2_conexión.png" alt="Conexión de prueba 2" width="500">
 </p>
 
 
-#### A. Línea basal inicial
-El participante permaneció en reposo durante 30 segundos, respirando normalmente y evitando movimientos. Este registro se utilizó como línea basal de la derivación II.
+#### A. Reposo
+El participante permaneció quieto y respiró normalmente durante la adquisición. Este registro se utilizó como señal basal de la derivación II.
+
 
 https://github.com/user-attachments/assets/d8814ab4-fb6f-4e16-b76a-a65e575d9085
 
 
-#### B. Ciclo respiratorio
-Se realizaron tres ciclos de inhalación, apnea, exhalación y apnea. Cada etapa se mantuvo durante cinco segundos, mientras el participante evitaba realizar movimientos adicionales.
+#### B. Hipoventilación
+El participante disminuyó voluntariamente su frecuencia respiratoria mientras se registraba la señal ECG mediante la derivación II. Se evitó realizar movimientos adicionales para reducir la aparición de artefactos.
 
 
 
-#### C. Actividad física
-Después de una segunda línea basal de 30 segundos, el participante realizó 10 burpees. La señal se registró antes, durante y después del ejercicio.
+#### C. Hiperventilación
+El participante aumentó voluntariamente la frecuencia y profundidad de la respiración mientras se registraba la señal ECG mediante la derivación II.
 
 https://github.com/user-attachments/assets/c2fcb044-5dac-4cd2-b5eb-d6344efd8973
 
-#### D. Inhalación prolongada y apnea
-Después de una tercera línea basal, el participante realizó una inhalación prolongada durante aproximadamente 10 segundos y mantuvo la respiración durante otros 10 segundos.
+#### D. Actividad física
+El participante realizó la actividad física establecida por el grupo y se registró la señal correspondiente a la derivación II. Esta adquisición permitió observar los cambios posteriores al esfuerzo físico.
 
 https://github.com/user-attachments/assets/4a5d418c-aa11-4dcd-8c74-164994804043
-
-
 
 
 
@@ -145,23 +151,16 @@ https://github.com/user-attachments/assets/4a5d418c-aa11-4dcd-8c74-164994804043
 ### Video de la señal 
 
 
-#### A. Línea basal inicial
+#### A. Reposo
 
 
-
-#### B. Ciclo respiratorio
-
+#### B. Hipoventilación
 
 
-#### C. Actividad física
+#### C. Hiperventilación
 
 
-
-#### D. Inhalación prolongada y apnea
-
-
-
-
+#### D. Actividad física
 
 
 ### Ploteo de la señal en OpenSignal 
@@ -179,22 +178,22 @@ Ploteo de la señal en Python
 ## PRUEBA 3: Derivación III
 
 ### Conexión utilizada (NO ESTOY SEGURO)
-En esta prueba se utilizó la derivación III de Einthoven, la cual registra la señal desde el brazo izquierdo, correspondiente al polo negativo, hacia la pierna izquierda, correspondiente al polo positivo.
+En esta prueba se utilizó la derivación III de Einthoven, la cual registra la diferencia de potencial desde el brazo izquierdo, correspondiente al polo negativo, hacia la pierna izquierda, correspondiente al polo positivo.
 
-Para cambiar de la derivación II a la derivación III, se intercambiaron las posiciones del electrodo negativo negro (IN−) y del electrodo de referencia blanco (REF), siguiendo el esquema indicado en la guía. Se mantuvo la misma ubicación corporal utilizada para la derivación II.
+El electrodo negativo negro (IN−) se colocó en la posición correspondiente al brazo izquierdo y el electrodo positivo rojo (IN+) en la posición correspondiente a la pierna izquierda. El electrodo blanco se utilizó como referencia.
 
 <p align="center">
   <img src="./Imágenes/prueba3_conexión.jpg" alt="Conexión de prueba 3" width="500">
 </p>
 
 
-#### A. Línea basal inicial
-El participante permaneció en reposo durante 30 segundos, respirando normalmente y evitando movimientos. Esta etapa permitió obtener la línea basal de la derivación III.
+#### A. Reposo
+El participante permaneció quieto y respiró normalmente durante la adquisición. Este registro se utilizó como señal basal de la derivación III.
 
 https://github.com/user-attachments/assets/161a731d-d6a2-48fe-adad-bcf8fa3ecc25
 
-#### B. Ciclo respiratorio
-Se realizaron tres ciclos de inhalación, apnea, exhalación y apnea. Cada etapa tuvo una duración de cinco segundos.
+#### B. Hipoventilación
+El participante disminuyó voluntariamente su frecuencia respiratoria mientras se registraba la señal ECG mediante la derivación III.
 
 
 
@@ -213,19 +212,16 @@ https://github.com/user-attachments/assets/869587b5-dbec-4f50-a69a-dcaad1c3abbf
 ### Video de la señal 
 
 
-#### A. Línea basal inicial
+#### A. Reposo
 
 
-
-#### B. Ciclo respiratorio
-
+#### B. Hipoventilación
 
 
-#### C. Actividad física
+#### C. Hiperventilación
 
 
-
-#### D. Inhalación prolongada y apnea
+#### D. Actividad física
 
 
 ### Ploteo de la señal en OpenSignal 
