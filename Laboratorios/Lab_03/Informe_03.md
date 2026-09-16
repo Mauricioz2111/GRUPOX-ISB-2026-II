@@ -1,4 +1,4 @@
-# LABORATORIO 3: USO DE BITALINO PARA EMG y ECG
+# LABORATORIO 4: USO DE BITALINO PARA ECG
 
 ## Índice
 
@@ -14,8 +14,10 @@
 
 ## Objetivos
 
-
-Adquirir y analizar señales de electromiografía (EMG) de diferentes grupos musculares utilizando **BITalino y OpenSignals**.
+- Adquirir señales electrocardiográficas (ECG) en tiempo real utilizando BITalino y OpenSignals.
+- Probar diferentes posiciones de los electrodos para las derivaciones I, II y III de Einthoven.
+- Comparar cómo cambia la señal ECG según la derivación y la ubicación de los electrodos.
+- Relacionar las partes principales de la señal ECG con la actividad eléctrica del corazón.
 
 Se realizaron adquisiciones en:
 
@@ -25,53 +27,60 @@ Se realizaron adquisiciones en:
 - **Cigomático mayor**
 
 ## Materiales y equipos
-- BITalino (r)evolution Core BT
-- Sensor EMG
-- Electrodos Ag/AgCl
-- OpenSignals (r)evolution
+- BITalino (r)evolution Core BT.
+- Sensor de electrocardiografía (ECG).
+- Tres electrodos desechables autoadhesivos de Ag/AgCl con gel.
+- OpenSignals (r)evolution.
+- Adaptador Bluetooth.
 
 ## Resultados
 
-## PRUEBA 1: Bíceps braquial
+## PRUEBA 1: Derivación I en clavículas y cresta ilíaca
 
 ### Conexión utilizada
-En esta primera prueba se evaluó la actividad eléctrica del bíceps braquial. Los dos electrodos de medición se colocaron sobre el músculo y siguiendo aproximadamente la dirección de sus fibras. El electrodo de referencia se ubicó en una zona cercana con menor actividad muscular. Después de verificar que los electrodos estuvieran bien adheridos, se inició la adquisición en OpenSignals.
+En esta prueba se utilizó la derivación I de Einthoven. El electrodo positivo, conectado al cable rojo (IN+), se colocó sobre la clavícula izquierda. El electrodo negativo, conectado al cable negro (IN-), se ubicó sobre la clavícula derecha. El electrodo de referencia, conectado al cable blanco (REF), se colocó en la cresta ilíaca.
 
-<p align="center">
-  <img src="./Imágenes/prueba1_biceps_conexión.jpg" alt="Conexión de electrodos en el bíceps" width="500">
-</p>
-
-#### A. Fase de reposo
-Durante esta fase, el participante mantuvo el brazo relajado por aproximadamente 30 segundos. Se procuró evitar movimientos del brazo y del resto del cuerpo para no introducir alteraciones innecesarias en el registro. En esta condición se esperaba observar una señal de menor amplitud, ya que el bíceps no estaba realizando una contracción voluntaria.
+#### A. Línea basal inicial
+El participante permaneció en reposo durante 30 segundos, respirando normalmente y evitando movimientos. Esta parte permitió registrar una señal basal con el menor ruido posible.
 
 <p align="center">
   <img src="./Imágenes/prueba1_biceps_en_reposo.jpg" alt="Bíceps en reposo" width="500">
 </p>
 
-#### B. Fase de movimiento leve
-El participante realizó lentamente una flexión del codo para activar el bíceps. El movimiento se repitió tres veces de manera gradual, dejando un periodo de descanso entre cada intento. A diferencia de la fase de reposo, se esperaba observar un aumento de la actividad registrada durante cada flexión.
+#### B. Ciclo respiratorio
+Se realizaron tres ciclos de inhalación, apnea, exhalación y apnea. Cada una de estas etapas se mantuvo durante cinco segundos. El objetivo fue observar si la respiración producía variaciones en la señal ECG.
 
 https://github.com/user-attachments/assets/4eda0194-80f1-49db-bfdd-0faf6e99cd4c
 
-#### C. Fase de fuerza máxima
+#### C. Actividad física
 En la última fase, el participante intentó flexionar el codo mientras otro integrante aplicaba una fuerza en sentido contrario sobre el antebrazo. Esto permitió generar una contracción más intensa del bíceps sin necesidad de completar totalmente el movimiento. Se realizaron tres intentos con un minuto de descanso entre ellos para reducir la fatiga muscular.
 
 https://github.com/user-attachments/assets/a84982fc-8676-46ad-9ece-67371b3894ec
 
 
+#### D. Inhalación prolongada y apnea
+Luego de una tercera línea basal de 30 segundos, el participante realizó una inhalación prolongada de aproximadamente 10 segundos y mantuvo la respiración durante aproximadamente 10 segundos
+
+https://github.com/user-attachments/assets/a84982fc-8676-46ad-9ece-67371b3894ec
+
 
 ### Video de la señal 
-#### B. Fase de movimiento leve
 
-https://github.com/user-attachments/assets/5580c149-173e-4936-9a60-f7b19327cc4d
 
-#### C. Fase de fuerza máxima
+#### A. Línea basal inicial
 
-https://github.com/user-attachments/assets/94e5a518-5367-48cb-bfad-ab5abcd494ef
+
+#### B. Ciclo respiratorio
+
+
+#### C. Actividad física
+
+
+#### D. Inhalación prolongada y apnea
 
 
 ### Ploteo de la señal en OpenSignal 
-En la gráfica obtenida en OpenSignals se observa la señal EMG registrada en el bíceps braquial a través del canal A1. Durante los periodos de relajación, la señal presenta una menor variación. En cambio, cuando el participante flexiona el codo, aparecen cambios de mayor amplitud debido a la activación del músculo.
+
 <p align="center">
   <img src="./Imágenes/open_signal_biceps_braquial.jpeg" alt="biceps braquial en Open Signal" width="500">
 </p>
@@ -84,98 +93,53 @@ Ploteo de la señal en Python
 
 
 
-## PRUEBA 2: Abductor corto del pulgar
-
-### Conexión utilizada 
-En esta prueba se evaluó el abductor corto del pulgar, ubicado en la eminencia tenar, en la base del pulgar. Los electrodos de medición se colocaron sobre esta región siguiendo aproximadamente la orientación de las fibras musculares. Una vez comprobada la conexión, se procedió a registrar las tres fases en OpenSignals.
-
-<p align="center">
-  <img src="./Imágenes/prueba_2_Abductor_corto_del_pulgar_conexion.jpg" alt="Conexión de electrodos en el adbuctor corto del dedo pulgar" width="500">
-</p>
-
-#### A. Fase de reposo
-El participante mantuvo la mano y el pulgar relajados durante aproximadamente 30 segundos. Se evitó mover los dedos para mantener una señal basal lo más estable posible. Al no existir una activación voluntaria, se esperaba registrar una actividad menor que en las siguientes fases.
-
-https://github.com/user-attachments/assets/9aee90f9-23f4-4b2f-ba49-3ba6cab8b725
-
-#### B. Fase de movimiento leve
-Se realizaron tres abducciones lentas del pulgar, separándolo de la palma de forma controlada. Entre cada repetición se dejó un periodo de descanso. Durante el movimiento se esperaba distinguir un incremento de la señal debido a la activación del músculo.
-
-https://github.com/user-attachments/assets/4f0fa4fb-02ce-4fe8-8007-3374a7fb9a7a
-
-#### C. Fase de fuerza máxima
-El participante intentó separar el pulgar mientras otro integrante aplicaba una resistencia en sentido contrario. De esta manera, el músculo debía realizar un esfuerzo mayor para mantener el movimiento. Se hicieron tres intentos con un minuto de descanso entre cada uno.
-
-https://github.com/user-attachments/assets/d413864e-2a4d-443d-bb20-e2cf96fe21a0
-
-
-### Ploteo de la señal en OpenSignal 
-#### A. Fase de reposo
-Durante la fase de reposo, la señal presentó variaciones pequeñas alrededor de su nivel basal. Aunque el participante no realizó una contracción voluntaria, la señal no permaneció completamente constante, debido al ruido presente durante la adquisición y a pequeños movimientos involuntarios de la mano.
-<p align="center">
-  <img src="./Imágenes/open_signal_abductor_corto_reposo.jpeg" alt="Open signal del abductor corto en reposo" width="500">
-</p>
-
-#### B. Fase de movimiento leve
-En esta fase se observaron aumentos de amplitud asociados con las abducciones leves del pulgar. Cada vez que el participante separó el pulgar de la palma, el abductor corto del pulgar se activó y se produjo una mayor variación de la señal en comparación con el reposo.
-<p align="center">
-  <img src="./Imágenes/open_signal_abductor_corto_leve.jpeg" alt="Open signal de los  movimientos leves generados" width="500">
-</p>
-
-#### C. Fase de fuerza máxima
-Al aplicar una resistencia en sentido contrario al movimiento del pulgar, la señal mostró una mayor actividad respecto a la fase de movimiento leve. Esto se relaciona con el mayor esfuerzo realizado por el participante para mantener la abducción frente a la fuerza externa.
-<p align="center">
-  <img src="./Imágenes/open_signal_abductor_corto_máximo.jpeg" alt="Open signal de la fuerza máxima ejercida" width="500">
-</p>
-
-### Archivos
-Archivos
-
-### Ploteo de la señal en Python
-Ploteo de la señal en Python
-
-
-## PRUEBA 3: Trapecio superior
+## PRUEBA 2: Derivación I en muñecas y cresta ilíaca
 
 ### Conexión utilizada
-En la tercera prueba se registró la actividad del trapecio superior, localizado entre la parte posterior del cuello y el hombro. Los electrodos de medición se colocaron sobre el músculo siguiendo aproximadamente la dirección de sus fibras. Luego se verificó la visualización de la señal en OpenSignals.
 
-<p align="center">
-  <img src="./Imágenes/prueba3_trapecio_superior_conexion.jpg" alt="Conexión de electrodos en el trapecio superior" width="500">
-</p>
+#### A. Línea basal inicial
 
-#### A. Fase de reposo
-El participante permaneció sentado con los hombros relajados durante aproximadamente 30 segundos. Se trató de mantener una postura estable y evitar movimientos del cuello, debido a que estos podían afectar el registro.
 
-https://github.com/user-attachments/assets/d96e72d4-f9db-42f0-9a7b-9f81c27fc2c9
+#### B. Ciclo respiratorio
 
-#### B. Fase de movimiento leve
-El participante elevó lentamente el hombro y luego regresó a la posición inicial. Este movimiento se realizó tres veces, dejando un periodo de reposo entre cada repetición. Se esperaba observar un aumento de la actividad del trapecio durante la elevación.
 
-https://github.com/user-attachments/assets/2f7ed252-6458-4b68-b16c-1025247c2b6a
 
-#### C. Fase de fuerza máxima
-El participante intentó elevar el hombro mientras otro integrante aplicaba una fuerza hacia abajo para oponerse al movimiento. Se realizaron tres intentos, separados por un minuto de descanso. Esta condición buscó producir una contracción mayor que la obtenida durante el movimiento leve.
 
-https://github.com/user-attachments/assets/6cf111d2-a12d-4699-a195-e8f97db299f8
+#### C. Actividad física
+
+
+
+#### D. Inhalación prolongada y apnea
+
+
+
+
+
+### Video de la señal 
+
+
+#### A. Línea basal inicial
+
+
+
+#### B. Ciclo respiratorio
+
+
+
+#### C. Actividad física
+
+
+
+#### D. Inhalación prolongada y apnea
+
+
+
+
 
 ### Ploteo de la señal en OpenSignal 
-#### A. Fase de reposo
-En reposo, la señal del trapecio superior presentó una amplitud relativamente baja. Sin embargo, se observaron pequeñas variaciones que pudieron deberse al mantenimiento de la postura, a movimientos involuntarios del cuello o al ruido propio de la adquisición.
-<p align="center">
-  <img src="./Imágenes/open_signal_trapecio_reposoo.jpeg" alt="Open signal del trapecio mayor en reposo" width="500">
-</p>
 
-#### B. Fase de movimiento leve
-Durante la elevación leve del hombro se observaron aumentos de amplitud relacionados con la activación del trapecio superior. La señal disminuyó nuevamente cuando el participante regresó a la posición de reposo.
 <p align="center">
-  <img src="./Imágenes/open_signal_trapecio_leve.jpeg" alt="Open signal de los  movimientos leves generados" width="500">
-</p>
-
-#### C. Fase de fuerza máxima
-Cuando se aplicó una fuerza hacia abajo sobre el hombro, el participante tuvo que realizar un esfuerzo mayor para mantenerlo elevado. En esta condición se observó una actividad EMG más intensa que durante el movimiento leve, debido al mayor reclutamiento de unidades motoras.
-<p align="center">
-  <img src="./Imágenes/open_signal_trapecio_máximo.jpeg" alt="Open signal de la fuerza máxima ejercida" width="500">
+  <img src="./Imágenes/open_signal_biceps_braquial.jpeg" alt="biceps braquial en Open Signal" width="500">
 </p>
 
 ### Archivos
@@ -185,47 +149,50 @@ Archivos
 Ploteo de la señal en Python
 
 
-## PRUEBA 4: Cigomático mayor
+## PRUEBA 3: Derivación I en el pecho
 
 ### Conexión utilizada
-Finalmente, se evaluó el cigomático mayor, músculo facial que participa principalmente en la sonrisa. Los electrodos de medición se colocaron sobre la mejilla, siguiendo aproximadamente la dirección del músculo. El electrodo de referencia se ubicó detrás de la oreja.
 
-<p align="center">
-  <img src="./Imágenes/prueba4_cigomátco_mayor_conexion.jpg" alt="Conexión de electrodos en el cigomático mayor" width="500">
-</p>
+#### A. Línea basal inicial
 
-#### A. Fase de reposo
-El participante mantuvo el rostro relajado durante aproximadamente 30 segundos, evitando hablar, sonreír o mover la mandíbula. Esto permitió obtener un registro basal de la actividad muscular facial.
 
-https://github.com/user-attachments/assets/6df24a53-f25b-4465-992d-5438b2ffa2e6
+#### B. Ciclo respiratorio
 
-#### B. Fase de movimiento leve
-El participante realizó una sonrisa leve y controlada en tres ocasiones, regresando a una expresión neutral después de cada repetición. Se esperaba observar un aumento de la señal durante la elevación de las comisuras de los labios.
 
-https://github.com/user-attachments/assets/9a03e7c9-5a06-4239-92db-dd41f9cfad0d
 
-#### C. Fase de fuerza máxima
-En esta fase, el participante realizó una sonrisa de mayor intensidad para generar una contracción más fuerte del cigomático mayor. Se realizaron tres intentos con periodos de descanso entre ellos. En este caso no se aplicó resistencia externa, debido a que se trataba de un músculo facial.
 
-https://github.com/user-attachments/assets/751460bc-c6e1-45d2-9bf1-a1ee5c1a3b18
+#### C. Actividad física
+
+
+
+#### D. Inhalación prolongada y apnea
+
+
+
+
+
+### Video de la señal 
+
+
+#### A. Línea basal inicial
+
+
+
+#### B. Ciclo respiratorio
+
+
+
+#### C. Actividad física
+
+
+
+#### D. Inhalación prolongada y apnea
+
 
 ### Ploteo de la señal en OpenSignal 
-#### A. Fase de reposo
-Durante el reposo facial, la señal presentó una amplitud baja, aunque no fue completamente constante. Esto pudo relacionarse con pequeños movimientos involuntarios del rostro, de la mandíbula o con el ruido registrado por los electrodos.
-<p align="center">
-  <img src="./Imágenes/open_signal_cigomático_reposoo.jpeg" alt="Open signal del cigomático mayor en reposo" width="500">
-</p>
 
-#### B. Fase de movimiento leve
-Durante las sonrisas leves se observaron incrementos de amplitud respecto al reposo. Estos cambios se relacionan con la contracción del cigomático mayor al elevar las comisuras de los labios (esquinas de la boca). Entre cada sonrisa, la señal volvió a presentar valores cercanos al nivel basal.
 <p align="center">
-  <img src="./Imágenes/open_signal_cigomático_leve.jpeg" alt="Open signal de los  movimientos leves generados" width="500">
-</p>
-
-#### C. Fase de fuerza máxima
-Durante la sonrisa máxima se observó una mayor actividad de la señal EMG en comparación con el reposo y la sonrisa leve. Esto se debió a una contracción más intensa del cigomático mayor al elevar y retraer las comisuras de los labios.
-<p align="center">
-  <img src="./Imágenes/open_signal_cigomático_máximo.jpeg" alt="Open signal de la fuerza máxima ejercida" width="500">
+  <img src="./Imágenes/open_signal_biceps_braquial.jpeg" alt="biceps braquial en Open Signal" width="500">
 </p>
 
 ### Archivos
@@ -235,6 +202,115 @@ Archivos
 Ploteo de la señal en Python
 
 
+
+
+
+## PRUEBA 4: Derivación II
+
+### Conexión utilizada
+
+#### A. Línea basal inicial
+
+
+#### B. Ciclo respiratorio
+
+
+
+
+#### C. Actividad física
+
+
+
+#### D. Inhalación prolongada y apnea
+
+
+
+
+
+### Video de la señal 
+
+
+#### A. Línea basal inicial
+
+
+
+#### B. Ciclo respiratorio
+
+
+
+#### C. Actividad física
+
+
+
+#### D. Inhalación prolongada y apnea
+
+
+### Ploteo de la señal en OpenSignal 
+
+<p align="center">
+  <img src="./Imágenes/open_signal_biceps_braquial.jpeg" alt="biceps braquial en Open Signal" width="500">
+</p>
+
+### Archivos
+Archivos
+
+### Ploteo de la señal en Python
+Ploteo de la señal en Python
+
+
+
+
+## PRUEBA 5: Derivación III
+
+### Conexión utilizada
+
+#### A. Línea basal inicial
+
+
+#### B. Ciclo respiratorio
+
+
+
+
+#### C. Actividad física
+
+
+
+#### D. Inhalación prolongada y apnea
+
+
+
+
+
+### Video de la señal 
+
+
+#### A. Línea basal inicial
+
+
+
+#### B. Ciclo respiratorio
+
+
+
+#### C. Actividad física
+
+
+
+#### D. Inhalación prolongada y apnea
+
+
+### Ploteo de la señal en OpenSignal 
+
+<p align="center">
+  <img src="./Imágenes/open_signal_biceps_braquial.jpeg" alt="biceps braquial en Open Signal" width="500">
+</p>
+
+### Archivos
+Archivos
+
+### Ploteo de la señal en Python
+Ploteo de la señal en Python
 
 ## Preguntas de la sesión
    - **¿Cuáles son las frecuencias significativas para las adquisiciones de EMG?¿Son las mismas en todas las zonas del cuerpo, como por ejemplo en la zona facial?**
