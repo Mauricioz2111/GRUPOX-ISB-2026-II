@@ -43,25 +43,20 @@ En esta prueba se utilizó la derivación I de Einthoven. El electrodo positivo,
 #### A. Línea basal inicial
 El participante permaneció en reposo durante 30 segundos, respirando normalmente y evitando movimientos. Esta parte permitió registrar una señal basal con el menor ruido posible.
 
-<p align="center">
-  <img src="./Imágenes/prueba1_biceps_en_reposo.jpg" alt="Bíceps en reposo" width="500">
-</p>
+
 
 #### B. Ciclo respiratorio
 Se realizaron tres ciclos de inhalación, apnea, exhalación y apnea. Cada una de estas etapas se mantuvo durante cinco segundos. El objetivo fue observar si la respiración producía variaciones en la señal ECG.
 
-https://github.com/user-attachments/assets/4eda0194-80f1-49db-bfdd-0faf6e99cd4c
+
 
 #### C. Actividad física
 En la última fase, el participante intentó flexionar el codo mientras otro integrante aplicaba una fuerza en sentido contrario sobre el antebrazo. Esto permitió generar una contracción más intensa del bíceps sin necesidad de completar totalmente el movimiento. Se realizaron tres intentos con un minuto de descanso entre ellos para reducir la fatiga muscular.
 
-https://github.com/user-attachments/assets/a84982fc-8676-46ad-9ece-67371b3894ec
 
 
 #### D. Inhalación prolongada y apnea
 Luego de una tercera línea basal de 30 segundos, el participante realizó una inhalación prolongada de aproximadamente 10 segundos y mantuvo la respiración durante aproximadamente 10 segundos
-
-https://github.com/user-attachments/assets/a84982fc-8676-46ad-9ece-67371b3894ec
 
 
 ### Video de la señal 
@@ -81,9 +76,6 @@ https://github.com/user-attachments/assets/a84982fc-8676-46ad-9ece-67371b3894ec
 
 ### Ploteo de la señal en OpenSignal 
 
-<p align="center">
-  <img src="./Imágenes/open_signal_biceps_braquial.jpeg" alt="biceps braquial en Open Signal" width="500">
-</p>
 
 ### Archivos
 Archivos
@@ -138,9 +130,7 @@ Ploteo de la señal en Python
 
 ### Ploteo de la señal en OpenSignal 
 
-<p align="center">
-  <img src="./Imágenes/open_signal_biceps_braquial.jpeg" alt="biceps braquial en Open Signal" width="500">
-</p>
+
 
 ### Archivos
 Archivos
@@ -191,9 +181,6 @@ Ploteo de la señal en Python
 
 ### Ploteo de la señal en OpenSignal 
 
-<p align="center">
-  <img src="./Imágenes/open_signal_biceps_braquial.jpeg" alt="biceps braquial en Open Signal" width="500">
-</p>
 
 ### Archivos
 Archivos
@@ -247,9 +234,6 @@ Ploteo de la señal en Python
 
 ### Ploteo de la señal en OpenSignal 
 
-<p align="center">
-  <img src="./Imágenes/open_signal_biceps_braquial.jpeg" alt="biceps braquial en Open Signal" width="500">
-</p>
 
 ### Archivos
 Archivos
@@ -302,9 +286,6 @@ Ploteo de la señal en Python
 
 ### Ploteo de la señal en OpenSignal 
 
-<p align="center">
-  <img src="./Imágenes/open_signal_biceps_braquial.jpeg" alt="biceps braquial en Open Signal" width="500">
-</p>
 
 ### Archivos
 Archivos
