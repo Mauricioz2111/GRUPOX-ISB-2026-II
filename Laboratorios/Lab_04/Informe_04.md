@@ -102,7 +102,7 @@ El participante realizó la actividad física establecida por el grupo. La seña
 
 
 ### Ploteo de la señal en OpenSignal
-Para la imagen, para facilitaar la visualización del comportamiento de las señales, se delimitó el rango de tiempo entre 0 y 15 segundos
+En las imagenes, para facilitar la visualización del comportamiento de las señales, se delimitó el rango de tiempo entre 0 y 15 segundos
 #### A. Reposo
 
 ![alt text](Imágenes/01_SeñalOpenSignal_lab04.jpeg)
@@ -213,7 +213,7 @@ https://github.com/user-attachments/assets/c2fcb044-5dac-4cd2-b5eb-d6344efd8973
 
 
 ### Ploteo de la señal en OpenSignal
-Para la imagen, para facilitaar la visualización del comportamiento de las señales, se delimitó el rango de tiempo entre 0 y 15 segundos
+En las imagenes, para facilitar la visualización del comportamiento de las señales, se delimitó el rango de tiempo entre 0 y 15 segundos
 #### A. Reposo
 
 ![alt text](Imágenes/05_SeñalOpenSignal_lab04.jpeg)
@@ -320,7 +320,7 @@ https://github.com/user-attachments/assets/aec6b3a4-caf0-4b57-a255-c6e012211248
 
 
 ### Ploteo de la señal en OpenSignal
-Para la imagen, para facilitaar la visualización del comportamiento de las señales, se delimitó el rango de tiempo entre 0 y 15 segundos
+En las imagenes, para facilitar la visualización del comportamiento de las señales, se delimitó el rango de tiempo entre 0 y 15 segundos
 #### A. Reposo
 
 ![alt text](Imágenes/09_SeñalOpenSignal_lab04.jpeg)
