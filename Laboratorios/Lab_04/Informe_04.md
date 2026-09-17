@@ -105,7 +105,11 @@ El participante realizó la actividad física establecida por el grupo. La seña
 
 
 ### Archivos
-Archivos
+
+[ECG en reposo - Derivación I](./Laboratorios/Lab_04/DatosSenalesECG_CSV/ECG_Reposo_I.csv)
+[ECG en Hipoventilación - Derivación I](./Laboratorios/Lab_04/DatosSenalesECG_CSV/ECG_Hipoventilacion_I.csv)
+[ECG en Hiperventilación - Derivación I](./Laboratorios/Lab_04/DatosSenalesECG_CSV/ECG_Hiperventilacion_I.csv)
+[ECG en Actividad física - Derivación I](./Laboratorios/Lab_04/DatosSenalesECG_CSV/ECG_actividadfisica_I.csv)
 
 ### Ploteo de la señal en Python
 Ploteo de la señal en Python
@@ -193,7 +197,11 @@ https://github.com/user-attachments/assets/c2fcb044-5dac-4cd2-b5eb-d6344efd8973
 
 
 ### Archivos
-Archivos
+
+[ECG en reposo - Derivación II](./Laboratorios/Lab_04/DatosSenalesECG_CSV/ECG_Reposo_II.csv)
+[ECG en Hipoventilación - Derivación II](./Laboratorios/Lab_04/DatosSenalesECG_CSV/ECG_Hipoventilacion_II.csv)
+[ECG en Hiperventilación - Derivación II](./Laboratorios/Lab_04/DatosSenalesECG_CSV/ECG_Hiperventilacion_II.csv)
+[ECG en Actividad física - Derivación II](./Laboratorios/Lab_04/DatosSenalesECG_CSV/ECG_actividadfisica_II.csv)
 
 ### Ploteo de la señal en Python
 Ploteo de la señal en Python
@@ -278,7 +286,11 @@ https://github.com/user-attachments/assets/aec6b3a4-caf0-4b57-a255-c6e012211248
 
 
 ### Archivos
-Archivos
+
+[ECG en reposo - Derivación III](./Laboratorios/Lab_04/DatosSenalesECG_CSV/ECG_Reposo_III.csv)
+[ECG en Hipoventilación - Derivación III](./Laboratorios/Lab_04/DatosSenalesECG_CSV/ECG_Hipoventilacion_III.csv)
+[ECG en Hiperventilación - Derivación III](./Laboratorios/Lab_04/DatosSenalesECG_CSV/ECG_Hiperventilacion_III.csv)
+[ECG en Actividad física - Derivación III](./Laboratorios/Lab_04/DatosSenalesECG_CSV/ECG_actividadfisica_III.csv)
 
 ### Ploteo de la señal en Python
 Ploteo de la señal en Python
