@@ -106,10 +106,13 @@ El participante realizó la actividad física establecida por el grupo. La seña
 
 ### Archivos
 
-[ECG en reposo - Derivación I](./Laboratorios/Lab_04/DatosSenalesECG_CSV/ECG_Reposo_I.csv)
-[ECG en Hipoventilación - Derivación I](./Laboratorios/Lab_04/DatosSenalesECG_CSV/ECG_Hipoventilacion_I.csv)
-[ECG en Hiperventilación - Derivación I](./Laboratorios/Lab_04/DatosSenalesECG_CSV/ECG_Hiperventilacion_I.csv)
-[ECG en Actividad física - Derivación I](./Laboratorios/Lab_04/DatosSenalesECG_CSV/ECG_actividadfisica_I.csv)
+[ECG en reposo - Derivación I](https://github.com/Mauricioz2111/GRUPOX-ISB-2026-II/blob/main/Laboratorios/Lab_04/DatosSeñalesECG_CSV/ECG_Reposo_I.csv)
+
+[ECG en Hipoventilación - Derivación I](https://github.com/Mauricioz2111/GRUPOX-ISB-2026-II/blob/main/Laboratorios/Lab_04/DatosSeñalesECG_CSV/ECG_Hipoventilacion_I.csv))
+
+[ECG en Hiperventilación - Derivación I](https://github.com/Mauricioz2111/GRUPOX-ISB-2026-II/blob/main/Laboratorios/Lab_04/DatosSeñalesECG_CSV/ECG_Hiperventilacion_I.csv)
+
+[ECG en Actividad física - Derivación I]([./Laboratorios/Lab_04/DatosSenalesECG_CSV/ECG_actividadfisica_I.csv](https://github.com/Mauricioz2111/GRUPOX-ISB-2026-II/blob/main/Laboratorios/Lab_04/DatosSeñalesECG_CSV/ECG_actividadfisica_I.csv))
 
 ### Ploteo de la señal en Python
 Ploteo de la señal en Python
