@@ -143,6 +143,23 @@ Ploteo de la señal en Python
 
 <img width="1200" height="400" alt="FFT_ActividadFisica_1" src="https://github.com/user-attachments/assets/06c67f64-c62b-487a-a745-3978e1fd067c" />
 
+### Ploteo de la señal en OpenSignal
+#### A. Reposo
+
+![alt text](Imágenes/01_SeñalOpenSignal_lab04.jpeg)
+
+#### B. Hipoventilación
+
+![alt text](Imágenes/02_SeñalOpenSignal_lab04.jpeg)
+
+#### C. Hiperventilación
+
+![alt text](Imágenes/03_SeñalOpenSignal_lab04.jpeg)
+
+#### D. Actividad física
+
+![alt text](Imágenes/04_SeñalOpenSignal_lab04.jpeg)
+
 ## PRUEBA 2: Derivación II
 
 ### Conexión utilizada (NO ESTOY SEGURO)
