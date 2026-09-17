@@ -101,7 +101,23 @@ El participante realizó la actividad física establecida por el grupo. La seña
 #### D. Actividad física
 
 
-### Ploteo de la señal en OpenSignal 
+### Ploteo de la señal en OpenSignal
+Para la imagen, para facilitaar la visualización del comportamiento de las señales, se delimitó el rango de tiempo entre 0 y 15 segundos
+#### A. Reposo
+
+![alt text](Imágenes/01_SeñalOpenSignal_lab04.jpeg)
+
+#### B. Hipoventilación
+
+![alt text](Imágenes/02_SeñalOpenSignal_lab04.jpeg)
+
+#### C. Hiperventilación
+
+![alt text](Imágenes/03_SeñalOpenSignal_lab04.jpeg)
+
+#### D. Actividad física
+
+![alt text](Imágenes/04_SeñalOpenSignal_lab04.jpeg)
 
 
 ### Archivos
@@ -142,23 +158,6 @@ Ploteo de la señal en Python
 <img width="1200" height="400" alt="ECG_ActividadFisica_1" src="https://github.com/user-attachments/assets/6cfbd5e7-b883-4620-b66d-479b4304f5bb" />
 
 <img width="1200" height="400" alt="FFT_ActividadFisica_1" src="https://github.com/user-attachments/assets/06c67f64-c62b-487a-a745-3978e1fd067c" />
-
-### Ploteo de la señal en OpenSignal
-#### A. Reposo
-
-![alt text](Imágenes/01_SeñalOpenSignal_lab04.jpeg)
-
-#### B. Hipoventilación
-
-![alt text](Imágenes/02_SeñalOpenSignal_lab04.jpeg)
-
-#### C. Hiperventilación
-
-![alt text](Imágenes/03_SeñalOpenSignal_lab04.jpeg)
-
-#### D. Actividad física
-
-![alt text](Imágenes/04_SeñalOpenSignal_lab04.jpeg)
 
 ## PRUEBA 2: Derivación II
 
@@ -213,8 +212,23 @@ https://github.com/user-attachments/assets/c2fcb044-5dac-4cd2-b5eb-d6344efd8973
 #### D. Actividad física
 
 
-### Ploteo de la señal en OpenSignal 
+### Ploteo de la señal en OpenSignal
+Para la imagen, para facilitaar la visualización del comportamiento de las señales, se delimitó el rango de tiempo entre 0 y 15 segundos
+#### A. Reposo
 
+![alt text](Imágenes/05_SeñalOpenSignal_lab04.jpeg)
+
+#### B. Hipoventilación
+
+![alt text](Imágenes/06_SeñalOpenSignal_lab04.jpeg)
+
+#### C. Hiperventilación
+
+![alt text](Imágenes/07_SeñalOpenSignal_lab04.jpeg)
+
+#### D. Actividad física
+
+![alt text](Imágenes/08_SeñalOpenSignal_lab04.jpeg)
 
 ### Archivos
 
@@ -305,7 +319,23 @@ https://github.com/user-attachments/assets/aec6b3a4-caf0-4b57-a255-c6e012211248
 #### D. Actividad física
 
 
-### Ploteo de la señal en OpenSignal 
+### Ploteo de la señal en OpenSignal
+Para la imagen, para facilitaar la visualización del comportamiento de las señales, se delimitó el rango de tiempo entre 0 y 15 segundos
+#### A. Reposo
+
+![alt text](Imágenes/09_SeñalOpenSignal_lab04.jpeg)
+
+#### B. Hipoventilación
+
+![alt text](Imágenes/10_SeñalOpenSignal_lab04.jpeg)
+
+#### C. Hiperventilación
+
+![alt text](Imágenes/11_SeñalOpenSignal_lab04.jpeg)
+
+#### D. Actividad física
+
+![alt text](Imágenes/12_SeñalOpenSignal_lab04.jpeg)
 
 
 ### Archivos
