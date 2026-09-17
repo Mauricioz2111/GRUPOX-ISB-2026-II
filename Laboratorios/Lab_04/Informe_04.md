@@ -198,8 +198,30 @@ Archivos
 ### Ploteo de la señal en Python
 Ploteo de la señal en Python
 
+#### A. Reposo
+
+<img width="1200" height="400" alt="ECG_Reposo_2" src="https://github.com/user-attachments/assets/2e1610df-ddbb-4744-9f9f-19d60275b5d5" />
+
+<img width="1200" height="400" alt="FFT_Reposo_2" src="https://github.com/user-attachments/assets/9843ce6a-e82b-4103-98ae-f2c04a808512" />
+
+#### B. Hipoventilación
+
+<img width="1200" height="400" alt="ECG_Hipoventilacion_2" src="https://github.com/user-attachments/assets/4c11bcaf-68f7-4710-a959-b565c22b6798" />
+
+<img width="1200" height="400" alt="FFT_Hipoventilacion_2" src="https://github.com/user-attachments/assets/50776dab-e5fb-440d-911c-3b0b7a3aa1ce" />
 
 
+#### C. Hiperventilación
+
+<img width="1200" height="400" alt="ECG_Hiperventilacion_2" src="https://github.com/user-attachments/assets/63958c79-146a-4727-a988-47a2541e0108" />
+
+<img width="1200" height="400" alt="FFT_Hiperventilacion_2" src="https://github.com/user-attachments/assets/ba632b29-911b-45c2-b662-826b37ce9417" />
+
+#### D. Actividad física
+
+<img width="1200" height="400" alt="ECG_ActividadFisica_2" src="https://github.com/user-attachments/assets/f0f1994b-c251-4ad4-9932-2986baba1fec" />
+
+<img width="1200" height="400" alt="FFT_ActividadFisica_2" src="https://github.com/user-attachments/assets/dbbdb984-a23e-4753-9d5b-c3853173831f" />
 
 ## PRUEBA 3: Derivación III
 
@@ -261,7 +283,29 @@ Archivos
 ### Ploteo de la señal en Python
 Ploteo de la señal en Python
 
+#### A. Reposo
 
+<img width="1200" height="400" alt="ECG_Reposo_3" src="https://github.com/user-attachments/assets/18e649e0-9613-42b0-9754-a45cf4d4e530" />
+
+<img width="1200" height="400" alt="FFT_Reposo_3" src="https://github.com/user-attachments/assets/d6c977d5-1c08-45e1-a2be-a8fefe95a299" />
+
+#### B. Hipoventilación
+
+<img width="1200" height="400" alt="ECG_Hiperventilacion_3" src="https://github.com/user-attachments/assets/ec37e23d-ca0d-4a3e-90f0-8b61b947ef05" />
+
+<img width="1200" height="400" alt="FFT_Hipoventilacion_3" src="https://github.com/user-attachments/assets/6be74305-326c-4074-b328-0ebdcba312f5" />
+
+#### C. Hiperventilación
+
+<img width="1200" height="400" alt="ECG_Hiperventilacion_3" src="https://github.com/user-attachments/assets/e21889d1-5f07-4dfd-9e31-cc62ce9b2d46" />
+
+<img width="1200" height="400" alt="FFT_Hiperventilacion_3" src="https://github.com/user-attachments/assets/a55ea0b1-52dc-468f-a14f-047127efee7f" />
+
+#### D. Actividad física
+
+<img width="1200" height="400" alt="ECG_ActividadFisica_3" src="https://github.com/user-attachments/assets/e039b20e-7c95-46a6-9952-0d35f12bbbde" />
+
+<img width="1200" height="400" alt="FFT_ActividadFisica_3" src="https://github.com/user-attachments/assets/d760b35f-f39b-4f33-af2f-05f3175d7dc7" />
 
 ## Preguntas de la sesión
 
