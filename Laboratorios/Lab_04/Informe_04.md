@@ -82,7 +82,7 @@ https://github.com/user-attachments/assets/c32edcd3-f383-4ba3-9b65-f405412b2bfe
 #### D. Actividad física
 El participante realizó la actividad física establecida por el grupo. La señal ECG se registró para observar los cambios producidos en la frecuencia cardiaca y la presencia de artefactos ocasionados por el movimiento.
 
-https://github.com/user-attachments/assets/5fe2c770-742a-4797-83d4-41a29cac6695
+
 
 
 
@@ -109,8 +109,32 @@ Archivos
 
 ### Ploteo de la señal en Python
 Ploteo de la señal en Python
+#### A. Reposo
+
+<img width="1200" height="400" alt="ECG_Reposo_1" src="https://github.com/user-attachments/assets/bef6af24-13bb-41cb-8634-e70bb7397bef" />
+
+<img width="1200" height="400" alt="FFT_Reposo_1" src="https://github.com/user-attachments/assets/926a2d80-f254-4374-ad8b-b0564c7deb2f" />
 
 
+#### B. Hipoventilación
+
+<img width="1200" height="400" alt="ECG_Hipoventilacion_1" src="https://github.com/user-attachments/assets/b049e7aa-5547-439b-bcb8-d80c749b2bcc" />
+
+<img width="1200" height="400" alt="FFT_Hipoventilacion_1" src="https://github.com/user-attachments/assets/c0aa8310-2eea-45fc-b2ae-548032230e6f" />
+
+
+#### C. Hiperventilación
+
+<img width="1200" height="400" alt="ECG_Hiperventilacion_1" src="https://github.com/user-attachments/assets/8810185c-2a5a-4a5b-86af-60650b632963" />
+
+<img width="1200" height="400" alt="FFT_Hiperventilacion_1" src="https://github.com/user-attachments/assets/3aa186ba-a40d-4241-a200-0733248ccc26" />
+
+
+#### D. Actividad física
+
+<img width="1200" height="400" alt="ECG_ActividadFisica_1" src="https://github.com/user-attachments/assets/6cfbd5e7-b883-4620-b66d-479b4304f5bb" />
+
+<img width="1200" height="400" alt="FFT_ActividadFisica_1" src="https://github.com/user-attachments/assets/06c67f64-c62b-487a-a745-3978e1fd067c" />
 
 ## PRUEBA 2: Derivación II
 
