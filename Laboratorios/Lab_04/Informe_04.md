@@ -73,15 +73,18 @@ Durante esta prueba, el participante disminuyó voluntariamente su frecuencia re
 <p align="center">
   <img src="./Imágenes/prueba1_hipo.jpg" alt="Hipoventilación para caso 1" width="500">
 </p>
-[Ver video](Videos/d1actividad1.mp4)
+
 #### C. Hiperventilación
 Durante esta prueba, el participante aumentó voluntariamente la frecuencia y profundidad de su respiración. La señal ECG se registró durante esta condición para observar las variaciones producidas por una respiración más rápida y profunda.
+
 [Ver video](Videos/d1actividad2.mp4)
+
+
 https://github.com/user-attachments/assets/c32edcd3-f383-4ba3-9b65-f405412b2bfe
 
 #### D. Actividad física
 El participante realizó la actividad física establecida por el grupo. La señal ECG se registró para observar los cambios producidos en la frecuencia cardiaca y la presencia de artefactos ocasionados por el movimiento.
-[Ver video](Videos/d1actividad3.mp4)
+
 
 
 
