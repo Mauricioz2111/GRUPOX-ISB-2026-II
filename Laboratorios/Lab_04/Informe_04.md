@@ -70,7 +70,14 @@ https://github.com/user-attachments/assets/7d7d8282-91c8-47d0-ba61-9d6debcc7626
 #### B. Hipoventilación
 Durante esta prueba, el participante disminuyó voluntariamente su frecuencia respiratoria. La señal ECG se registró durante esta condición para observar si el cambio en el patrón respiratorio producía variaciones en la señal.
 
-[Ver video](Videos/d1actividad1.mp4)
+
+https://github.com/user-attachments/assets/a032e770-d6e9-4e4d-9f10-4318813bb395
+
+
+
+
+https://github.com/user-attachments/assets/ad62be19-2880-484e-90fe-829594f144f7
+
 
 
 <p align="center">
