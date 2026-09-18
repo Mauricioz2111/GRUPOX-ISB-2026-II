@@ -379,9 +379,9 @@ Ploteo de la señal en Python
 
    - **¿Cuáles son las fuentes de ruido más comunes que afectan a una señal de ECG?** 
    Las fuentes de ruido más comunes suelen ser:
-      - 1. Interferencia de la red eléctrica (50/60 Hz): Ruido sinusoidal de alta frecuencia causado por acoplamiento capacitivo o inductivo entre los cables del ECG y la líneas de corriente alterna del entorno. 
-      - 2. Ruido electromiográfico (EMG): Señal indeseada de alta frecuencia y amplitud variable producida por la actividad eléctrica de la musculatura esquelética (contracciones, temblores o tensión).
-      - 3. Deriva de la línea base (Baseline Wander): Variación de muy baja frecuencia (<0.5 Hz) provocada principalmente por los movimientos respiratorios y por cambios lentos en la impedancia entre la piel y el electrodo.
+      - Interferencia de la red eléctrica (50/60 Hz): Ruido sinusoidal de alta frecuencia causado por acoplamiento capacitivo o inductivo entre los cables del ECG y la líneas de corriente alterna del entorno. 
+      - Ruido electromiográfico (EMG): Señal indeseada de alta frecuencia y amplitud variable producida por la actividad eléctrica de la musculatura esquelética (contracciones, temblores o tensión).
+      - Deriva de la línea base (Baseline Wander): Variación de muy baja frecuencia (<0.5 Hz) provocada principalmente por los movimientos respiratorios y por cambios lentos en la impedancia entre la piel y el electrodo.
       - Artefactos de movimiento: Cambios abruptos en l señal generados por el desplazamiento físico de los cables, el estiramiento de la piel o la pérdida parcial de contacto del electrodo.
       - Impedancia piel-electrodo elevada: Ruido térmico y atenuación de la señl por una deficiente preparación de la piel (presencia de vello, grasa cutánea o gel deseado).
 
