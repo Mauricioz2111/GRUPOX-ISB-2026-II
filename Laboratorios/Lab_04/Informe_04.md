@@ -214,10 +214,20 @@ https://github.com/user-attachments/assets/c2fcb044-5dac-4cd2-b5eb-d6344efd8973
 #### B. Hipoventilación
 
 
+
+https://github.com/user-attachments/assets/ba160a4e-98d6-4db4-87b7-93162339581a
+
+
 #### C. Hiperventilación
+
+https://github.com/user-attachments/assets/204ea454-55b3-43f6-a29e-63909ff0f8cd
 
 
 #### D. Actividad física
+
+
+https://github.com/user-attachments/assets/d5f3f819-1b03-4b83-9730-5f76fcc96100
+
 
 
 ### Ploteo de la señal en OpenSignal
@@ -317,13 +327,24 @@ https://github.com/user-attachments/assets/aec6b3a4-caf0-4b57-a255-c6e012211248
 #### A. Reposo
 
 
+https://github.com/user-attachments/assets/ea1c222f-60b3-41ae-8806-2a52cf408884
+
+
+
 #### B. Hipoventilación
+
+https://github.com/user-attachments/assets/fe62237a-57e4-478c-bb79-23d00ca022cb
 
 
 #### C. Hiperventilación
 
 
+https://github.com/user-attachments/assets/2e155caa-2d93-448d-8b06-60f5b2979c4b
+
+
 #### D. Actividad física
+
+https://github.com/user-attachments/assets/502d7bc4-ee32-402c-bf42-1f743ed8ff26
 
 
 ### Ploteo de la señal en OpenSignal
