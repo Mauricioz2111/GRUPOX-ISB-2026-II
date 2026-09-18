@@ -70,6 +70,9 @@ https://github.com/user-attachments/assets/7d7d8282-91c8-47d0-ba61-9d6debcc7626
 #### B. Hipoventilación
 Durante esta prueba, el participante disminuyó voluntariamente su frecuencia respiratoria. La señal ECG se registró durante esta condición para observar si el cambio en el patrón respiratorio producía variaciones en la señal.
 
+[Ver video](Videos/d1actividad1.mp4)
+
+
 <p align="center">
   <img src="./Imágenes/prueba1_hipo.jpg" alt="Hipoventilación para caso 1" width="500">
 </p>
@@ -85,7 +88,7 @@ https://github.com/user-attachments/assets/c32edcd3-f383-4ba3-9b65-f405412b2bfe
 #### D. Actividad física
 El participante realizó la actividad física establecida por el grupo. La señal ECG se registró para observar los cambios producidos en la frecuencia cardiaca y la presencia de artefactos ocasionados por el movimiento.
 
-
+[Ver video](Videos/d1actividad3.mp4)
 
 
 
