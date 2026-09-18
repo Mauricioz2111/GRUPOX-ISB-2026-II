@@ -394,17 +394,39 @@ Ploteo de la señal en Python
    - **¿Existen diferencias importantes al adquirir la señal ECG en distintas partes del cuerpo, como las muñecas, las clavículas o el pecho? ¿Cuál podría ser la causa? ¿Esperaba observar estos cambios? Muestre un segmento de la señal obtenida en cada ubicación para visualizar las diferencias.**  
    Sí, se observan diferencias claras según la ubicación de los electrodos. En el pecho obtenemos la mayor amplitud y nitidez por la proximidad al corazón; en las clavículas la señal sigue siendo adecuada pero con menor interferencia muscular, mientras que en las muñecas la amplitud cae sensiblemente y aumenta el ruido por movimiento. Esto se debe a que el torso actúa como un conductor volumétrico que atenúa el campo eléctrico a medida que se incrementa la distancia y el tejido atravesado. Por ello, estos cambios eran totalmente esperados, ya que la teoría establece que la magnitud del potencial captado disminuye al alejarnos de la fuente cardíaca.
 
-   - **Los sistemas cardiaco y respiratorio se encuentran relacionados. ¿Considera que las distintas formas de respiración, como una respiración más rápida o profunda, pueden influir en la señal ECG? Muestre capturas de las señales obtenidas bajo diferentes condiciones respiratorias y describa las variaciones observadas, si las hubiera.** (jairo)
+   - **Los sistemas cardiaco y respiratorio se encuentran relacionados. ¿Considera que las distintas formas de respiración, como una respiración más rápida o profunda, pueden influir en la señal ECG? Muestre capturas de las señales obtenidas bajo diferentes condiciones respiratorias y describa las variaciones observadas, si las hubiera.**
 
+   Sí, la forma de respirar puede influir en la señal ECG. Al comparar los registros de la derivación I, se observaron cambios en la separación entre los picos y en la estabilidad de la señal.
+
+   Durante la hipoventilación, los picos se encontraron más separados que durante la hiperventilación, lo que indica una menor frecuencia cardiaca. En cambio, durante la hiperventilación los picos aparecieron con mayor frecuencia. También se observaron algunas variaciones de amplitud y segmentos con mayor ruido, posiblemente por el movimiento más rápido y profundo del tórax.
+
+   En comparación con el reposo, la hipoventilación presentó una disminución de la frecuencia cardiaca, mientras que durante la hiperventilación esta volvió a aumentar. Por lo tanto, los registros muestran que el cambio en el patrón respiratorio sí produjo variaciones en la señal ECG.
+
+   **Señal ECG en reposo:**
+
+   <p align="center">
+     <img src="./Imágenes/Python/ECG_Reposo_1.png" alt="Señal ECG en reposo - Derivación I" width="800">
+   </p>
+
+   **Señal ECG durante la hipoventilación:**
+
+   <p align="center">
+     <img src="./Imágenes/Python/ECG_Hipoventilacion_1.png" alt="Señal ECG durante la hipoventilación - Derivación I" width="800">
+   </p>
+
+   **Señal ECG durante la hiperventilación:**
+
+   <p align="center">
+     <img src="./Imágenes/Python/ECG_Hiperventilacion_1.png" alt="Señal ECG durante la hiperventilación - Derivación I" width="800">
+   </p>
    
-   
-   - **En la Home-Guide n.º 1 se observó que diferentes niveles de fuerza muscular producían señales con amplitudes distintas. ¿Cómo influye el movimiento en la señal ECG?** (jairo)
+   - **En la Home-Guide n.º 1 se observó que diferentes niveles de fuerza muscular producían señales con amplitudes distintas. ¿Cómo influye el movimiento en la señal ECG?** 
   
    El movimiento afecta la señal ECG porque puede hacer que los electrodos se desplacen o cambien su contacto con la piel. Como resultado, aparecen picos o variaciones que no necesariamente corresponden a la actividad del corazón.
 
    Esto se notó principalmente durante la actividad física, ya que al realizar los burpees se activaron varios músculos y hubo bastante movimiento corporal. Por esa razón, durante el ejercicio fue más difícil reconocer con claridad los componentes del ECG. Para evaluar la frecuencia cardiaca fue más conveniente observar el registro obtenido después del ejercicio, cuando el participante ya estaba quieto, pero su frecuencia cardiaca todavía se encontraba elevada.
 
-   - **Según sus conocimientos, ¿cómo se pueden detectar la bradicardia y la taquicardia en una señal ECG?** (jairo)
+   - **Según sus conocimientos, ¿cómo se pueden detectar la bradicardia y la taquicardia en una señal ECG?**
   
    Para identificarlas se pueden ubicar los picos R y medir el tiempo entre dos picos consecutivos, conocido como intervalo R-R. Con este intervalo se calcula la frecuencia cardiaca:
 
