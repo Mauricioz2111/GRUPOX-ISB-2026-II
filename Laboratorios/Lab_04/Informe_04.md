@@ -71,14 +71,6 @@ https://github.com/user-attachments/assets/7d7d8282-91c8-47d0-ba61-9d6debcc7626
 Durante esta prueba, el participante disminuyó voluntariamente su frecuencia respiratoria. La señal ECG se registró durante esta condición para observar si el cambio en el patrón respiratorio producía variaciones en la señal.
 
 
-https://github.com/user-attachments/assets/a032e770-d6e9-4e4d-9f10-4318813bb395
-
-
-
-
-https://github.com/user-attachments/assets/ad62be19-2880-484e-90fe-829594f144f7
-
-
 
 <p align="center">
   <img src="./Imágenes/prueba1_hipo.jpg" alt="Hipoventilación para caso 1" width="500">
@@ -87,7 +79,7 @@ https://github.com/user-attachments/assets/ad62be19-2880-484e-90fe-829594f144f7
 #### C. Hiperventilación
 Durante esta prueba, el participante aumentó voluntariamente la frecuencia y profundidad de su respiración. La señal ECG se registró durante esta condición para observar las variaciones producidas por una respiración más rápida y profunda.
 
-[Ver video](Videos/d1actividad2.mp4)
+
 
 
 https://github.com/user-attachments/assets/c32edcd3-f383-4ba3-9b65-f405412b2bfe
@@ -95,7 +87,8 @@ https://github.com/user-attachments/assets/c32edcd3-f383-4ba3-9b65-f405412b2bfe
 #### D. Actividad física
 El participante realizó la actividad física establecida por el grupo. La señal ECG se registró para observar los cambios producidos en la frecuencia cardiaca y la presencia de artefactos ocasionados por el movimiento.
 
-[Ver video](Videos/d1actividad3.mp4)
+
+
 
 
 
@@ -107,12 +100,14 @@ El participante realizó la actividad física establecida por el grupo. La seña
 
 #### B. Hipoventilación
 
-
+https://github.com/user-attachments/assets/a032e770-d6e9-4e4d-9f10-4318813bb395
 #### C. Hiperventilación
 
+https://github.com/user-attachments/assets/92dbc05d-d1f6-4c48-842d-00e78e6e39eb
 
 #### D. Actividad física
 
+https://github.com/user-attachments/assets/ed31f0db-9505-4315-b5ab-c63d668f071d
 
 ### Ploteo de la señal en OpenSignal
 En las imagenes, para facilitar la visualización del comportamiento de las señales, se delimitó el rango de tiempo entre 0 y 15 segundos
