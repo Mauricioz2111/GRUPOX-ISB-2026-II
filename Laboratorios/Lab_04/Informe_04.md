@@ -54,7 +54,7 @@ Finalmente, se detuvo cada adquisición y los registros obtenidos se guardaron e
 
 ## PRUEBA 1: Derivación I
 
-### Conexión utilizada (NO ESTOY SEGURO)
+### Conexión utilizada: Derivación I: El electrodo negativo (−) se coloca en RA, ubicado en la clavícula derecha, y el positivo (+) en LA, ubicado en la clavícula izquierda. El electrodo de referencia (REF) se coloca en la cresta ilíaca.
 En esta prueba se utilizó la derivación I de Einthoven. El electrodo positivo, conectado al cable rojo (IN+), se colocó sobre la clavícula izquierda. El electrodo negativo, conectado al cable negro (IN-), se ubicó sobre la clavícula derecha. El electrodo de referencia, conectado al cable blanco (REF), se colocó en la cresta ilíaca. 
 
 <p align="center">
@@ -161,7 +161,7 @@ Ploteo de la señal en Python
 
 ## PRUEBA 2: Derivación II
 
-### Conexión utilizada (NO ESTOY SEGURO)
+### Conexión utilizada:Derivación II: El electrodo negativo (−) se coloca en RA, ubicado en la clavícula derecha, y el positivo (+) en LL/LF, ubicado en la pierna izquierda. El electrodo de referencia (REF) se coloca en la cresta ilíaca.
 
 En esta prueba se utilizó la derivación II de Einthoven, la cual registra la diferencia de potencial desde el brazo derecho, correspondiente al polo negativo, hacia la pierna izquierda, correspondiente al polo positivo.
 
@@ -270,7 +270,7 @@ Ploteo de la señal en Python
 
 ## PRUEBA 3: Derivación III
 
-### Conexión utilizada (NO ESTOY SEGURO)
+### Conexión utilizada:El electrodo negativo (−) se coloca en LA, ubicado en la clavícula izquierda, y el positivo (+) en LL/LF, ubicado en la pierna izquierda. El electrodo de referencia (REF) se coloca en la cresta ilíaca.
 En esta prueba se utilizó la derivación III de Einthoven, la cual registra la diferencia de potencial desde el brazo izquierdo, correspondiente al polo negativo, hacia la pierna izquierda, correspondiente al polo positivo.
 
 El electrodo negativo negro (IN−) se colocó en la posición correspondiente al brazo izquierdo y el electrodo positivo rojo (IN+) en la posición correspondiente a la pierna izquierda. El electrodo blanco se utilizó como referencia.
