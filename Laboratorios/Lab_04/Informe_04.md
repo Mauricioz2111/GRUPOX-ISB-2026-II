@@ -379,17 +379,17 @@ Ploteo de la señal en Python
 
    - **¿Cuáles son las fuentes de ruido más comunes que afectan a una señal de ECG?** 
    Las fuentes de ruido más comunes suelen ser:
-    - 1. Interferencia de la red eléctrica (50/60 Hz): Ruido sinusoidal de alta frecuencia causado por acoplamiento capacitivo o inductivo entre los cables del ECG y la líneas de corriente alterna del entorno. 
-    - 2. Ruido electromiográfico (EMG): Señal indeseada de alta frecuencia y amplitud variable producida por la actividad eléctrica de la musculatura esquelética (contracciones, temblores o tensión).
-    - 3. Deriva de la línea base (Baseline Wander): Variación de muy baja frecuencia (<0.5 Hz) provocada principalmente por los movimientos respiratorios y por cambios lentos en la impedancia entre la piel y el electrodo.
-    - Artefactos de movimiento: Cambios abruptos en l señal generados por el desplazamiento físico de los cables, el estiramiento de la piel o la pérdida parcial de contacto del electrodo.
-    - Impedancia piel-electrodo elevada: Ruido térmico y atenuación de la señl por una deficiente preparación de la piel (presencia de vello, grasa cutánea o gel deseado).
+      - 1. Interferencia de la red eléctrica (50/60 Hz): Ruido sinusoidal de alta frecuencia causado por acoplamiento capacitivo o inductivo entre los cables del ECG y la líneas de corriente alterna del entorno. 
+      - 2. Ruido electromiográfico (EMG): Señal indeseada de alta frecuencia y amplitud variable producida por la actividad eléctrica de la musculatura esquelética (contracciones, temblores o tensión).
+      - 3. Deriva de la línea base (Baseline Wander): Variación de muy baja frecuencia (<0.5 Hz) provocada principalmente por los movimientos respiratorios y por cambios lentos en la impedancia entre la piel y el electrodo.
+      - Artefactos de movimiento: Cambios abruptos en l señal generados por el desplazamiento físico de los cables, el estiramiento de la piel o la pérdida parcial de contacto del electrodo.
+      - Impedancia piel-electrodo elevada: Ruido térmico y atenuación de la señl por una deficiente preparación de la piel (presencia de vello, grasa cutánea o gel deseado).
 
    - **¿Por qué el cambio en la posición de los electrodos, entre las derivaciones I, II y III, modifica los componentes de la señal ECG? ¿Cómo cambian estos componentes?** 
    El corazón genera un vector dipolar eléctrico (E) que cambia de orientación y magnitud en cada en cada instante del ciclo cardíacp. Las derivaciones del plano frontal (triángulo de Einthoven) miden la diferencia de potencial entre dos puntos colocados en distintos ángulos respecto al corazón.
-    - Derivación I: 0° (Mano izquierda - Mano derecha): Captura la proyección horizontal. Presenta una onda P muy clara y una onda R de amplitud moderada (menor que en II)
-    - Derivación II: +60° (Pie izquierdo - Mano derecha): Se alinea con el eje eléctrico cardíaco normal. Registra mayor amplitud en la onda R y un complejo QRS muy nítido.
-    - Derivación III: +120° (Pie izquierdo - Mano izquierda): Captura la proyección oblicua. Muestra una onda R más atenuada y una onda T que puede ser aplanada o bifásica.
+      - Derivación I: 0° (Mano izquierda - Mano derecha): Captura la proyección horizontal. Presenta una onda P muy clara y una onda R de amplitud moderada (menor que en II)
+      - Derivación II: +60° (Pie izquierdo - Mano derecha): Se alinea con el eje eléctrico cardíaco normal. Registra mayor amplitud en la onda R y un complejo QRS muy nítido.
+      - Derivación III: +120° (Pie izquierdo - Mano izquierda): Captura la proyección oblicua. Muestra una onda R más atenuada y una onda T que puede ser aplanada o bifásica.
    
    - **¿Existen diferencias importantes al adquirir la señal ECG en distintas partes del cuerpo, como las muñecas, las clavículas o el pecho? ¿Cuál podría ser la causa? ¿Esperaba observar estos cambios? Muestre un segmento de la señal obtenida en cada ubicación para visualizar las diferencias.**  
    Sí, se observan diferencias claras según la ubicación de los electrodos. En el pecho obtenemos la mayor amplitud y nitidez por la proximidad al corazón; en las clavículas la señal sigue siendo adecuada pero con menor interferencia muscular, mientras que en las muñecas la amplitud cae sensiblemente y aumenta el ruido por movimiento. Esto se debe a que el torso actúa como un conductor volumétrico que atenúa el campo eléctrico a medida que se incrementa la distancia y el tejido atravesado. Por ello, estos cambios eran totalmente esperados, ya que la teoría establece que la magnitud del potencial captado disminuye al alejarnos de la fuente cardíaca.
