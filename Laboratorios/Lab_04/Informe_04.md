@@ -241,7 +241,6 @@ En las imagenes, para facilitar la visualización del comportamiento de las señ
 [ECG en Actividad física - Derivación II](https://github.com/Mauricioz2111/GRUPOX-ISB-2026-II/blob/main/Laboratorios/Lab_04/DatosSeñalesECG_CSV/ECG_actividadfisica_II.csv)
 
 ### Ploteo de la señal en Python
-Ploteo de la señal en Python
 
 #### A. Reposo
 
@@ -349,7 +348,6 @@ En las imagenes, para facilitar la visualización del comportamiento de las señ
 [ECG en Actividad física - Derivación III](https://github.com/Mauricioz2111/GRUPOX-ISB-2026-II/blob/main/Laboratorios/Lab_04/DatosSeñalesECG_CSV/ECG_actividadfisica_III.csv)
 
 ### Ploteo de la señal en Python
-Ploteo de la señal en Python
 
 #### A. Reposo
 
