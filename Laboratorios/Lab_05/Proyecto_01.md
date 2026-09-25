@@ -191,7 +191,10 @@ Tonin et al. (2020) se mantiene como antecedente complementario [17], [18]. Sirv
 - **Título:** Auditory Electrooculogram-based Communication System for ALS Patients in Transition from Locked-in to Complete Locked-in State.
 - **DOI:** https://doi.org/10.1038/s41598-020-65333-1
 
-## 6. Referencias bibliográficas
+## 6. Video explicativo
+https://drive.google.com/file/d/1ySPxCaBtXhvw693gvcDpRNDxQyAkqF78/view?usp=sharing 
+
+## 7. Referencias bibliográficas
 [1] W. H. C. Li, J. O. K. Chung, K. Y. Ho y B. M. C. Kwok, “Play interventions to reduce anxiety and negative emotions in hospitalized children,” BMC Pediatrics, vol. 16, art. 36, 2016. https://doi.org/10.1186/s12887-016-0570-5
 
 [2] A. G. Bjerkan, M. Hulsund, H. B. H. Brenne y M.-E. Eilertsen, “Nurses’ perspectives on early mobilization of intubated children in the pediatric intensive care unit: a qualitative study of barriers and facilitators,” Frontiers in Pediatrics, 2026. https://doi.org/10.3389/fped.2026.1853836
