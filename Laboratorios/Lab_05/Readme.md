@@ -54,6 +54,7 @@ El electrooculograma (EOG), una señal electrofisiológica, se genera por los mo
 En varios estudios de interacción persona-ordenador basados en EOG, los electrodos se colocaban de manera que uno se ubicaba encima y otro por debajo del ojo (izquierdo o derecho).
 
 > ![alt text](<Imágenes/Colocación de electrodos para EOG convencional.JPG>)
+> 
 > **Figura 1.** Colocación de electrodos para EOG convencional [#1].
 
 Normalmente se utiliza la EOG para monitorizar los movimientos oculares o para confirmar enfermedades como la "enfermedad de Best" la cual se identifica por la apariencia de un fondo de ojo amarillo huevo y se puede confirmar mediante el registro de un electroretinograma (ERG) y un electrooculograma (EOG) [#2]. En este proyecto, la señal no se utilizará para identificar qué enfermedad tiene el usuario, sino para reconocer los movimientos oculares que todavía puede controlar.
