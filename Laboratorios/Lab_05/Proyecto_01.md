@@ -2,9 +2,7 @@
 
 ## 1. Nombre del proyecto
 
-**Interfaz de comunicación adaptativa basada en EOG para personas con discapacidad motora severa**
-
-Nombre corto del sistema: **EOG-Adapta**
+**UCIPlay — Sistema EOG que se adapta a cada mirada.**
 
 ## 2. Integrantes
 
@@ -54,7 +52,6 @@ El electrooculograma (EOG), una señal electrofisiológica, se genera por los mo
 En varios estudios de interacción persona-ordenador basados en EOG, los electrodos se colocaban de manera que uno se ubicaba encima y otro por debajo del ojo (izquierdo o derecho).
 
 > ![alt text](<Imágenes/Colocación de electrodos para EOG convencional.JPG>)
-> 
 > **Figura 1.** Colocación de electrodos para EOG convencional [#1].
 
 Normalmente se utiliza la EOG para monitorizar los movimientos oculares o para confirmar enfermedades como la "enfermedad de Best" la cual se identifica por la apariencia de un fondo de ojo amarillo huevo y se puede confirmar mediante el registro de un electroretinograma (ERG) y un electrooculograma (EOG) [#2]. En este proyecto, la señal no se utilizará para identificar qué enfermedad tiene el usuario, sino para reconocer los movimientos oculares que todavía puede controlar.
@@ -282,3 +279,4 @@ Tonin et al. (2020) se mantiene como antecedente complementario [9]. Sirve para 
 
 - **Título:** Auditory Electrooculogram-based Communication System for ALS Patients in Transition from Locked-in to Complete Locked-in State.
 - **DOI:** https://doi.org/10.1038/s41598-020-65333-1
+
