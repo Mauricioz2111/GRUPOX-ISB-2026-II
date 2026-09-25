@@ -27,9 +27,6 @@ A nivel internacional, la situación es parecida. Hay evidencia de que la estimu
 Con lo anterior, la población objetivo del proyecto se delimita a niños conscientes de aproximadamente 4 a 12 años, hospitalizados en una UCIP, con la movilidad manual restringida por dispositivos médicos (y no por un daño neurológico permanente), y que conserven al menos un movimiento ocular voluntario detectable. Esto los diferencia de otras poblaciones ya trabajadas con EOG, como los pacientes con ELA.
 
 ### 3.3. Relación con la señal biomédica
-- https://www.mdpi.com/1424-8220/17/7/1485 [11]
-- https://pubmed.ncbi.nlm.nih.gov/31277871/ [12]
-- https://www.mdpi.com/1424-8220/19/12/2690 [13]
 
 El electrooculograma (EOG), una señal electrofisiológica, se genera por los movimientos oculares y puede medirse con electrodos colocados alrededor del ojo. En general, un EOG mide la diferencia de potencial entre la retina y la córnea. El globo ocular puede modelarse como un dipolo con la córnea positiva en la parte frontal y la retina negativa en la parte posterior. Las principales aplicaciones del EOG son el diagnóstico oftalmológico y el registro de los movimientos oculares. Para registrar los movimientos oculares, se suelen colocar electrodos de superficie en cuatro posiciones alrededor de los ojos (arriba, abajo, izquierda y derecha). El par de electrodos colocados arriba y abajo de los ojos se utiliza para medir el movimiento vertical de los ojos, y el par de electrodos colocados a la izquierda y derecha de los ojos se utiliza para medir el movimiento horizontal de los ojos. Cuando la mirada se desplaza hacia la izquierda, el campo eléctrico del lado izquierdo de los ojos se vuelve positivo y el del lado opuesto se vuelve negativo [11].
 En varios estudios de interacción persona-ordenador basados en EOG, los electrodos se colocaban de manera que uno se ubicaba encima y otro por debajo del ojo (izquierdo o derecho) [20].
