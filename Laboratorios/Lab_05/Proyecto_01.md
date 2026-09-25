@@ -30,6 +30,7 @@ Con lo anterior, la población objetivo del proyecto se delimita a niños consci
 - https://www.mdpi.com/1424-8220/17/7/1485 [11]
 - https://pubmed.ncbi.nlm.nih.gov/31277871/ [12]
 - https://www.mdpi.com/1424-8220/19/12/2690 [13]
+
 El electrooculograma (EOG), una señal electrofisiológica, se genera por los movimientos oculares y puede medirse con electrodos colocados alrededor del ojo. En general, un EOG mide la diferencia de potencial entre la retina y la córnea. El globo ocular puede modelarse como un dipolo con la córnea positiva en la parte frontal y la retina negativa en la parte posterior. Las principales aplicaciones del EOG son el diagnóstico oftalmológico y el registro de los movimientos oculares. Para registrar los movimientos oculares, se suelen colocar electrodos de superficie en cuatro posiciones alrededor de los ojos (arriba, abajo, izquierda y derecha). El par de electrodos colocados arriba y abajo de los ojos se utiliza para medir el movimiento vertical de los ojos, y el par de electrodos colocados a la izquierda y derecha de los ojos se utiliza para medir el movimiento horizontal de los ojos. Cuando la mirada se desplaza hacia la izquierda, el campo eléctrico del lado izquierdo de los ojos se vuelve positivo y el del lado opuesto se vuelve negativo [11].
 En varios estudios de interacción persona-ordenador basados en EOG, los electrodos se colocaban de manera que uno se ubicaba encima y otro por debajo del ojo (izquierdo o derecho) [20].
 > ![alt text](<Imágenes/Colocación de electrodos para EOG convencional.JPG>)
