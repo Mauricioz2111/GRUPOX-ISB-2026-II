@@ -33,6 +33,7 @@ Con lo anterior, la población objetivo del proyecto se delimita a niños consci
 El electrooculograma (EOG), una señal electrofisiológica, se genera por los movimientos oculares y puede medirse con electrodos colocados alrededor del ojo. En general, un EOG mide la diferencia de potencial entre la retina y la córnea. El globo ocular puede modelarse como un dipolo con la córnea positiva en la parte frontal y la retina negativa en la parte posterior. Las principales aplicaciones del EOG son el diagnóstico oftalmológico y el registro de los movimientos oculares. Para registrar los movimientos oculares, se suelen colocar electrodos de superficie en cuatro posiciones alrededor de los ojos (arriba, abajo, izquierda y derecha). El par de electrodos colocados arriba y abajo de los ojos se utiliza para medir el movimiento vertical de los ojos, y el par de electrodos colocados a la izquierda y derecha de los ojos se utiliza para medir el movimiento horizontal de los ojos. Cuando la mirada se desplaza hacia la izquierda, el campo eléctrico del lado izquierdo de los ojos se vuelve positivo y el del lado opuesto se vuelve negativo [11].
 En varios estudios de interacción persona-ordenador basados en EOG, los electrodos se colocaban de manera que uno se ubicaba encima y otro por debajo del ojo (izquierdo o derecho) [20].
 > ![alt text](<Imágenes/Colocación de electrodos para EOG convencional.JPG>)
+
 > **Figura 1.** Colocación de electrodos para EOG convencional [11].
 Normalmente se utiliza la EOG para monitorizar los movimientos oculares o para confirmar enfermedades como la "enfermedad de Best" la cual se identifica por la apariencia de un fondo de ojo amarillo huevo y se puede confirmar mediante el registro de un electroretinograma (ERG) y un electrooculograma (EOG) [12]. En este proyecto, la señal no se utilizará para identificar qué enfermedad tiene el usuario, sino para reconocer los movimientos oculares que todavía puede controlar.
 Un desafío central en la adquisición de esta señal es su alta vulnerabilidad frente a diversos artefactos, como los movimientos palpebrales (parpadeo), la contaminación electromiográfica (EMG) de alta frecuencia, los temblores musculares leves y las variaciones por la posición o impedancia de los electrodos [13]. Adicionalmente, al ser una señal electrofisiológica, parámetros como la amplitud, la duración y la velocidad de los movimientos varian en cada persona. Por ello, el sistema deberá realizar una calibración individual y no utilizar exactamente los mismos parámetros para todos los usuarios.
@@ -57,6 +58,7 @@ A partir de esta información, el sistema determinará qué comandos pueden util
 De esta manera, el sistema no asumirá que todos los usuarios poseen las mismas capacidades oculomotoras. La configuración de la interfaz será determinada a partir de la señal registrada de cada usuario.
 Una vez completada la calibración, los movimientos oculares detectados serán convertidos en comandos digitales que permitirán controlar diferentes actividades dentro de la interfaz. Estas actividades podrían incluir juegos sencillos, selección de imágenes, ejercicios de memoria, reconocimiento de patrones, actividades educativas y otras tareas de estimulación cognitiva adaptadas al contexto pediátrico.
 > ![alt text](<Imágenes/Arquitectura general del sistema.JPG>)
+
 > **Figura 2.** Arquitectura general del sistema
 Un aspecto fundamental será que el sistema también deberá distinguir entre movimientos intencionales y estados de reposo. Esto permitirá evitar que pequeñas fluctuaciones de la señal sean interpretadas como comandos. Asimismo, podrán implementarse mecanismos de confirmación, tiempos mínimos de activación o zonas de tolerancia para reducir activaciones accidentales.
 
@@ -193,23 +195,42 @@ Tonin et al. (2020) se mantiene como antecedente complementario [17], [18]. Sirv
 
 ## 6. Referencias bibliográficas
 [1] W. H. C. Li, J. O. K. Chung, K. Y. Ho y B. M. C. Kwok, “Play interventions to reduce anxiety and negative emotions in hospitalized children,” BMC Pediatrics, vol. 16, art. 36, 2016. https://doi.org/10.1186/s12887-016-0570-5
+
 [2] A. G. Bjerkan, M. Hulsund, H. B. H. Brenne y M.-E. Eilertsen, “Nurses’ perspectives on early mobilization of intubated children in the pediatric intensive care unit: a qualitative study of barriers and facilitators,” Frontiers in Pediatrics, 2026. https://doi.org/10.3389/fped.2026.1853836
+
 [3] J. Engel, F. von Borell, I. Baumgartner, M. Kumpf, M. Hofbeck, J. Michel y F. Neunhoeffer, “Modified ABCDEF-Bundles for Critically Ill Pediatric Patients—What Could They Look Like?,” Frontiers in Pediatrics, vol. 10, art. 886334, 2022. https://doi.org/10.3389/fped.2022.886334
+
 [4] E. Fatima, I. Hill, N. Dover y H. Faisal, “Exploring Cognitive Stimulation as a Therapy for the Prevention of Delirium in a Hospital Setting: A Narrative Review,” Behavioral Sciences, vol. 15, n.º 2, art. 186, 2025. https://doi.org/10.3390/bs15020186
+
 [5] V. N. A. Bharuchi y M. A. Rasheed, “Effect of play-based intervention on children’s mental status and caregiver involvement during hospitalization: findings from Pakistan,” BMC Pediatrics, vol. 24, art. 239, 2024. https://doi.org/10.1186/s12887-024-04659-5
+
 [6] J. M. Costello, L. Patak y J. Pritchard, “Communication vulnerable patients in the pediatric ICU: Enhancing care through augmentative and alternative communication,” Journal of Pediatric Rehabilitation Medicine, vol. 3, n.º 4, pp. 289–301, 2010. https://doi.org/10.3233/PRM-2010-0140
+
 [7] J. C. Alvarado-Jaramillo, A. J. Gonzáles-Ramos y P. Mendoza-Arana, “Análisis de costos en dos unidades de cuidados intensivos pediátricos del Ministerio de Salud del Perú,” Anales de la Facultad de Medicina, vol. 72, n.º 4, pp. 249–254, 2011. http://www.scielo.org.pe/scielo.php?script=sci_arttext&pid=S1025-55832011000400005
+
 [8] S. Campos-Miño, J. S. Sasbón y B. von Dessauer, “Los cuidados intensivos pediátricos en Latinoamérica,” Medicina Intensiva, vol. 36, n.º 1, pp. 3–10, 2012. https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S0210-56912012000100002
+
 [9] A. Y. Huaynates Castro y J. B. Caro Valera, Eficacia del juego terapéutico en la disminución del dolor, ansiedad y mejora del cuidado humanizado en pacientes pediátricos hospitalizados, trabajo académico, Universidad Privada Norbert Wiener, 2018. https://repositorio.uwiener.edu.pe/items/518a9372-4cac-4353-ad63-6c701a413088
+
 [10] University Hospitals Plymouth NHS Trust, “How Subtle Eye Movements Have Opened Up New Communication Possibilities,” 2023. https://www.plymouthhospitals.nhs.uk/charity-news-events/how-subtle-eye-movements-have-opened-up-new-communication-possibilities-7263/
+
 [11] J. Heo, H. Yoon y K. S. Park, “A Novel Wearable Forehead EOG Measurement System for Human Computer Interfaces,” Sensors, vol. 17, n.º 7, art. 1485, 2017. https://doi.org/10.3390/s17071485
+
 [12] D. J. Creel, “The electrooculogram,” Handbook of Clinical Neurology, vol. 160, pp. 495–499, 2019. https://doi.org/10.1016/B978-0-444-64032-1.00033-3
+
 [13] W.-D. Chang, “Electrooculograms for Human–Computer Interaction: A Review,” Sensors, vol. 19, n.º 12, art. 2690, 2019. https://doi.org/10.3390/s19122690
+
 [14] N. Barbara, T. A. Camilleri y K. P. Camilleri, “A comparison of EOG baseline drift mitigation techniques,” Biomedical Signal Processing and Control, vol. 57, art. 101738, 2020. https://doi.org/10.1016/j.bspc.2019.101738. Base de datos: https://www.um.edu.mt/cbc/ourprojects/eyecon/eogdataset/. Descarga del Dataset 1: https://www.um.edu.mt/media/um/docs/centres/cbc/DATASET.zip
+
 [15] C. Belkhiria, A. Boudir, C. Hurter y V. Peysakhovich, “EOG-Based Human–Computer Interface: 2000–2020 Review,” Sensors, vol. 22, n.º 13, art. 4914, 2022. https://doi.org/10.3390/s22134914
+
 [16] C.-T. Lin, W.-L. Jiang, S.-F. Chen, K.-C. Huang y L.-D. Liao, “Design of a Wearable Eye-Movement Detection System Based on Electrooculography Signals and Its Experimental Validation,” Biosensors, vol. 11, n.º 9, art. 343, 2021. https://doi.org/10.3390/bios11090343
+
 [17] A. Tonin, A. Jaramillo-Gonzalez, A. Rana, M. Khalili-Ardali, N. Birbaumer y U. Chaudhary, “Auditory Electrooculogram-Based Communication System for ALS Patients in Transition from Locked-in to Complete Locked-in State,” Scientific Reports, vol. 10, art. 8452, 2020. https://doi.org/10.1038/s41598-020-65333-1
+
 [18] A. Jaramillo-Gonzalez, S. Wu, A. Tonin, A. Rana, M. Khalili Ardali, N. Birbaumer y U. Chaudhary, “A dataset of EEG and EOG from an auditory EOG-based communication system for patients in locked-in state,” Scientific Data, vol. 8, art. 8, 2021. https://doi.org/10.1038/s41597-020-00789-4
+
 [19] W. D. Chang, H. S. Cha, D. Y. Kim, S. H. Kim y C. H. Im, “Development of an electrooculogram-based eye-computer interface for communication of individuals with amyotrophic lateral sclerosis,” Journal of NeuroEngineering and Rehabilitation, vol. 14, art. 89, 2017. https://doi.org/10.1186/s12984-017-0303-5
+
 [20] C. Belkhiria y V. Peysakhovich, “Electro-Encephalography and Electro-Oculography in Aeronautics: A Review Over the Last Decade (2010–2020),” Frontiers in Neuroergonomics, vol. 1, art. 606719, 2020. https://doi.org/10.3389/fnrgo.2020.606719
 
